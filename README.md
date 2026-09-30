@@ -19,7 +19,6 @@ are intentionally not included.
 │   ├── optimization/     Transport, joint, robust, and bound outputs
 │   ├── verification/     Communication and resource verification records
 │   └── experiments/      Algorithm-convergence and scenario experiments
-├── docs/                 Data dictionary, code index, upload guide
 ├── tools/                Repository maintenance utilities
 ├── requirements.txt
 └── CITATION.cff
