@@ -1,0 +1,974 @@
+[
+  {
+    "plan": "nominal",
+    "K": 2,
+    "beta": 0.05,
+    "eligible": 1,
+    "deficit": 5.0,
+    "actual_deviation": 0.03949563903523212,
+    "gap": [
+      3,
+      2,
+      2,
+      3,
+      2,
+      1,
+      2,
+      0
+    ]
+  },
+  {
+    "plan": "nominal",
+    "K": 2,
+    "beta": 0.1,
+    "eligible": 1,
+    "deficit": 5.0,
+    "actual_deviation": 0.03949563903523212,
+    "gap": [
+      3,
+      2,
+      2,
+      3,
+      2,
+      1,
+      2,
+      0
+    ]
+  },
+  {
+    "plan": "nominal",
+    "K": 2,
+    "beta": 0.15,
+    "eligible": 3,
+    "deficit": 4.5,
+    "actual_deviation": 0.13383141276682953,
+    "gap": [
+      3,
+      2,
+      2,
+      3,
+      2,
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "plan": "nominal",
+    "K": 2,
+    "beta": 0.2,
+    "eligible": 4,
+    "deficit": 4.5,
+    "actual_deviation": 0.13383141276682953,
+    "gap": [
+      3,
+      2,
+      2,
+      3,
+      2,
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "plan": "nominal",
+    "K": 2,
+    "beta": 0.25,
+    "eligible": 6,
+    "deficit": 1.9166666666666667,
+    "actual_deviation": 0.20765418465094143,
+    "gap": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "plan": "nominal",
+    "K": 2,
+    "beta": 0.3,
+    "eligible": 7,
+    "deficit": 1.9166666666666667,
+    "actual_deviation": 0.20765418465094143,
+    "gap": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "plan": "nominal",
+    "K": 3,
+    "beta": 0.05,
+    "eligible": 0,
+    "deficit": null,
+    "actual_deviation": null,
+    "gap": null
+  },
+  {
+    "plan": "nominal",
+    "K": 3,
+    "beta": 0.1,
+    "eligible": 0,
+    "deficit": null,
+    "actual_deviation": null,
+    "gap": null
+  },
+  {
+    "plan": "nominal",
+    "K": 3,
+    "beta": 0.15,
+    "eligible": 0,
+    "deficit": null,
+    "actual_deviation": null,
+    "gap": null
+  },
+  {
+    "plan": "nominal",
+    "K": 3,
+    "beta": 0.2,
+    "eligible": 1,
+    "deficit": 5.25,
+    "actual_deviation": 0.16033052167530248,
+    "gap": [
+      3,
+      2,
+      3,
+      3,
+      2,
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "plan": "nominal",
+    "K": 3,
+    "beta": 0.25,
+    "eligible": 2,
+    "deficit": 5.25,
+    "actual_deviation": 0.16033052167530248,
+    "gap": [
+      3,
+      2,
+      3,
+      3,
+      2,
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "plan": "nominal",
+    "K": 3,
+    "beta": 0.3,
+    "eligible": 2,
+    "deficit": 5.25,
+    "actual_deviation": 0.16033052167530248,
+    "gap": [
+      3,
+      2,
+      3,
+      3,
+      2,
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "plan": "robust",
+    "K": 2,
+    "beta": 0.05,
+    "eligible": 1,
+    "deficit": 5.0,
+    "actual_deviation": 0.0391251184798973,
+    "gap": [
+      3,
+      2,
+      2,
+      3,
+      2,
+      1,
+      2,
+      0
+    ]
+  },
+  {
+    "plan": "robust",
+    "K": 2,
+    "beta": 0.1,
+    "eligible": 1,
+    "deficit": 5.0,
+    "actual_deviation": 0.0391251184798973,
+    "gap": [
+      3,
+      2,
+      2,
+      3,
+      2,
+      1,
+      2,
+      0
+    ]
+  },
+  {
+    "plan": "robust",
+    "K": 2,
+    "beta": 0.15,
+    "eligible": 3,
+    "deficit": 4.5,
+    "actual_deviation": 0.1343897453176528,
+    "gap": [
+      3,
+      2,
+      2,
+      3,
+      2,
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "plan": "robust",
+    "K": 2,
+    "beta": 0.2,
+    "eligible": 4,
+    "deficit": 4.5,
+    "actual_deviation": 0.1343897453176528,
+    "gap": [
+      3,
+      2,
+      2,
+      3,
+      2,
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "plan": "robust",
+    "K": 2,
+    "beta": 0.25,
+    "eligible": 6,
+    "deficit": 1.9166666666666667,
+    "actual_deviation": 0.2074437749765079,
+    "gap": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "plan": "robust",
+    "K": 2,
+    "beta": 0.3,
+    "eligible": 7,
+    "deficit": 1.9166666666666667,
+    "actual_deviation": 0.2074437749765079,
+    "gap": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "plan": "robust",
+    "K": 3,
+    "beta": 0.05,
+    "eligible": 0,
+    "deficit": null,
+    "actual_deviation": null,
+    "gap": null
+  },
+  {
+    "plan": "robust",
+    "K": 3,
+    "beta": 0.1,
+    "eligible": 0,
+    "deficit": null,
+    "actual_deviation": null,
+    "gap": null
+  },
+  {
+    "plan": "robust",
+    "K": 3,
+    "beta": 0.15,
+    "eligible": 0,
+    "deficit": null,
+    "actual_deviation": null,
+    "gap": null
+  },
+  {
+    "plan": "robust",
+    "K": 3,
+    "beta": 0.2,
+    "eligible": 1,
+    "deficit": 5.25,
+    "actual_deviation": 0.16015721365129976,
+    "gap": [
+      3,
+      2,
+      3,
+      3,
+      2,
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "plan": "robust",
+    "K": 3,
+    "beta": 0.25,
+    "eligible": 2,
+    "deficit": 5.25,
+    "actual_deviation": 0.16015721365129976,
+    "gap": [
+      3,
+      2,
+      3,
+      3,
+      2,
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "plan": "robust",
+    "K": 3,
+    "beta": 0.3,
+    "eligible": 2,
+    "deficit": 5.25,
+    "actual_deviation": 0.16015721365129976,
+    "gap": [
+      3,
+      2,
+      3,
+      3,
+      2,
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "plan": "balanced",
+    "K": 2,
+    "beta": 0.05,
+    "eligible": 1,
+    "deficit": 5.0,
+    "actual_deviation": 0.004910427584004395,
+    "gap": [
+      3,
+      2,
+      2,
+      3,
+      2,
+      1,
+      2,
+      0
+    ]
+  },
+  {
+    "plan": "balanced",
+    "K": 2,
+    "beta": 0.1,
+    "eligible": 1,
+    "deficit": 5.0,
+    "actual_deviation": 0.004910427584004395,
+    "gap": [
+      3,
+      2,
+      2,
+      3,
+      2,
+      1,
+      2,
+      0
+    ]
+  },
+  {
+    "plan": "balanced",
+    "K": 2,
+    "beta": 0.15,
+    "eligible": 3,
+    "deficit": 4.333333333333334,
+    "actual_deviation": 0.1280599750360858,
+    "gap": [
+      3,
+      1,
+      2,
+      2,
+      1,
+      2,
+      2,
+      0
+    ]
+  },
+  {
+    "plan": "balanced",
+    "K": 2,
+    "beta": 0.2,
+    "eligible": 5,
+    "deficit": 1.9166666666666667,
+    "actual_deviation": 0.17944147398895716,
+    "gap": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "plan": "balanced",
+    "K": 2,
+    "beta": 0.25,
+    "eligible": 6,
+    "deficit": 1.9166666666666667,
+    "actual_deviation": 0.17944147398895716,
+    "gap": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "plan": "balanced",
+    "K": 2,
+    "beta": 0.3,
+    "eligible": 8,
+    "deficit": 1.9166666666666667,
+    "actual_deviation": 0.17944147398895716,
+    "gap": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "plan": "balanced",
+    "K": 3,
+    "beta": 0.05,
+    "eligible": 0,
+    "deficit": null,
+    "actual_deviation": null,
+    "gap": null
+  },
+  {
+    "plan": "balanced",
+    "K": 3,
+    "beta": 0.1,
+    "eligible": 0,
+    "deficit": null,
+    "actual_deviation": null,
+    "gap": null
+  },
+  {
+    "plan": "balanced",
+    "K": 3,
+    "beta": 0.15,
+    "eligible": 1,
+    "deficit": 5.25,
+    "actual_deviation": 0.13050564322161673,
+    "gap": [
+      3,
+      2,
+      3,
+      3,
+      2,
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "plan": "balanced",
+    "K": 3,
+    "beta": 0.2,
+    "eligible": 1,
+    "deficit": 5.25,
+    "actual_deviation": 0.13050564322161673,
+    "gap": [
+      3,
+      2,
+      3,
+      3,
+      2,
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "plan": "balanced",
+    "K": 3,
+    "beta": 0.25,
+    "eligible": 2,
+    "deficit": 5.25,
+    "actual_deviation": 0.13050564322161673,
+    "gap": [
+      3,
+      2,
+      3,
+      3,
+      2,
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "plan": "balanced",
+    "K": 3,
+    "beta": 0.3,
+    "eligible": 4,
+    "deficit": 4.0,
+    "actual_deviation": 0.2997877497250827,
+    "gap": [
+      3,
+      2,
+      1,
+      3,
+      2,
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "plan": "partition_friendly",
+    "K": 2,
+    "beta": 0.05,
+    "eligible": 1,
+    "deficit": 1.6666666666666667,
+    "actual_deviation": 0.01808707126768072,
+    "gap": [
+      0,
+      2,
+      0,
+      1,
+      2,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "plan": "partition_friendly",
+    "K": 2,
+    "beta": 0.1,
+    "eligible": 3,
+    "deficit": 1.6666666666666667,
+    "actual_deviation": 0.01808707126768072,
+    "gap": [
+      0,
+      2,
+      0,
+      1,
+      2,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "plan": "partition_friendly",
+    "K": 2,
+    "beta": 0.15,
+    "eligible": 4,
+    "deficit": 1.6666666666666667,
+    "actual_deviation": 0.01808707126768072,
+    "gap": [
+      0,
+      2,
+      0,
+      1,
+      2,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "plan": "partition_friendly",
+    "K": 2,
+    "beta": 0.2,
+    "eligible": 5,
+    "deficit": 1.6666666666666667,
+    "actual_deviation": 0.01808707126768072,
+    "gap": [
+      0,
+      2,
+      0,
+      1,
+      2,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "plan": "partition_friendly",
+    "K": 2,
+    "beta": 0.25,
+    "eligible": 6,
+    "deficit": 1.6666666666666667,
+    "actual_deviation": 0.01808707126768072,
+    "gap": [
+      0,
+      2,
+      0,
+      1,
+      2,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "plan": "partition_friendly",
+    "K": 2,
+    "beta": 0.3,
+    "eligible": 7,
+    "deficit": 1.6666666666666667,
+    "actual_deviation": 0.01808707126768072,
+    "gap": [
+      0,
+      2,
+      0,
+      1,
+      2,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "plan": "partition_friendly",
+    "K": 3,
+    "beta": 0.05,
+    "eligible": 0,
+    "deficit": null,
+    "actual_deviation": null,
+    "gap": null
+  },
+  {
+    "plan": "partition_friendly",
+    "K": 3,
+    "beta": 0.1,
+    "eligible": 0,
+    "deficit": null,
+    "actual_deviation": null,
+    "gap": null
+  },
+  {
+    "plan": "partition_friendly",
+    "K": 3,
+    "beta": 0.15,
+    "eligible": 1,
+    "deficit": 6.5,
+    "actual_deviation": 0.13724359156998767,
+    "gap": [
+      3,
+      2,
+      4,
+      3,
+      3,
+      2,
+      2,
+      0
+    ]
+  },
+  {
+    "plan": "partition_friendly",
+    "K": 3,
+    "beta": 0.2,
+    "eligible": 1,
+    "deficit": 6.5,
+    "actual_deviation": 0.13724359156998767,
+    "gap": [
+      3,
+      2,
+      4,
+      3,
+      3,
+      2,
+      2,
+      0
+    ]
+  },
+  {
+    "plan": "partition_friendly",
+    "K": 3,
+    "beta": 0.25,
+    "eligible": 3,
+    "deficit": 5.0,
+    "actual_deviation": 0.22607055496149664,
+    "gap": [
+      3,
+      2,
+      2,
+      3,
+      3,
+      0,
+      2,
+      0
+    ]
+  },
+  {
+    "plan": "partition_friendly",
+    "K": 3,
+    "beta": 0.3,
+    "eligible": 3,
+    "deficit": 5.0,
+    "actual_deviation": 0.22607055496149664,
+    "gap": [
+      3,
+      2,
+      2,
+      3,
+      3,
+      0,
+      2,
+      0
+    ]
+  },
+  {
+    "plan": "fast_partition_friendly",
+    "K": 2,
+    "beta": 0.05,
+    "eligible": 2,
+    "deficit": 1.6666666666666667,
+    "actual_deviation": 0.016528588231865426,
+    "gap": [
+      0,
+      2,
+      0,
+      1,
+      2,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "plan": "fast_partition_friendly",
+    "K": 2,
+    "beta": 0.1,
+    "eligible": 2,
+    "deficit": 1.6666666666666667,
+    "actual_deviation": 0.016528588231865426,
+    "gap": [
+      0,
+      2,
+      0,
+      1,
+      2,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "plan": "fast_partition_friendly",
+    "K": 2,
+    "beta": 0.15,
+    "eligible": 3,
+    "deficit": 1.6666666666666667,
+    "actual_deviation": 0.016528588231865426,
+    "gap": [
+      0,
+      2,
+      0,
+      1,
+      2,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "plan": "fast_partition_friendly",
+    "K": 2,
+    "beta": 0.2,
+    "eligible": 5,
+    "deficit": 1.6666666666666667,
+    "actual_deviation": 0.016528588231865426,
+    "gap": [
+      0,
+      2,
+      0,
+      1,
+      2,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "plan": "fast_partition_friendly",
+    "K": 2,
+    "beta": 0.25,
+    "eligible": 5,
+    "deficit": 1.6666666666666667,
+    "actual_deviation": 0.016528588231865426,
+    "gap": [
+      0,
+      2,
+      0,
+      1,
+      2,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "plan": "fast_partition_friendly",
+    "K": 2,
+    "beta": 0.3,
+    "eligible": 7,
+    "deficit": 1.6666666666666667,
+    "actual_deviation": 0.016528588231865426,
+    "gap": [
+      0,
+      2,
+      0,
+      1,
+      2,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "plan": "fast_partition_friendly",
+    "K": 3,
+    "beta": 0.05,
+    "eligible": 0,
+    "deficit": null,
+    "actual_deviation": null,
+    "gap": null
+  },
+  {
+    "plan": "fast_partition_friendly",
+    "K": 3,
+    "beta": 0.1,
+    "eligible": 0,
+    "deficit": null,
+    "actual_deviation": null,
+    "gap": null
+  },
+  {
+    "plan": "fast_partition_friendly",
+    "K": 3,
+    "beta": 0.15,
+    "eligible": 1,
+    "deficit": 6.666666666666667,
+    "actual_deviation": 0.11142316832507182,
+    "gap": [
+      3,
+      2,
+      4,
+      4,
+      3,
+      2,
+      2,
+      0
+    ]
+  },
+  {
+    "plan": "fast_partition_friendly",
+    "K": 3,
+    "beta": 0.2,
+    "eligible": 2,
+    "deficit": 5.166666666666666,
+    "actual_deviation": 0.1503826275462492,
+    "gap": [
+      3,
+      2,
+      2,
+      4,
+      3,
+      0,
+      2,
+      0
+    ]
+  },
+  {
+    "plan": "fast_partition_friendly",
+    "K": 3,
+    "beta": 0.25,
+    "eligible": 2,
+    "deficit": 5.166666666666666,
+    "actual_deviation": 0.1503826275462492,
+    "gap": [
+      3,
+      2,
+      2,
+      4,
+      3,
+      0,
+      2,
+      0
+    ]
+  },
+  {
+    "plan": "fast_partition_friendly",
+    "K": 3,
+    "beta": 0.3,
+    "eligible": 4,
+    "deficit": 5.166666666666666,
+    "actual_deviation": 0.1503826275462492,
+    "gap": [
+      3,
+      2,
+      2,
+      4,
+      3,
+      0,
+      2,
+      0
+    ]
+  }
+]

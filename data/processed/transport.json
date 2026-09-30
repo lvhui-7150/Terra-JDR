@@ -1,0 +1,1128 @@
+{
+  "note": "Input transcription from the original problem attachments; units and identifiers retained.",
+  "nodes": [
+    {
+      "id": "O01",
+      "name": "凤丹村无人机调度中心",
+      "lon": 109.2308517,
+      "lat": 23.0085095,
+      "elev_m": 127.7,
+      "population": null
+    },
+    {
+      "id": "S001",
+      "name": "平旺、那龙、镇龙乡",
+      "lon": 109.2432319,
+      "lat": 23.0335927,
+      "elev_m": 154,
+      "population": 2100
+    },
+    {
+      "id": "S002",
+      "name": "上良",
+      "lon": 109.2585519,
+      "lat": 23.0703271,
+      "elev_m": 189.5,
+      "population": 330
+    },
+    {
+      "id": "S003",
+      "name": "六造、那旭、都长",
+      "lon": 109.1688578,
+      "lat": 23.0402714,
+      "elev_m": 308.5,
+      "population": 275
+    },
+    {
+      "id": "S004",
+      "name": "大站",
+      "lon": 109.2381714,
+      "lat": 23.0778414,
+      "elev_m": 198.3,
+      "population": 188
+    },
+    {
+      "id": "S005",
+      "name": "上良、古律、那麓",
+      "lon": 109.2283003,
+      "lat": 23.0561338,
+      "elev_m": 165,
+      "population": 126
+    },
+    {
+      "id": "S006",
+      "name": "六昌、木路",
+      "lon": 109.1997836,
+      "lat": 23.007714,
+      "elev_m": 284.8,
+      "population": 121
+    },
+    {
+      "id": "S007",
+      "name": "佛子、那桑、银坑",
+      "lon": 109.1928191,
+      "lat": 23.0294186,
+      "elev_m": 318.5,
+      "population": 76
+    },
+    {
+      "id": "S008",
+      "name": "古麻、大站",
+      "lon": 109.2127472,
+      "lat": 23.0795113,
+      "elev_m": 240.9,
+      "population": 55
+    },
+    {
+      "id": "S009",
+      "name": "那龙",
+      "lon": 109.2541424,
+      "lat": 23.0552989,
+      "elev_m": 200,
+      "population": 45
+    },
+    {
+      "id": "S010",
+      "name": "镇龙乡",
+      "lon": 109.2760168,
+      "lat": 23.0194009,
+      "elev_m": 321.6,
+      "population": 31
+    },
+    {
+      "id": "S011",
+      "name": "那从",
+      "lon": 109.2203356,
+      "lat": 23.0319231,
+      "elev_m": 182.1,
+      "population": 30
+    },
+    {
+      "id": "S012",
+      "name": "镇龙乡",
+      "lon": 109.2831357,
+      "lat": 23.054464,
+      "elev_m": 249.8,
+      "population": 16
+    },
+    {
+      "id": "S013",
+      "name": "镇龙乡",
+      "lon": 109.2713839,
+      "lat": 23.0310882,
+      "elev_m": 321.7,
+      "population": 14
+    },
+    {
+      "id": "S014",
+      "name": "镇龙乡",
+      "lon": 109.2835966,
+      "lat": 23.0052097,
+      "elev_m": 321,
+      "population": 12
+    },
+    {
+      "id": "S015",
+      "name": "六造、那托、那旭",
+      "lon": 109.1923786,
+      "lat": 23.0494548,
+      "elev_m": 444.5,
+      "population": 3
+    }
+  ],
+  "types": [
+    {
+      "id": "A",
+      "name": "中轻载标准测试多旋翼",
+      "empty_mass_kg": 70,
+      "capacity_kg": 25,
+      "volume_m3": 0.06,
+      "cruise_mps": 12,
+      "range_empty_m": 25000,
+      "range_full_m": 20000,
+      "energy_kwh": 4.5,
+      "reserve_pct": 20,
+      "prep_s": 300,
+      "load_per_box_s": 30,
+      "handoff_base_s": 150,
+      "handoff_per_box_s": 30,
+      "up_mps": 3,
+      "down_mps": 2.5,
+      "up_eff": 0.72,
+      "down_eff": 0
+    },
+    {
+      "id": "B",
+      "name": "中载标准测试多旋翼",
+      "empty_mass_kg": 65,
+      "capacity_kg": 30,
+      "volume_m3": 0.073,
+      "cruise_mps": 15,
+      "range_empty_m": 28000,
+      "range_full_m": 16000,
+      "energy_kwh": 4,
+      "reserve_pct": 20,
+      "prep_s": 300,
+      "load_per_box_s": 30,
+      "handoff_base_s": 150,
+      "handoff_per_box_s": 30,
+      "up_mps": 3,
+      "down_mps": 2.5,
+      "up_eff": 0.72,
+      "down_eff": 0
+    },
+    {
+      "id": "C",
+      "name": "重载标准测试多旋翼",
+      "empty_mass_kg": 69.9,
+      "capacity_kg": 80,
+      "volume_m3": 0.25,
+      "cruise_mps": 15,
+      "range_empty_m": 26000,
+      "range_full_m": 12000,
+      "energy_kwh": 8,
+      "reserve_pct": 20,
+      "prep_s": 300,
+      "load_per_box_s": 30,
+      "handoff_base_s": 180,
+      "handoff_per_box_s": 36,
+      "up_mps": 2.5,
+      "down_mps": 2,
+      "up_eff": 0.72,
+      "down_eff": 0
+    }
+  ],
+  "boxes": [
+    {
+      "id": "S001-MED-01",
+      "node": "S001",
+      "category": "医疗物资",
+      "mass_kg": 3,
+      "volume_m3": 0.012,
+      "first_batch": "是",
+      "first_deadline_s": 3600,
+      "expected_s": 3600,
+      "priority": 24
+    },
+    {
+      "id": "S001-MED-02",
+      "node": "S001",
+      "category": "医疗物资",
+      "mass_kg": 3,
+      "volume_m3": 0.012,
+      "first_batch": "否",
+      "first_deadline_s": null,
+      "expected_s": 3600,
+      "priority": 24
+    },
+    {
+      "id": "S001-WAT-01",
+      "node": "S001",
+      "category": "饮用水",
+      "mass_kg": 14,
+      "volume_m3": 0.027,
+      "first_batch": "是",
+      "first_deadline_s": 3600,
+      "expected_s": 3600,
+      "priority": 12
+    },
+    {
+      "id": "S001-WAT-02",
+      "node": "S001",
+      "category": "饮用水",
+      "mass_kg": 14,
+      "volume_m3": 0.027,
+      "first_batch": "否",
+      "first_deadline_s": null,
+      "expected_s": 3600,
+      "priority": 12
+    },
+    {
+      "id": "S001-WAT-03",
+      "node": "S001",
+      "category": "饮用水",
+      "mass_kg": 14,
+      "volume_m3": 0.027,
+      "first_batch": "否",
+      "first_deadline_s": null,
+      "expected_s": 3600,
+      "priority": 12
+    },
+    {
+      "id": "S001-WAT-04",
+      "node": "S001",
+      "category": "饮用水",
+      "mass_kg": 14,
+      "volume_m3": 0.027,
+      "first_batch": "否",
+      "first_deadline_s": null,
+      "expected_s": 3600,
+      "priority": 12
+    },
+    {
+      "id": "S001-WAT-05",
+      "node": "S001",
+      "category": "饮用水",
+      "mass_kg": 14,
+      "volume_m3": 0.027,
+      "first_batch": "否",
+      "first_deadline_s": null,
+      "expected_s": 3600,
+      "priority": 12
+    },
+    {
+      "id": "S001-WAT-06",
+      "node": "S001",
+      "category": "饮用水",
+      "mass_kg": 14,
+      "volume_m3": 0.027,
+      "first_batch": "否",
+      "first_deadline_s": null,
+      "expected_s": 3600,
+      "priority": 12
+    },
+    {
+      "id": "S001-WAT-07",
+      "node": "S001",
+      "category": "饮用水",
+      "mass_kg": 14,
+      "volume_m3": 0.027,
+      "first_batch": "否",
+      "first_deadline_s": null,
+      "expected_s": 3600,
+      "priority": 12
+    },
+    {
+      "id": "S001-WAT-08",
+      "node": "S001",
+      "category": "饮用水",
+      "mass_kg": 14,
+      "volume_m3": 0.027,
+      "first_batch": "否",
+      "first_deadline_s": null,
+      "expected_s": 3600,
+      "priority": 12
+    },
+    {
+      "id": "S001-FOD-01",
+      "node": "S001",
+      "category": "应急食品",
+      "mass_kg": 8,
+      "volume_m3": 0.028,
+      "first_batch": "否",
+      "first_deadline_s": null,
+      "expected_s": 7200,
+      "priority": 10
+    },
+    {
+      "id": "S001-FOD-02",
+      "node": "S001",
+      "category": "应急食品",
+      "mass_kg": 8,
+      "volume_m3": 0.028,
+      "first_batch": "否",
+      "first_deadline_s": null,
+      "expected_s": 7200,
+      "priority": 10
+    },
+    {
+      "id": "S001-FOD-03",
+      "node": "S001",
+      "category": "应急食品",
+      "mass_kg": 8,
+      "volume_m3": 0.028,
+      "first_batch": "否",
+      "first_deadline_s": null,
+      "expected_s": 7200,
+      "priority": 10
+    },
+    {
+      "id": "S001-HYG-01",
+      "node": "S001",
+      "category": "生活卫生用品",
+      "mass_kg": 6,
+      "volume_m3": 0.035,
+      "first_batch": "否",
+      "first_deadline_s": null,
+      "expected_s": 10800,
+      "priority": 8
+    },
+    {
+      "id": "S001-HYG-02",
+      "node": "S001",
+      "category": "生活卫生用品",
+      "mass_kg": 6,
+      "volume_m3": 0.035,
+      "first_batch": "否",
+      "first_deadline_s": null,
+      "expected_s": 10800,
+      "priority": 8
+    },
+    {
+      "id": "S002-MED-01",
+      "node": "S002",
+      "category": "医疗物资",
+      "mass_kg": 3,
+      "volume_m3": 0.012,
+      "first_batch": "是",
+      "first_deadline_s": 3600,
+      "expected_s": 3600,
+      "priority": 24
+    },
+    {
+      "id": "S002-WAT-01",
+      "node": "S002",
+      "category": "饮用水",
+      "mass_kg": 14,
+      "volume_m3": 0.027,
+      "first_batch": "是",
+      "first_deadline_s": 3600,
+      "expected_s": 3600,
+      "priority": 12
+    },
+    {
+      "id": "S002-WAT-02",
+      "node": "S002",
+      "category": "饮用水",
+      "mass_kg": 14,
+      "volume_m3": 0.027,
+      "first_batch": "否",
+      "first_deadline_s": null,
+      "expected_s": 3600,
+      "priority": 12
+    },
+    {
+      "id": "S002-WAT-03",
+      "node": "S002",
+      "category": "饮用水",
+      "mass_kg": 14,
+      "volume_m3": 0.027,
+      "first_batch": "否",
+      "first_deadline_s": null,
+      "expected_s": 3600,
+      "priority": 12
+    },
+    {
+      "id": "S002-WAT-04",
+      "node": "S002",
+      "category": "饮用水",
+      "mass_kg": 14,
+      "volume_m3": 0.027,
+      "first_batch": "否",
+      "first_deadline_s": null,
+      "expected_s": 3600,
+      "priority": 12
+    },
+    {
+      "id": "S002-FOD-01",
+      "node": "S002",
+      "category": "应急食品",
+      "mass_kg": 8,
+      "volume_m3": 0.028,
+      "first_batch": "否",
+      "first_deadline_s": null,
+      "expected_s": 7200,
+      "priority": 10
+    },
+    {
+      "id": "S002-FOD-02",
+      "node": "S002",
+      "category": "应急食品",
+      "mass_kg": 8,
+      "volume_m3": 0.028,
+      "first_batch": "否",
+      "first_deadline_s": null,
+      "expected_s": 7200,
+      "priority": 10
+    },
+    {
+      "id": "S002-HYG-01",
+      "node": "S002",
+      "category": "生活卫生用品",
+      "mass_kg": 6,
+      "volume_m3": 0.035,
+      "first_batch": "否",
+      "first_deadline_s": null,
+      "expected_s": 10800,
+      "priority": 8
+    },
+    {
+      "id": "S003-MED-01",
+      "node": "S003",
+      "category": "医疗物资",
+      "mass_kg": 3,
+      "volume_m3": 0.012,
+      "first_batch": "是",
+      "first_deadline_s": 7200,
+      "expected_s": 7200,
+      "priority": 20
+    },
+    {
+      "id": "S003-WAT-01",
+      "node": "S003",
+      "category": "饮用水",
+      "mass_kg": 14,
+      "volume_m3": 0.027,
+      "first_batch": "是",
+      "first_deadline_s": 7200,
+      "expected_s": 7200,
+      "priority": 10
+    },
+    {
+      "id": "S003-WAT-02",
+      "node": "S003",
+      "category": "饮用水",
+      "mass_kg": 14,
+      "volume_m3": 0.027,
+      "first_batch": "否",
+      "first_deadline_s": null,
+      "expected_s": 7200,
+      "priority": 10
+    },
+    {
+      "id": "S003-WAT-03",
+      "node": "S003",
+      "category": "饮用水",
+      "mass_kg": 14,
+      "volume_m3": 0.027,
+      "first_batch": "否",
+      "first_deadline_s": null,
+      "expected_s": 7200,
+      "priority": 10
+    },
+    {
+      "id": "S003-WAT-04",
+      "node": "S003",
+      "category": "饮用水",
+      "mass_kg": 14,
+      "volume_m3": 0.027,
+      "first_batch": "否",
+      "first_deadline_s": null,
+      "expected_s": 7200,
+      "priority": 10
+    },
+    {
+      "id": "S003-FOD-01",
+      "node": "S003",
+      "category": "应急食品",
+      "mass_kg": 8,
+      "volume_m3": 0.028,
+      "first_batch": "否",
+      "first_deadline_s": null,
+      "expected_s": 10800,
+      "priority": 8
+    },
+    {
+      "id": "S003-FOD-02",
+      "node": "S003",
+      "category": "应急食品",
+      "mass_kg": 8,
+      "volume_m3": 0.028,
+      "first_batch": "否",
+      "first_deadline_s": null,
+      "expected_s": 10800,
+      "priority": 8
+    },
+    {
+      "id": "S003-HYG-01",
+      "node": "S003",
+      "category": "生活卫生用品",
+      "mass_kg": 6,
+      "volume_m3": 0.035,
+      "first_batch": "否",
+      "first_deadline_s": null,
+      "expected_s": 14400,
+      "priority": 6
+    },
+    {
+      "id": "S004-MED-01",
+      "node": "S004",
+      "category": "医疗物资",
+      "mass_kg": 3,
+      "volume_m3": 0.012,
+      "first_batch": "是",
+      "first_deadline_s": 7200,
+      "expected_s": 7200,
+      "priority": 20
+    },
+    {
+      "id": "S004-WAT-01",
+      "node": "S004",
+      "category": "饮用水",
+      "mass_kg": 14,
+      "volume_m3": 0.027,
+      "first_batch": "是",
+      "first_deadline_s": 7200,
+      "expected_s": 7200,
+      "priority": 10
+    },
+    {
+      "id": "S004-WAT-02",
+      "node": "S004",
+      "category": "饮用水",
+      "mass_kg": 14,
+      "volume_m3": 0.027,
+      "first_batch": "否",
+      "first_deadline_s": null,
+      "expected_s": 7200,
+      "priority": 10
+    },
+    {
+      "id": "S004-WAT-03",
+      "node": "S004",
+      "category": "饮用水",
+      "mass_kg": 14,
+      "volume_m3": 0.027,
+      "first_batch": "否",
+      "first_deadline_s": null,
+      "expected_s": 7200,
+      "priority": 10
+    },
+    {
+      "id": "S004-FOD-01",
+      "node": "S004",
+      "category": "应急食品",
+      "mass_kg": 8,
+      "volume_m3": 0.028,
+      "first_batch": "否",
+      "first_deadline_s": null,
+      "expected_s": 10800,
+      "priority": 8
+    },
+    {
+      "id": "S004-HYG-01",
+      "node": "S004",
+      "category": "生活卫生用品",
+      "mass_kg": 6,
+      "volume_m3": 0.035,
+      "first_batch": "否",
+      "first_deadline_s": null,
+      "expected_s": 14400,
+      "priority": 6
+    },
+    {
+      "id": "S005-MED-01",
+      "node": "S005",
+      "category": "医疗物资",
+      "mass_kg": 3,
+      "volume_m3": 0.012,
+      "first_batch": "是",
+      "first_deadline_s": 10800,
+      "expected_s": 10800,
+      "priority": 16
+    },
+    {
+      "id": "S005-WAT-01",
+      "node": "S005",
+      "category": "饮用水",
+      "mass_kg": 14,
+      "volume_m3": 0.027,
+      "first_batch": "是",
+      "first_deadline_s": 10800,
+      "expected_s": 10800,
+      "priority": 8
+    },
+    {
+      "id": "S005-WAT-02",
+      "node": "S005",
+      "category": "饮用水",
+      "mass_kg": 14,
+      "volume_m3": 0.027,
+      "first_batch": "否",
+      "first_deadline_s": null,
+      "expected_s": 10800,
+      "priority": 8
+    },
+    {
+      "id": "S005-WAT-03",
+      "node": "S005",
+      "category": "饮用水",
+      "mass_kg": 14,
+      "volume_m3": 0.027,
+      "first_batch": "否",
+      "first_deadline_s": null,
+      "expected_s": 10800,
+      "priority": 8
+    },
+    {
+      "id": "S005-FOD-01",
+      "node": "S005",
+      "category": "应急食品",
+      "mass_kg": 8,
+      "volume_m3": 0.028,
+      "first_batch": "否",
+      "first_deadline_s": null,
+      "expected_s": 14400,
+      "priority": 6
+    },
+    {
+      "id": "S005-HYG-01",
+      "node": "S005",
+      "category": "生活卫生用品",
+      "mass_kg": 6,
+      "volume_m3": 0.035,
+      "first_batch": "否",
+      "first_deadline_s": null,
+      "expected_s": 18000,
+      "priority": 4
+    },
+    {
+      "id": "S006-MED-01",
+      "node": "S006",
+      "category": "医疗物资",
+      "mass_kg": 3,
+      "volume_m3": 0.012,
+      "first_batch": "是",
+      "first_deadline_s": 3600,
+      "expected_s": 3600,
+      "priority": 24
+    },
+    {
+      "id": "S006-WAT-01",
+      "node": "S006",
+      "category": "饮用水",
+      "mass_kg": 14,
+      "volume_m3": 0.027,
+      "first_batch": "是",
+      "first_deadline_s": 3600,
+      "expected_s": 3600,
+      "priority": 12
+    },
+    {
+      "id": "S006-WAT-02",
+      "node": "S006",
+      "category": "饮用水",
+      "mass_kg": 14,
+      "volume_m3": 0.027,
+      "first_batch": "否",
+      "first_deadline_s": null,
+      "expected_s": 3600,
+      "priority": 12
+    },
+    {
+      "id": "S006-WAT-03",
+      "node": "S006",
+      "category": "饮用水",
+      "mass_kg": 14,
+      "volume_m3": 0.027,
+      "first_batch": "否",
+      "first_deadline_s": null,
+      "expected_s": 3600,
+      "priority": 12
+    },
+    {
+      "id": "S006-FOD-01",
+      "node": "S006",
+      "category": "应急食品",
+      "mass_kg": 8,
+      "volume_m3": 0.028,
+      "first_batch": "否",
+      "first_deadline_s": null,
+      "expected_s": 7200,
+      "priority": 10
+    },
+    {
+      "id": "S006-HYG-01",
+      "node": "S006",
+      "category": "生活卫生用品",
+      "mass_kg": 6,
+      "volume_m3": 0.035,
+      "first_batch": "否",
+      "first_deadline_s": null,
+      "expected_s": 10800,
+      "priority": 8
+    },
+    {
+      "id": "S007-MED-01",
+      "node": "S007",
+      "category": "医疗物资",
+      "mass_kg": 3,
+      "volume_m3": 0.012,
+      "first_batch": "是",
+      "first_deadline_s": 3600,
+      "expected_s": 3600,
+      "priority": 24
+    },
+    {
+      "id": "S007-WAT-01",
+      "node": "S007",
+      "category": "饮用水",
+      "mass_kg": 14,
+      "volume_m3": 0.027,
+      "first_batch": "是",
+      "first_deadline_s": 3600,
+      "expected_s": 3600,
+      "priority": 12
+    },
+    {
+      "id": "S007-WAT-02",
+      "node": "S007",
+      "category": "饮用水",
+      "mass_kg": 14,
+      "volume_m3": 0.027,
+      "first_batch": "否",
+      "first_deadline_s": null,
+      "expected_s": 3600,
+      "priority": 12
+    },
+    {
+      "id": "S007-FOD-01",
+      "node": "S007",
+      "category": "应急食品",
+      "mass_kg": 8,
+      "volume_m3": 0.028,
+      "first_batch": "否",
+      "first_deadline_s": null,
+      "expected_s": 7200,
+      "priority": 10
+    },
+    {
+      "id": "S007-HYG-01",
+      "node": "S007",
+      "category": "生活卫生用品",
+      "mass_kg": 6,
+      "volume_m3": 0.035,
+      "first_batch": "否",
+      "first_deadline_s": null,
+      "expected_s": 10800,
+      "priority": 8
+    },
+    {
+      "id": "S008-MED-01",
+      "node": "S008",
+      "category": "医疗物资",
+      "mass_kg": 3,
+      "volume_m3": 0.012,
+      "first_batch": "是",
+      "first_deadline_s": 7200,
+      "expected_s": 7200,
+      "priority": 20
+    },
+    {
+      "id": "S008-WAT-01",
+      "node": "S008",
+      "category": "饮用水",
+      "mass_kg": 14,
+      "volume_m3": 0.027,
+      "first_batch": "是",
+      "first_deadline_s": 7200,
+      "expected_s": 7200,
+      "priority": 10
+    },
+    {
+      "id": "S008-WAT-02",
+      "node": "S008",
+      "category": "饮用水",
+      "mass_kg": 14,
+      "volume_m3": 0.027,
+      "first_batch": "否",
+      "first_deadline_s": null,
+      "expected_s": 7200,
+      "priority": 10
+    },
+    {
+      "id": "S008-FOD-01",
+      "node": "S008",
+      "category": "应急食品",
+      "mass_kg": 8,
+      "volume_m3": 0.028,
+      "first_batch": "否",
+      "first_deadline_s": null,
+      "expected_s": 10800,
+      "priority": 8
+    },
+    {
+      "id": "S008-HYG-01",
+      "node": "S008",
+      "category": "生活卫生用品",
+      "mass_kg": 6,
+      "volume_m3": 0.035,
+      "first_batch": "否",
+      "first_deadline_s": null,
+      "expected_s": 14400,
+      "priority": 6
+    },
+    {
+      "id": "S009-MED-01",
+      "node": "S009",
+      "category": "医疗物资",
+      "mass_kg": 3,
+      "volume_m3": 0.012,
+      "first_batch": "是",
+      "first_deadline_s": 10800,
+      "expected_s": 10800,
+      "priority": 16
+    },
+    {
+      "id": "S009-WAT-01",
+      "node": "S009",
+      "category": "饮用水",
+      "mass_kg": 14,
+      "volume_m3": 0.027,
+      "first_batch": "是",
+      "first_deadline_s": 10800,
+      "expected_s": 10800,
+      "priority": 8
+    },
+    {
+      "id": "S009-FOD-01",
+      "node": "S009",
+      "category": "应急食品",
+      "mass_kg": 8,
+      "volume_m3": 0.028,
+      "first_batch": "否",
+      "first_deadline_s": null,
+      "expected_s": 14400,
+      "priority": 6
+    },
+    {
+      "id": "S010-MED-01",
+      "node": "S010",
+      "category": "医疗物资",
+      "mass_kg": 3,
+      "volume_m3": 0.012,
+      "first_batch": "是",
+      "first_deadline_s": 3600,
+      "expected_s": 3600,
+      "priority": 24
+    },
+    {
+      "id": "S010-WAT-01",
+      "node": "S010",
+      "category": "饮用水",
+      "mass_kg": 14,
+      "volume_m3": 0.027,
+      "first_batch": "是",
+      "first_deadline_s": 3600,
+      "expected_s": 3600,
+      "priority": 12
+    },
+    {
+      "id": "S010-FOD-01",
+      "node": "S010",
+      "category": "应急食品",
+      "mass_kg": 8,
+      "volume_m3": 0.028,
+      "first_batch": "否",
+      "first_deadline_s": null,
+      "expected_s": 7200,
+      "priority": 10
+    },
+    {
+      "id": "S011-MED-01",
+      "node": "S011",
+      "category": "医疗物资",
+      "mass_kg": 3,
+      "volume_m3": 0.012,
+      "first_batch": "是",
+      "first_deadline_s": 10800,
+      "expected_s": 10800,
+      "priority": 16
+    },
+    {
+      "id": "S011-WAT-01",
+      "node": "S011",
+      "category": "饮用水",
+      "mass_kg": 14,
+      "volume_m3": 0.027,
+      "first_batch": "是",
+      "first_deadline_s": 10800,
+      "expected_s": 10800,
+      "priority": 8
+    },
+    {
+      "id": "S011-FOD-01",
+      "node": "S011",
+      "category": "应急食品",
+      "mass_kg": 8,
+      "volume_m3": 0.028,
+      "first_batch": "否",
+      "first_deadline_s": null,
+      "expected_s": 14400,
+      "priority": 6
+    },
+    {
+      "id": "S012-MED-01",
+      "node": "S012",
+      "category": "医疗物资",
+      "mass_kg": 3,
+      "volume_m3": 0.012,
+      "first_batch": "是",
+      "first_deadline_s": 3600,
+      "expected_s": 7200,
+      "priority": 22
+    },
+    {
+      "id": "S012-WAT-01",
+      "node": "S012",
+      "category": "饮用水",
+      "mass_kg": 14,
+      "volume_m3": 0.027,
+      "first_batch": "是",
+      "first_deadline_s": 3600,
+      "expected_s": 3600,
+      "priority": 12
+    },
+    {
+      "id": "S012-FOD-01",
+      "node": "S012",
+      "category": "应急食品",
+      "mass_kg": 8,
+      "volume_m3": 0.028,
+      "first_batch": "否",
+      "first_deadline_s": null,
+      "expected_s": 7200,
+      "priority": 10
+    },
+    {
+      "id": "S013-MED-01",
+      "node": "S013",
+      "category": "医疗物资",
+      "mass_kg": 3,
+      "volume_m3": 0.012,
+      "first_batch": "是",
+      "first_deadline_s": 3600,
+      "expected_s": 3600,
+      "priority": 24
+    },
+    {
+      "id": "S013-WAT-01",
+      "node": "S013",
+      "category": "饮用水",
+      "mass_kg": 14,
+      "volume_m3": 0.027,
+      "first_batch": "是",
+      "first_deadline_s": 3600,
+      "expected_s": 3600,
+      "priority": 12
+    },
+    {
+      "id": "S013-FOD-01",
+      "node": "S013",
+      "category": "应急食品",
+      "mass_kg": 8,
+      "volume_m3": 0.028,
+      "first_batch": "否",
+      "first_deadline_s": null,
+      "expected_s": 7200,
+      "priority": 10
+    },
+    {
+      "id": "S014-MED-01",
+      "node": "S014",
+      "category": "医疗物资",
+      "mass_kg": 3,
+      "volume_m3": 0.012,
+      "first_batch": "是",
+      "first_deadline_s": 3600,
+      "expected_s": 7200,
+      "priority": 22
+    },
+    {
+      "id": "S014-WAT-01",
+      "node": "S014",
+      "category": "饮用水",
+      "mass_kg": 14,
+      "volume_m3": 0.027,
+      "first_batch": "是",
+      "first_deadline_s": 3600,
+      "expected_s": 3600,
+      "priority": 12
+    },
+    {
+      "id": "S014-FOD-01",
+      "node": "S014",
+      "category": "应急食品",
+      "mass_kg": 8,
+      "volume_m3": 0.028,
+      "first_batch": "否",
+      "first_deadline_s": null,
+      "expected_s": 7200,
+      "priority": 10
+    },
+    {
+      "id": "S015-MED-01",
+      "node": "S015",
+      "category": "医疗物资",
+      "mass_kg": 3,
+      "volume_m3": 0.012,
+      "first_batch": "是",
+      "first_deadline_s": 7200,
+      "expected_s": 7200,
+      "priority": 18
+    },
+    {
+      "id": "S015-WAT-01",
+      "node": "S015",
+      "category": "饮用水",
+      "mass_kg": 14,
+      "volume_m3": 0.027,
+      "first_batch": "是",
+      "first_deadline_s": 10800,
+      "expected_s": 10800,
+      "priority": 8
+    },
+    {
+      "id": "S015-FOD-01",
+      "node": "S015",
+      "category": "应急食品",
+      "mass_kg": 8,
+      "volume_m3": 0.028,
+      "first_batch": "否",
+      "first_deadline_s": null,
+      "expected_s": 14400,
+      "priority": 6
+    }
+  ],
+  "fleet": [
+    {
+      "id": "U01",
+      "type": "A"
+    },
+    {
+      "id": "U02",
+      "type": "A"
+    },
+    {
+      "id": "U03",
+      "type": "A"
+    },
+    {
+      "id": "U04",
+      "type": "A"
+    },
+    {
+      "id": "U05",
+      "type": "B"
+    },
+    {
+      "id": "U06",
+      "type": "B"
+    },
+    {
+      "id": "U07",
+      "type": "C"
+    },
+    {
+      "id": "U08",
+      "type": "C"
+    }
+  ],
+  "battery_inventory": [
+    {
+      "type": "A",
+      "count": 6,
+      "full_charge_s": 1800
+    },
+    {
+      "type": "B",
+      "count": 4,
+      "full_charge_s": 2400
+    },
+    {
+      "type": "C",
+      "count": 4,
+      "full_charge_s": 3000
+    }
+  ]
+}

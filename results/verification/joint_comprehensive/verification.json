@@ -1,0 +1,63 @@
+{
+  "status": "PASS_CONDITIONAL_STRICT_MODEL",
+  "boxes": 80,
+  "hard_deadline_violations": 0,
+  "expected_deadline_violations": 0,
+  "transport_sorties": 24,
+  "relay_sorties": 5,
+  "joint_finish_s": 7140.000868855509,
+  "total_energy_kwh": 75.0259879913507,
+  "weighted_mean_delivery_s": 3036.591546987789,
+  "min_guarded_transport_soc": 0.20780673074625133,
+  "energy_increase": 0.03,
+  "common_delay": 120.0,
+  "min_hard_slack_s": 569.771532510656,
+  "min_expected_slack_s": 374.8261070956164,
+  "minimum_guarded_resource_gap_s": -2.2737367544323206e-13,
+  "certificate_intervals": 248,
+  "unresolved_intervals": 0,
+  "minimum_certified_margin_db": 0.3355696245188824,
+  "relay_geometry": [
+    {
+      "id": "RE01",
+      "cruise_m": 393.7242736816406,
+      "path_dem_max_m": 343.7242736816406,
+      "hover_m": 393.7242736816406,
+      "guarded_soc": 0.8153906348385275,
+      "backhaul_margin_db": 0.631855856472157
+    },
+    {
+      "id": "RE02",
+      "cruise_m": 589.58349609375,
+      "path_dem_max_m": 539.58349609375,
+      "hover_m": 589.58349609375,
+      "guarded_soc": 0.6793715741636803,
+      "backhaul_margin_db": 0.9938736086881192
+    },
+    {
+      "id": "RE03",
+      "cruise_m": 477.72064208984375,
+      "path_dem_max_m": 427.72064208984375,
+      "hover_m": 477.72064208984375,
+      "guarded_soc": 0.894076728087609,
+      "backhaul_margin_db": 5.0926227599826035
+    },
+    {
+      "id": "RE04",
+      "cruise_m": 477.72064208984375,
+      "path_dem_max_m": 427.72064208984375,
+      "hover_m": 477.72064208984375,
+      "guarded_soc": 0.8072754936165993,
+      "backhaul_margin_db": 5.0926227599826035
+    },
+    {
+      "id": "RE05",
+      "cruise_m": 587.281005859375,
+      "path_dem_max_m": 537.281005859375,
+      "hover_m": 587.281005859375,
+      "guarded_soc": 0.716415158823698,
+      "backhaul_margin_db": 2.495872223835775
+    }
+  ],
+  "scope": "Declared strict DEM+50 cruise, unchanged trajectories/DEM and energy formula. Energy multipliers and recharge, radio attenuation, and common shift may co-occur. Independent task delays and terrain uncertainty are not covered."
+}

@@ -1,0 +1,2691 @@
+{
+  "labels": {
+    "q2": "运输工期优先",
+    "nominal": "名义工期优先",
+    "robust": "保障工期优先",
+    "balanced": "保障节能优先",
+    "partition_friendly": "两组配置节能",
+    "fast_partition_friendly": "综合配置优先"
+  },
+  "codes": {
+    "q2": "T",
+    "nominal": "N",
+    "robust": "R",
+    "balanced": "E",
+    "partition_friendly": "G",
+    "fast_partition_friendly": "C"
+  },
+  "plans": {
+    "q2": {
+      "finish_s": 5993.581956042137,
+      "weighted_mean_s": 2801.951080013434,
+      "energy_kwh": 68.88391735880252,
+      "transport_sorties": 25,
+      "relay_sorties": 0,
+      "model": {
+        "coordinate_crs": "EPSG:32649",
+        "relay_cruise_rule": "exact DEM path maximum plus 50m, hover at or below cruise",
+        "energy_closure": "declared declared horizontal range + climb potential",
+        "energy_increase_guard": 0,
+        "hard_buffer_s": 0,
+        "common_delay_guard_s": 0,
+        "extra_link_margin_db": 0.3,
+        "endpoint_buffer_s": 1.0,
+        "question": 2
+      },
+      "verification": {
+        "status": "PASS_CONDITIONAL_MODEL",
+        "time_comparison_tolerance_s": 1e-07,
+        "scope": "Independent arithmetic and scheduling implementation; declared arc geometry and declared energy closure remain assumptions.",
+        "boxes_delivered_once": 80,
+        "hard_deadline_boxes": 31,
+        "hard_deadline_violations": 0,
+        "expected_deadline_violations": 0,
+        "weighted_soft_tardiness_s": 0,
+        "sorties": 25,
+        "multi_node_sorties": 4,
+        "finish_return_s": 5993.581956042137,
+        "last_delivery_s": 5488.420536433335,
+        "energy_kwh": 68.88391735880252,
+        "total_operation_s": 45533.933909432024,
+        "min_return_soc": 0.20137642106197595,
+        "min_hard_slack_s": 422.5254463445117,
+        "tightest_hard_box": "S012-MED-01",
+        "min_expected_slack_s": 618.5135988017369,
+        "type_resources": [
+          {
+            "type": "A",
+            "sorties": 12,
+            "uav_used": 4,
+            "uav_inventory": 4,
+            "uav_peak": 4,
+            "battery_used": 6,
+            "battery_inventory": 6,
+            "battery_peak": 6,
+            "total_mass_kg": 237,
+            "energy_kwh": 28.085162031393814,
+            "operation_s": 22509.665864001054,
+            "utilization": 0.9389070688067022
+          },
+          {
+            "type": "B",
+            "sorties": 7,
+            "uav_used": 2,
+            "uav_inventory": 2,
+            "uav_peak": 2,
+            "battery_used": 4,
+            "battery_inventory": 4,
+            "battery_peak": 4,
+            "total_mass_kg": 165,
+            "energy_kwh": 14.435532542709938,
+            "operation_s": 11503.882503775572,
+            "utilization": 0.9596834237144697
+          },
+          {
+            "type": "C",
+            "sorties": 6,
+            "uav_used": 2,
+            "uav_inventory": 2,
+            "uav_peak": 2,
+            "battery_used": 4,
+            "battery_inventory": 4,
+            "battery_peak": 4,
+            "total_mass_kg": 356,
+            "energy_kwh": 26.363222784698763,
+            "operation_s": 11520.385541655392,
+            "utilization": 0.9610601495189098
+          }
+        ],
+        "global_optimality_proven": false
+      },
+      "partition": null,
+      "global_lower_bound_s": 5357.289171058795,
+      "global_gap_relative_to_upper": 0.10616235660912166
+    },
+    "nominal": {
+      "finish_s": 7111.56336682088,
+      "weighted_mean_s": 3017.248548969093,
+      "energy_kwh": 74.97841081988884,
+      "transport_sorties": 24,
+      "relay_sorties": 5,
+      "model": {
+        "coordinate_crs": "EPSG:32649",
+        "relay_cruise_rule": "exact DEM path maximum plus 50m, hover at or below cruise",
+        "energy_closure": "declared declared horizontal range + climb potential",
+        "energy_increase_guard": 0,
+        "hard_buffer_s": 0,
+        "common_delay_guard_s": 0,
+        "extra_link_margin_db": 0,
+        "endpoint_buffer_s": 1.0
+      },
+      "verification": {
+        "status": "PASS_CONDITIONAL_STRICT_MODEL",
+        "boxes": 80,
+        "hard_deadline_violations": 0,
+        "expected_deadline_violations": 0,
+        "transport_sorties": 24,
+        "relay_sorties": 5,
+        "joint_finish_s": 7111.56336682088,
+        "total_energy_kwh": 74.97841081988884,
+        "weighted_mean_delivery_s": 3017.248548969093,
+        "min_guarded_transport_soc": 0.23088032111286538,
+        "energy_increase": 0,
+        "common_delay": 0,
+        "min_hard_slack_s": 569.9608384200278,
+        "min_expected_slack_s": 420.51359880173686,
+        "minimum_guarded_resource_gap_s": 0.0,
+        "certificate_intervals": 267,
+        "unresolved_intervals": 0,
+        "minimum_certified_margin_db": 0.00802481084750184,
+        "relay_geometry": [
+          {
+            "id": "RE01",
+            "cruise_m": 369.7032470703125,
+            "path_dem_max_m": 319.7032470703125,
+            "hover_m": 369.7032470703125,
+            "guarded_soc": 0.821893816409403,
+            "backhaul_margin_db": 0.6453554439831493
+          },
+          {
+            "id": "RE02",
+            "cruise_m": 589.58349609375,
+            "path_dem_max_m": 539.58349609375,
+            "hover_m": 589.58349609375,
+            "guarded_soc": 0.6898422583298685,
+            "backhaul_margin_db": 1.001618612338433
+          },
+          {
+            "id": "RE03",
+            "cruise_m": 448.08819580078125,
+            "path_dem_max_m": 398.08819580078125,
+            "hover_m": 448.08819580078125,
+            "guarded_soc": 0.9044952701029603,
+            "backhaul_margin_db": 6.014321325327089
+          },
+          {
+            "id": "RE04",
+            "cruise_m": 448.08819580078125,
+            "path_dem_max_m": 398.08819580078125,
+            "hover_m": 448.08819580078125,
+            "guarded_soc": 0.8158260556216316,
+            "backhaul_margin_db": 6.014321325327089
+          },
+          {
+            "id": "RE05",
+            "cruise_m": 587.281005859375,
+            "path_dem_max_m": 537.281005859375,
+            "hover_m": 587.281005859375,
+            "guarded_soc": 0.7270139505986651,
+            "backhaul_margin_db": 2.495872223835775
+          }
+        ],
+        "scope": "Declared strict DEM+50 cruise, unchanged trajectories/DEM and energy formula. Energy multipliers and recharge, radio attenuation, and common shift may co-occur. Independent task delays and terrain uncertainty are not covered."
+      },
+      "partition": {
+        "atoms": [
+          [
+            "S001"
+          ],
+          [
+            "S002",
+            "S004"
+          ],
+          [
+            "S003",
+            "S007"
+          ],
+          [
+            "S005",
+            "S006",
+            "S008",
+            "S009",
+            "S011",
+            "S015"
+          ],
+          [
+            "S010",
+            "S012",
+            "S013",
+            "S014"
+          ]
+        ],
+        "stock": [
+          4,
+          2,
+          2,
+          6,
+          4,
+          4,
+          2,
+          6
+        ],
+        "resource_order": [
+          "A_air",
+          "B_air",
+          "C_air",
+          "A_battery",
+          "B_battery",
+          "C_battery",
+          "relay_air",
+          "relay_component"
+        ],
+        "unpartitioned_guarded_need": [
+          4,
+          2,
+          2,
+          6,
+          4,
+          4,
+          2,
+          3
+        ],
+        "energy_guard": 0,
+        "balance_beta": 0.2,
+        "definition": "Prep-to-return operation including relays; guarded resource intervals include charging and relay turnaround; frozen certified responsibilities with no mission copying.",
+        "chosen": [
+          {
+            "K": 2,
+            "partitions": 15,
+            "eligible_count": 4,
+            "minimum_deviation": 0.03949563903523212,
+            "selected": {
+              "K": 2,
+              "groups": [
+                [
+                  "S001",
+                  "S005",
+                  "S006",
+                  "S008",
+                  "S009",
+                  "S011",
+                  "S015"
+                ],
+                [
+                  "S002",
+                  "S003",
+                  "S004",
+                  "S007",
+                  "S010",
+                  "S012",
+                  "S013",
+                  "S014"
+                ]
+              ],
+              "work_s": [
+                25286.151724618117,
+                33100.061068876195
+              ],
+              "boxes": [
+                41,
+                39
+              ],
+              "mass_kg": [
+                392,
+                366
+              ],
+              "max_relative_work_deviation": 0.13383141276682953,
+              "CV": 0.13383141276682947,
+              "needs": [
+                7,
+                4,
+                4,
+                9,
+                6,
+                5,
+                3,
+                4
+              ],
+              "gap": [
+                3,
+                2,
+                2,
+                3,
+                2,
+                1,
+                1,
+                0
+              ],
+              "redundancy": [
+                3,
+                2,
+                2,
+                3,
+                2,
+                1,
+                1,
+                1
+              ],
+              "normalized_deficit": 4.5,
+              "group_details": [
+                {
+                  "nodes": [
+                    "S001",
+                    "S005",
+                    "S006",
+                    "S008",
+                    "S009",
+                    "S011",
+                    "S015"
+                  ],
+                  "needs": [
+                    3,
+                    2,
+                    2,
+                    4,
+                    3,
+                    2,
+                    1,
+                    1
+                  ],
+                  "work_s": 25286.151724618117,
+                  "transport_work_s": 21756.723897072792,
+                  "boxes": 41,
+                  "mass_kg": 392
+                },
+                {
+                  "nodes": [
+                    "S002",
+                    "S003",
+                    "S004",
+                    "S007",
+                    "S010",
+                    "S012",
+                    "S013",
+                    "S014"
+                  ],
+                  "needs": [
+                    4,
+                    2,
+                    2,
+                    5,
+                    3,
+                    3,
+                    2,
+                    3
+                  ],
+                  "work_s": 33100.061068876195,
+                  "transport_work_s": 24436.0825019704,
+                  "boxes": 39,
+                  "mass_kg": 366
+                }
+              ]
+            }
+          },
+          {
+            "K": 3,
+            "partitions": 25,
+            "eligible_count": 1,
+            "minimum_deviation": 0.16033052167530248,
+            "selected": {
+              "K": 3,
+              "groups": [
+                [
+                  "S001",
+                  "S010",
+                  "S012",
+                  "S013",
+                  "S014"
+                ],
+                [
+                  "S002",
+                  "S003",
+                  "S004",
+                  "S007"
+                ],
+                [
+                  "S005",
+                  "S006",
+                  "S008",
+                  "S009",
+                  "S011",
+                  "S015"
+                ]
+              ],
+              "work_s": [
+                16341.706945889382,
+                19944.69490674463,
+                22099.810940860298
+              ],
+              "boxes": [
+                27,
+                27,
+                26
+              ],
+              "mass_kg": [
+                254,
+                266,
+                238
+              ],
+              "max_relative_work_deviation": 0.16033052167530248,
+              "CV": 0.1220516845790439,
+              "needs": [
+                7,
+                4,
+                5,
+                9,
+                6,
+                6,
+                3,
+                4
+              ],
+              "gap": [
+                3,
+                2,
+                3,
+                3,
+                2,
+                2,
+                1,
+                0
+              ],
+              "redundancy": [
+                3,
+                2,
+                3,
+                3,
+                2,
+                2,
+                1,
+                1
+              ],
+              "normalized_deficit": 5.25,
+              "group_details": [
+                {
+                  "nodes": [
+                    "S001",
+                    "S010",
+                    "S012",
+                    "S013",
+                    "S014"
+                  ],
+                  "needs": [
+                    3,
+                    1,
+                    2,
+                    4,
+                    1,
+                    2,
+                    1,
+                    1
+                  ],
+                  "work_s": 16341.706945889382,
+                  "transport_work_s": 13196.870385511342,
+                  "boxes": 27,
+                  "mass_kg": 254
+                },
+                {
+                  "nodes": [
+                    "S002",
+                    "S003",
+                    "S004",
+                    "S007"
+                  ],
+                  "needs": [
+                    1,
+                    1,
+                    2,
+                    1,
+                    2,
+                    3,
+                    1,
+                    2
+                  ],
+                  "work_s": 19944.69490674463,
+                  "transport_work_s": 14425.552900216879,
+                  "boxes": 27,
+                  "mass_kg": 266
+                },
+                {
+                  "nodes": [
+                    "S005",
+                    "S006",
+                    "S008",
+                    "S009",
+                    "S011",
+                    "S015"
+                  ],
+                  "needs": [
+                    3,
+                    2,
+                    1,
+                    4,
+                    3,
+                    1,
+                    1,
+                    1
+                  ],
+                  "work_s": 22099.810940860298,
+                  "transport_work_s": 18570.383113314972,
+                  "boxes": 26,
+                  "mass_kg": 238
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "global_lower_bound_s": 5357.289171058795,
+      "global_gap_relative_to_upper": 0.2466791203670745
+    },
+    "robust": {
+      "finish_s": 7134.653078363448,
+      "weighted_mean_s": 3023.3766956976297,
+      "energy_kwh": 74.99705615528414,
+      "transport_sorties": 24,
+      "relay_sorties": 5,
+      "model": {
+        "coordinate_crs": "EPSG:32649",
+        "relay_cruise_rule": "exact DEM path maximum plus 50m, hover at or below cruise",
+        "energy_closure": "declared declared horizontal range + climb potential",
+        "energy_increase_guard": 0.03,
+        "hard_buffer_s": 300,
+        "common_delay_guard_s": 120,
+        "extra_link_margin_db": 0.3,
+        "endpoint_buffer_s": 1.0
+      },
+      "verification": {
+        "status": "PASS_CONDITIONAL_STRICT_MODEL",
+        "boxes": 80,
+        "hard_deadline_violations": 0,
+        "expected_deadline_violations": 0,
+        "transport_sorties": 24,
+        "relay_sorties": 5,
+        "joint_finish_s": 7134.653078363448,
+        "total_energy_kwh": 74.99705615528414,
+        "weighted_mean_delivery_s": 3023.3766956976297,
+        "min_guarded_transport_soc": 0.20780673074625133,
+        "energy_increase": 0.03,
+        "common_delay": 120,
+        "min_hard_slack_s": 569.9608384200278,
+        "min_expected_slack_s": 410.87988216251824,
+        "minimum_guarded_resource_gap_s": 0.0,
+        "certificate_intervals": 270,
+        "unresolved_intervals": 0,
+        "minimum_certified_margin_db": 0.3470774947157196,
+        "relay_geometry": [
+          {
+            "id": "RE01",
+            "cruise_m": 373.8739929199219,
+            "path_dem_max_m": 323.8739929199219,
+            "hover_m": 373.8739929199219,
+            "guarded_soc": 0.8156014808140934,
+            "backhaul_margin_db": 0.647913533046335
+          },
+          {
+            "id": "RE02",
+            "cruise_m": 589.58349609375,
+            "path_dem_max_m": 539.58349609375,
+            "hover_m": 589.58349609375,
+            "guarded_soc": 0.6794890639519777,
+            "backhaul_margin_db": 0.9938736086881192
+          },
+          {
+            "id": "RE03",
+            "cruise_m": 448.08819580078125,
+            "path_dem_max_m": 398.08819580078125,
+            "hover_m": 448.08819580078125,
+            "guarded_soc": 0.8996698030309009,
+            "backhaul_margin_db": 6.014321325327089
+          },
+          {
+            "id": "RE04",
+            "cruise_m": 448.08819580078125,
+            "path_dem_max_m": 398.08819580078125,
+            "hover_m": 448.08819580078125,
+            "guarded_soc": 0.8103021732114921,
+            "backhaul_margin_db": 6.014321325327089
+          },
+          {
+            "id": "RE05",
+            "cruise_m": 587.281005859375,
+            "path_dem_max_m": 537.281005859375,
+            "hover_m": 587.281005859375,
+            "guarded_soc": 0.716779503255575,
+            "backhaul_margin_db": 2.495872223835775
+          }
+        ],
+        "scope": "Declared strict DEM+50 cruise, unchanged trajectories/DEM and energy formula. Energy multipliers and recharge, radio attenuation, and common shift may co-occur. Independent task delays and terrain uncertainty are not covered."
+      },
+      "partition": {
+        "atoms": [
+          [
+            "S001"
+          ],
+          [
+            "S002",
+            "S004"
+          ],
+          [
+            "S003",
+            "S007"
+          ],
+          [
+            "S005",
+            "S006",
+            "S008",
+            "S009",
+            "S011",
+            "S015"
+          ],
+          [
+            "S010",
+            "S012",
+            "S013",
+            "S014"
+          ]
+        ],
+        "stock": [
+          4,
+          2,
+          2,
+          6,
+          4,
+          4,
+          2,
+          6
+        ],
+        "resource_order": [
+          "A_air",
+          "B_air",
+          "C_air",
+          "A_battery",
+          "B_battery",
+          "C_battery",
+          "relay_air",
+          "relay_component"
+        ],
+        "unpartitioned_guarded_need": [
+          4,
+          2,
+          2,
+          6,
+          4,
+          4,
+          2,
+          3
+        ],
+        "energy_guard": 0.03,
+        "balance_beta": 0.2,
+        "definition": "Prep-to-return operation including relays; guarded resource intervals include charging and relay turnaround; frozen certified responsibilities with no mission copying.",
+        "chosen": [
+          {
+            "K": 2,
+            "partitions": 15,
+            "eligible_count": 4,
+            "minimum_deviation": 0.0391251184798973,
+            "selected": {
+              "K": 2,
+              "groups": [
+                [
+                  "S001",
+                  "S005",
+                  "S006",
+                  "S008",
+                  "S009",
+                  "S011",
+                  "S015"
+                ],
+                [
+                  "S002",
+                  "S003",
+                  "S004",
+                  "S007",
+                  "S010",
+                  "S012",
+                  "S013",
+                  "S014"
+                ]
+              ],
+              "work_s": [
+                25296.781866170433,
+                33151.652008850106
+              ],
+              "boxes": [
+                41,
+                39
+              ],
+              "mass_kg": [
+                392,
+                366
+              ],
+              "max_relative_work_deviation": 0.1343897453176528,
+              "CV": 0.1343897453176527,
+              "needs": [
+                7,
+                4,
+                4,
+                9,
+                6,
+                5,
+                3,
+                4
+              ],
+              "gap": [
+                3,
+                2,
+                2,
+                3,
+                2,
+                1,
+                1,
+                0
+              ],
+              "redundancy": [
+                3,
+                2,
+                2,
+                3,
+                2,
+                1,
+                1,
+                1
+              ],
+              "normalized_deficit": 4.5,
+              "group_details": [
+                {
+                  "nodes": [
+                    "S001",
+                    "S005",
+                    "S006",
+                    "S008",
+                    "S009",
+                    "S011",
+                    "S015"
+                  ],
+                  "needs": [
+                    3,
+                    2,
+                    2,
+                    4,
+                    3,
+                    2,
+                    1,
+                    1
+                  ],
+                  "work_s": 25296.781866170433,
+                  "transport_work_s": 21756.723897072792,
+                  "boxes": 41,
+                  "mass_kg": 392
+                },
+                {
+                  "nodes": [
+                    "S002",
+                    "S003",
+                    "S004",
+                    "S007",
+                    "S010",
+                    "S012",
+                    "S013",
+                    "S014"
+                  ],
+                  "needs": [
+                    4,
+                    2,
+                    2,
+                    5,
+                    3,
+                    3,
+                    2,
+                    3
+                  ],
+                  "work_s": 33151.652008850106,
+                  "transport_work_s": 24436.0825019704,
+                  "boxes": 39,
+                  "mass_kg": 366
+                }
+              ]
+            }
+          },
+          {
+            "K": 3,
+            "partitions": 25,
+            "eligible_count": 1,
+            "minimum_deviation": 0.16015721365129976,
+            "selected": {
+              "K": 3,
+              "groups": [
+                [
+                  "S001",
+                  "S010",
+                  "S012",
+                  "S013",
+                  "S014"
+                ],
+                [
+                  "S002",
+                  "S003",
+                  "S004",
+                  "S007"
+                ],
+                [
+                  "S005",
+                  "S006",
+                  "S008",
+                  "S009",
+                  "S011",
+                  "S015"
+                ]
+              ],
+              "work_s": [
+                16362.498521105,
+                19975.494271502925,
+                22110.441082412613
+              ],
+              "boxes": [
+                27,
+                27,
+                26
+              ],
+              "mass_kg": [
+                254,
+                266,
+                238
+              ],
+              "max_relative_work_deviation": 0.16015721365129976,
+              "CV": 0.1217641193488372,
+              "needs": [
+                7,
+                4,
+                5,
+                9,
+                6,
+                6,
+                3,
+                4
+              ],
+              "gap": [
+                3,
+                2,
+                3,
+                3,
+                2,
+                2,
+                1,
+                0
+              ],
+              "redundancy": [
+                3,
+                2,
+                3,
+                3,
+                2,
+                2,
+                1,
+                1
+              ],
+              "normalized_deficit": 5.25,
+              "group_details": [
+                {
+                  "nodes": [
+                    "S001",
+                    "S010",
+                    "S012",
+                    "S013",
+                    "S014"
+                  ],
+                  "needs": [
+                    3,
+                    1,
+                    2,
+                    4,
+                    1,
+                    2,
+                    1,
+                    1
+                  ],
+                  "work_s": 16362.498521105,
+                  "transport_work_s": 13196.870385511342,
+                  "boxes": 27,
+                  "mass_kg": 254
+                },
+                {
+                  "nodes": [
+                    "S002",
+                    "S003",
+                    "S004",
+                    "S007"
+                  ],
+                  "needs": [
+                    1,
+                    1,
+                    2,
+                    1,
+                    2,
+                    3,
+                    1,
+                    2
+                  ],
+                  "work_s": 19975.494271502925,
+                  "transport_work_s": 14425.55290021688,
+                  "boxes": 27,
+                  "mass_kg": 266
+                },
+                {
+                  "nodes": [
+                    "S005",
+                    "S006",
+                    "S008",
+                    "S009",
+                    "S011",
+                    "S015"
+                  ],
+                  "needs": [
+                    3,
+                    2,
+                    1,
+                    4,
+                    3,
+                    1,
+                    1,
+                    1
+                  ],
+                  "work_s": 22110.441082412613,
+                  "transport_work_s": 18570.383113314972,
+                  "boxes": 26,
+                  "mass_kg": 238
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "global_lower_bound_s": 5357.289171058795,
+      "global_gap_relative_to_upper": 0.24911707517982729
+    },
+    "balanced": {
+      "finish_s": 7200.000868855509,
+      "weighted_mean_s": 3015.9026605443582,
+      "energy_kwh": 72.1903237457323,
+      "transport_sorties": 23,
+      "relay_sorties": 5,
+      "model": {
+        "coordinate_crs": "EPSG:32649",
+        "relay_cruise_rule": "exact DEM path maximum plus 50m, hover at or below cruise",
+        "energy_closure": "declared declared horizontal range + climb potential",
+        "energy_increase_guard": 0.03,
+        "hard_buffer_s": 300,
+        "common_delay_guard_s": 120,
+        "extra_link_margin_db": 0.3,
+        "endpoint_buffer_s": 1.0
+      },
+      "verification": {
+        "status": "PASS_CONDITIONAL_STRICT_MODEL",
+        "boxes": 80,
+        "hard_deadline_violations": 0,
+        "expected_deadline_violations": 0,
+        "transport_sorties": 23,
+        "relay_sorties": 5,
+        "joint_finish_s": 7200.000868855509,
+        "total_energy_kwh": 72.19032374573229,
+        "weighted_mean_delivery_s": 3015.9026605443582,
+        "min_guarded_transport_soc": 0.20780673074625133,
+        "energy_increase": 0.03,
+        "common_delay": 120,
+        "min_hard_slack_s": 569.9608384200278,
+        "min_expected_slack_s": 413.66431450761,
+        "minimum_guarded_resource_gap_s": 0.0,
+        "certificate_intervals": 255,
+        "unresolved_intervals": 0,
+        "minimum_certified_margin_db": 0.3201916052403817,
+        "relay_geometry": [
+          {
+            "id": "RE01",
+            "cruise_m": 373.8739929199219,
+            "path_dem_max_m": 323.8739929199219,
+            "hover_m": 373.8739929199219,
+            "guarded_soc": 0.8160956217265048,
+            "backhaul_margin_db": 0.647913533046335
+          },
+          {
+            "id": "RE02",
+            "cruise_m": 589.58349609375,
+            "path_dem_max_m": 539.58349609375,
+            "hover_m": 589.58349609375,
+            "guarded_soc": 0.6734705324970137,
+            "backhaul_margin_db": 0.9938736086881192
+          },
+          {
+            "id": "RE03",
+            "cruise_m": 448.08819580078125,
+            "path_dem_max_m": 398.08819580078125,
+            "hover_m": 448.08819580078125,
+            "guarded_soc": 0.8997233638280362,
+            "backhaul_margin_db": 6.014321325327089
+          },
+          {
+            "id": "RE04",
+            "cruise_m": 448.08819580078125,
+            "path_dem_max_m": 398.08819580078125,
+            "hover_m": 448.08819580078125,
+            "guarded_soc": 0.8091825382514668,
+            "backhaul_margin_db": 6.014321325327089
+          },
+          {
+            "id": "RE05",
+            "cruise_m": 587.281005859375,
+            "path_dem_max_m": 537.281005859375,
+            "hover_m": 587.281005859375,
+            "guarded_soc": 0.716415158823698,
+            "backhaul_margin_db": 2.495872223835775
+          }
+        ],
+        "scope": "Declared strict DEM+50 cruise, unchanged trajectories/DEM and energy formula. Energy multipliers and recharge, radio attenuation, and common shift may co-occur. Independent task delays and terrain uncertainty are not covered."
+      },
+      "partition": {
+        "atoms": [
+          [
+            "S001"
+          ],
+          [
+            "S002",
+            "S004"
+          ],
+          [
+            "S003",
+            "S007"
+          ],
+          [
+            "S005",
+            "S006",
+            "S008",
+            "S009",
+            "S011",
+            "S015"
+          ],
+          [
+            "S010",
+            "S012",
+            "S013",
+            "S014"
+          ]
+        ],
+        "stock": [
+          4,
+          2,
+          2,
+          6,
+          4,
+          4,
+          2,
+          6
+        ],
+        "resource_order": [
+          "A_air",
+          "B_air",
+          "C_air",
+          "A_battery",
+          "B_battery",
+          "C_battery",
+          "relay_air",
+          "relay_component"
+        ],
+        "unpartitioned_guarded_need": [
+          4,
+          2,
+          2,
+          6,
+          4,
+          4,
+          2,
+          3
+        ],
+        "energy_guard": 0.03,
+        "balance_beta": 0.2,
+        "definition": "Prep-to-return operation including relays; guarded resource intervals include charging and relay turnaround; frozen certified responsibilities with no mission copying.",
+        "chosen": [
+          {
+            "K": 2,
+            "partitions": 15,
+            "eligible_count": 5,
+            "minimum_deviation": 0.004910427584004395,
+            "selected": {
+              "K": 2,
+              "groups": [
+                [
+                  "S001",
+                  "S002",
+                  "S003",
+                  "S004",
+                  "S007"
+                ],
+                [
+                  "S005",
+                  "S006",
+                  "S008",
+                  "S009",
+                  "S010",
+                  "S011",
+                  "S012",
+                  "S013",
+                  "S014",
+                  "S015"
+                ]
+              ],
+              "work_s": [
+                23167.650298901972,
+                33300.35183502549
+              ],
+              "boxes": [
+                42,
+                38
+              ],
+              "mass_kg": [
+                420,
+                338
+              ],
+              "max_relative_work_deviation": 0.17944147398895716,
+              "CV": 0.1794414739889571,
+              "needs": [
+                5,
+                3,
+                3,
+                7,
+                5,
+                5,
+                2,
+                4
+              ],
+              "gap": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                0,
+                0
+              ],
+              "redundancy": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                0,
+                1
+              ],
+              "normalized_deficit": 1.9166666666666667,
+              "group_details": [
+                {
+                  "nodes": [
+                    "S001",
+                    "S002",
+                    "S003",
+                    "S004",
+                    "S007"
+                  ],
+                  "needs": [
+                    1,
+                    1,
+                    2,
+                    1,
+                    2,
+                    4,
+                    1,
+                    2
+                  ],
+                  "work_s": 23167.650298901972,
+                  "transport_work_s": 17611.893683974697,
+                  "boxes": 42,
+                  "mass_kg": 420
+                },
+                {
+                  "nodes": [
+                    "S005",
+                    "S006",
+                    "S008",
+                    "S009",
+                    "S010",
+                    "S011",
+                    "S012",
+                    "S013",
+                    "S014",
+                    "S015"
+                  ],
+                  "needs": [
+                    4,
+                    2,
+                    1,
+                    6,
+                    3,
+                    1,
+                    1,
+                    2
+                  ],
+                  "work_s": 33300.35183502549,
+                  "transport_work_s": 26529.766586277336,
+                  "boxes": 38,
+                  "mass_kg": 338
+                }
+              ]
+            }
+          },
+          {
+            "K": 3,
+            "partitions": 25,
+            "eligible_count": 1,
+            "minimum_deviation": 0.13050564322161673,
+            "selected": {
+              "K": 3,
+              "groups": [
+                [
+                  "S001",
+                  "S010",
+                  "S012",
+                  "S013",
+                  "S014"
+                ],
+                [
+                  "S002",
+                  "S003",
+                  "S004",
+                  "S007"
+                ],
+                [
+                  "S005",
+                  "S006",
+                  "S008",
+                  "S009",
+                  "S011",
+                  "S015"
+                ]
+              ],
+              "work_s": [
+                16366.20306466654,
+                19981.309515144156,
+                20120.489554116757
+              ],
+              "boxes": [
+                27,
+                27,
+                26
+              ],
+              "mass_kg": [
+                254,
+                266,
+                238
+              ],
+              "max_relative_work_deviation": 0.13050564322161673,
+              "CV": 0.09233078584460609,
+              "needs": [
+                7,
+                4,
+                5,
+                9,
+                6,
+                6,
+                3,
+                4
+              ],
+              "gap": [
+                3,
+                2,
+                3,
+                3,
+                2,
+                2,
+                1,
+                0
+              ],
+              "redundancy": [
+                3,
+                2,
+                3,
+                3,
+                2,
+                2,
+                1,
+                1
+              ],
+              "normalized_deficit": 5.25,
+              "group_details": [
+                {
+                  "nodes": [
+                    "S001",
+                    "S010",
+                    "S012",
+                    "S013",
+                    "S014"
+                  ],
+                  "needs": [
+                    3,
+                    1,
+                    2,
+                    4,
+                    1,
+                    2,
+                    1,
+                    1
+                  ],
+                  "work_s": 16366.20306466654,
+                  "transport_work_s": 13196.870385511342,
+                  "boxes": 27,
+                  "mass_kg": 254
+                },
+                {
+                  "nodes": [
+                    "S002",
+                    "S003",
+                    "S004",
+                    "S007"
+                  ],
+                  "needs": [
+                    1,
+                    1,
+                    2,
+                    1,
+                    2,
+                    3,
+                    1,
+                    2
+                  ],
+                  "work_s": 19981.309515144156,
+                  "transport_work_s": 14425.55290021688,
+                  "boxes": 27,
+                  "mass_kg": 266
+                },
+                {
+                  "nodes": [
+                    "S005",
+                    "S006",
+                    "S008",
+                    "S009",
+                    "S011",
+                    "S015"
+                  ],
+                  "needs": [
+                    3,
+                    2,
+                    1,
+                    4,
+                    3,
+                    1,
+                    1,
+                    1
+                  ],
+                  "work_s": 20120.489554116757,
+                  "transport_work_s": 16519.236984523806,
+                  "boxes": 26,
+                  "mass_kg": 238
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "global_lower_bound_s": 5357.289171058795,
+      "global_gap_relative_to_upper": 0.2559321493650911
+    },
+    "partition_friendly": {
+      "finish_s": 7200.000868855509,
+      "weighted_mean_s": 3028.739699175313,
+      "energy_kwh": 72.21598174111337,
+      "transport_sorties": 23,
+      "relay_sorties": 5,
+      "model": {
+        "coordinate_crs": "EPSG:32649",
+        "relay_cruise_rule": "exact DEM path maximum plus 50m, hover at or below cruise",
+        "energy_closure": "declared declared horizontal range + climb potential",
+        "energy_increase_guard": 0.03,
+        "hard_buffer_s": 300.0,
+        "common_delay_guard_s": 120.0,
+        "extra_link_margin_db": 0.3,
+        "endpoint_buffer_s": 1.0
+      },
+      "verification": {
+        "status": "PASS_CONDITIONAL_STRICT_MODEL",
+        "boxes": 80,
+        "hard_deadline_violations": 0,
+        "expected_deadline_violations": 0,
+        "transport_sorties": 23,
+        "relay_sorties": 5,
+        "joint_finish_s": 7200.000868855509,
+        "total_energy_kwh": 72.21598174111335,
+        "weighted_mean_delivery_s": 3028.739699175313,
+        "min_guarded_transport_soc": 0.20780673074625133,
+        "energy_increase": 0.03,
+        "common_delay": 120.0,
+        "min_hard_slack_s": 569.771532510656,
+        "min_expected_slack_s": 374.8261070956164,
+        "minimum_guarded_resource_gap_s": -2.2737367544323206e-13,
+        "certificate_intervals": 235,
+        "unresolved_intervals": 0,
+        "minimum_certified_margin_db": 0.3355696245188824,
+        "relay_geometry": [
+          {
+            "id": "RE01",
+            "cruise_m": 393.7242736816406,
+            "path_dem_max_m": 343.7242736816406,
+            "hover_m": 393.7242736816406,
+            "guarded_soc": 0.8153906348385275,
+            "backhaul_margin_db": 0.631855856472157
+          },
+          {
+            "id": "RE02",
+            "cruise_m": 589.58349609375,
+            "path_dem_max_m": 539.58349609375,
+            "hover_m": 589.58349609375,
+            "guarded_soc": 0.6734705324970137,
+            "backhaul_margin_db": 0.9938736086881192
+          },
+          {
+            "id": "RE03",
+            "cruise_m": 477.72064208984375,
+            "path_dem_max_m": 427.72064208984375,
+            "hover_m": 477.72064208984375,
+            "guarded_soc": 0.894076728087609,
+            "backhaul_margin_db": 5.0926227599826035
+          },
+          {
+            "id": "RE04",
+            "cruise_m": 477.72064208984375,
+            "path_dem_max_m": 427.72064208984375,
+            "hover_m": 477.72064208984375,
+            "guarded_soc": 0.8072754936165889,
+            "backhaul_margin_db": 5.0926227599826035
+          },
+          {
+            "id": "RE05",
+            "cruise_m": 587.281005859375,
+            "path_dem_max_m": 537.281005859375,
+            "hover_m": 587.281005859375,
+            "guarded_soc": 0.716415158823698,
+            "backhaul_margin_db": 2.495872223835775
+          }
+        ],
+        "scope": "Declared strict DEM+50 cruise, unchanged trajectories/DEM and energy formula. Energy multipliers and recharge, radio attenuation, and common shift may co-occur. Independent task delays and terrain uncertainty are not covered."
+      },
+      "partition": {
+        "atoms": [
+          [
+            "S001"
+          ],
+          [
+            "S002",
+            "S004"
+          ],
+          [
+            "S003",
+            "S006",
+            "S007",
+            "S011",
+            "S015"
+          ],
+          [
+            "S005",
+            "S008",
+            "S009"
+          ],
+          [
+            "S010",
+            "S012",
+            "S013",
+            "S014"
+          ]
+        ],
+        "stock": [
+          4,
+          2,
+          2,
+          6,
+          4,
+          4,
+          2,
+          6
+        ],
+        "resource_order": [
+          "A_air",
+          "B_air",
+          "C_air",
+          "A_battery",
+          "B_battery",
+          "C_battery",
+          "relay_air",
+          "relay_component"
+        ],
+        "unpartitioned_guarded_need": [
+          4,
+          2,
+          2,
+          6,
+          4,
+          4,
+          2,
+          3
+        ],
+        "energy_guard": 0.03,
+        "balance_beta": 0.2,
+        "definition": "Prep-to-return operation including relays; guarded resource intervals include charging and relay turnaround; frozen certified responsibilities with no mission copying.",
+        "chosen": [
+          {
+            "K": 2,
+            "partitions": 15,
+            "eligible_count": 5,
+            "minimum_deviation": 0.01808707126768072,
+            "selected": {
+              "K": 2,
+              "groups": [
+                [
+                  "S001",
+                  "S002",
+                  "S003",
+                  "S004",
+                  "S006",
+                  "S007",
+                  "S011",
+                  "S015"
+                ],
+                [
+                  "S005",
+                  "S008",
+                  "S009",
+                  "S010",
+                  "S012",
+                  "S013",
+                  "S014"
+                ]
+              ],
+              "work_s": [
+                28796.996279565195,
+                27773.796322109523
+              ],
+              "boxes": [
+                54,
+                26
+              ],
+              "mass_kg": [
+                529,
+                229
+              ],
+              "max_relative_work_deviation": 0.01808707126768072,
+              "CV": 0.018087071267680666,
+              "needs": [
+                4,
+                4,
+                2,
+                7,
+                6,
+                4,
+                2,
+                4
+              ],
+              "gap": [
+                0,
+                2,
+                0,
+                1,
+                2,
+                0,
+                0,
+                0
+              ],
+              "redundancy": [
+                0,
+                2,
+                0,
+                1,
+                2,
+                0,
+                0,
+                1
+              ],
+              "normalized_deficit": 1.6666666666666667,
+              "group_details": [
+                {
+                  "nodes": [
+                    "S001",
+                    "S002",
+                    "S003",
+                    "S004",
+                    "S006",
+                    "S007",
+                    "S011",
+                    "S015"
+                  ],
+                  "needs": [
+                    1,
+                    2,
+                    2,
+                    2,
+                    3,
+                    4,
+                    1,
+                    2
+                  ],
+                  "work_s": 28796.996279565195,
+                  "transport_work_s": 23138.44919689066,
+                  "boxes": 54,
+                  "mass_kg": 529
+                },
+                {
+                  "nodes": [
+                    "S005",
+                    "S008",
+                    "S009",
+                    "S010",
+                    "S012",
+                    "S013",
+                    "S014"
+                  ],
+                  "needs": [
+                    3,
+                    2,
+                    0,
+                    5,
+                    3,
+                    0,
+                    1,
+                    2
+                  ],
+                  "work_s": 27773.796322109523,
+                  "transport_work_s": 21003.211073361374,
+                  "boxes": 26,
+                  "mass_kg": 229
+                }
+              ]
+            }
+          },
+          {
+            "K": 3,
+            "partitions": 25,
+            "eligible_count": 1,
+            "minimum_deviation": 0.13724359156998767,
+            "selected": {
+              "K": 3,
+              "groups": [
+                [
+                  "S001",
+                  "S005",
+                  "S008",
+                  "S009"
+                ],
+                [
+                  "S002",
+                  "S004",
+                  "S010",
+                  "S012",
+                  "S013",
+                  "S014"
+                ],
+                [
+                  "S003",
+                  "S006",
+                  "S007",
+                  "S011",
+                  "S015"
+                ]
+              ],
+              "work_s": [
+                17780.27482495861,
+                21444.923785429815,
+                17345.59399128629
+              ],
+              "boxes": [
+                29,
+                26,
+                25
+              ],
+              "mass_kg": [
+                283,
+                240,
+                235
+              ],
+              "max_relative_work_deviation": 0.13724359156998767,
+              "CV": 0.09750109627308733,
+              "needs": [
+                7,
+                4,
+                6,
+                9,
+                7,
+                6,
+                4,
+                4
+              ],
+              "gap": [
+                3,
+                2,
+                4,
+                3,
+                3,
+                2,
+                2,
+                0
+              ],
+              "redundancy": [
+                3,
+                2,
+                4,
+                3,
+                3,
+                2,
+                2,
+                1
+              ],
+              "normalized_deficit": 6.5,
+              "group_details": [
+                {
+                  "nodes": [
+                    "S001",
+                    "S005",
+                    "S008",
+                    "S009"
+                  ],
+                  "needs": [
+                    3,
+                    2,
+                    2,
+                    3,
+                    3,
+                    2,
+                    1,
+                    1
+                  ],
+                  "work_s": 17780.27482495861,
+                  "transport_work_s": 14179.022255365662,
+                  "boxes": 29,
+                  "mass_kg": 283
+                },
+                {
+                  "nodes": [
+                    "S002",
+                    "S004",
+                    "S010",
+                    "S012",
+                    "S013",
+                    "S014"
+                  ],
+                  "needs": [
+                    3,
+                    1,
+                    2,
+                    4,
+                    2,
+                    2,
+                    2,
+                    2
+                  ],
+                  "work_s": 21444.923785429815,
+                  "transport_work_s": 16176.096620907307,
+                  "boxes": 26,
+                  "mass_kg": 240
+                },
+                {
+                  "nodes": [
+                    "S003",
+                    "S006",
+                    "S007",
+                    "S011",
+                    "S015"
+                  ],
+                  "needs": [
+                    1,
+                    1,
+                    2,
+                    2,
+                    2,
+                    2,
+                    1,
+                    1
+                  ],
+                  "work_s": 17345.59399128629,
+                  "transport_work_s": 13786.541393979061,
+                  "boxes": 25,
+                  "mass_kg": 235
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "global_lower_bound_s": 5357.289171058795,
+      "global_gap_relative_to_upper": 0.2559321493650911
+    },
+    "fast_partition_friendly": {
+      "finish_s": 7140.000868855509,
+      "weighted_mean_s": 3036.591546987789,
+      "energy_kwh": 75.02598799135072,
+      "transport_sorties": 24,
+      "relay_sorties": 5,
+      "model": {
+        "coordinate_crs": "EPSG:32649",
+        "relay_cruise_rule": "exact DEM path maximum plus 50m, hover at or below cruise",
+        "energy_closure": "declared declared horizontal range + climb potential",
+        "energy_increase_guard": 0.03,
+        "hard_buffer_s": 300.0,
+        "common_delay_guard_s": 120.0,
+        "extra_link_margin_db": 0.3,
+        "endpoint_buffer_s": 1.0
+      },
+      "verification": {
+        "status": "PASS_CONDITIONAL_STRICT_MODEL",
+        "boxes": 80,
+        "hard_deadline_violations": 0,
+        "expected_deadline_violations": 0,
+        "transport_sorties": 24,
+        "relay_sorties": 5,
+        "joint_finish_s": 7140.000868855509,
+        "total_energy_kwh": 75.0259879913507,
+        "weighted_mean_delivery_s": 3036.591546987789,
+        "min_guarded_transport_soc": 0.20780673074625133,
+        "energy_increase": 0.03,
+        "common_delay": 120.0,
+        "min_hard_slack_s": 569.771532510656,
+        "min_expected_slack_s": 374.8261070956164,
+        "minimum_guarded_resource_gap_s": -2.2737367544323206e-13,
+        "certificate_intervals": 248,
+        "unresolved_intervals": 0,
+        "minimum_certified_margin_db": 0.3355696245188824,
+        "relay_geometry": [
+          {
+            "id": "RE01",
+            "cruise_m": 393.7242736816406,
+            "path_dem_max_m": 343.7242736816406,
+            "hover_m": 393.7242736816406,
+            "guarded_soc": 0.8153906348385275,
+            "backhaul_margin_db": 0.631855856472157
+          },
+          {
+            "id": "RE02",
+            "cruise_m": 589.58349609375,
+            "path_dem_max_m": 539.58349609375,
+            "hover_m": 589.58349609375,
+            "guarded_soc": 0.6793715741636803,
+            "backhaul_margin_db": 0.9938736086881192
+          },
+          {
+            "id": "RE03",
+            "cruise_m": 477.72064208984375,
+            "path_dem_max_m": 427.72064208984375,
+            "hover_m": 477.72064208984375,
+            "guarded_soc": 0.894076728087609,
+            "backhaul_margin_db": 5.0926227599826035
+          },
+          {
+            "id": "RE04",
+            "cruise_m": 477.72064208984375,
+            "path_dem_max_m": 427.72064208984375,
+            "hover_m": 477.72064208984375,
+            "guarded_soc": 0.8072754936165993,
+            "backhaul_margin_db": 5.0926227599826035
+          },
+          {
+            "id": "RE05",
+            "cruise_m": 587.281005859375,
+            "path_dem_max_m": 537.281005859375,
+            "hover_m": 587.281005859375,
+            "guarded_soc": 0.716415158823698,
+            "backhaul_margin_db": 2.495872223835775
+          }
+        ],
+        "scope": "Declared strict DEM+50 cruise, unchanged trajectories/DEM and energy formula. Energy multipliers and recharge, radio attenuation, and common shift may co-occur. Independent task delays and terrain uncertainty are not covered."
+      },
+      "partition": {
+        "atoms": [
+          [
+            "S001"
+          ],
+          [
+            "S002",
+            "S004"
+          ],
+          [
+            "S003",
+            "S006",
+            "S007",
+            "S011",
+            "S015"
+          ],
+          [
+            "S005",
+            "S008",
+            "S009"
+          ],
+          [
+            "S010",
+            "S012",
+            "S013",
+            "S014"
+          ]
+        ],
+        "stock": [
+          4,
+          2,
+          2,
+          6,
+          4,
+          4,
+          2,
+          6
+        ],
+        "resource_order": [
+          "A_air",
+          "B_air",
+          "C_air",
+          "A_battery",
+          "B_battery",
+          "C_battery",
+          "relay_air",
+          "relay_component"
+        ],
+        "unpartitioned_guarded_need": [
+          4,
+          2,
+          2,
+          6,
+          4,
+          4,
+          2,
+          3
+        ],
+        "energy_guard": 0.03,
+        "balance_beta": 0.2,
+        "definition": "Prep-to-return operation including relays; guarded resource intervals include charging and relay turnaround; frozen certified responsibilities with no mission copying.",
+        "chosen": [
+          {
+            "K": 2,
+            "partitions": 15,
+            "eligible_count": 5,
+            "minimum_deviation": 0.016528588231865426,
+            "selected": {
+              "K": 2,
+              "groups": [
+                [
+                  "S001",
+                  "S002",
+                  "S003",
+                  "S004",
+                  "S006",
+                  "S007",
+                  "S011",
+                  "S015"
+                ],
+                [
+                  "S005",
+                  "S008",
+                  "S009",
+                  "S010",
+                  "S012",
+                  "S013",
+                  "S014"
+                ]
+              ],
+              "work_s": [
+                28796.996279565086,
+                29764.942450900686
+              ],
+              "boxes": [
+                54,
+                26
+              ],
+              "mass_kg": [
+                529,
+                229
+              ],
+              "max_relative_work_deviation": 0.016528588231865426,
+              "CV": 0.01652858823186537,
+              "needs": [
+                4,
+                4,
+                2,
+                7,
+                6,
+                4,
+                2,
+                4
+              ],
+              "gap": [
+                0,
+                2,
+                0,
+                1,
+                2,
+                0,
+                0,
+                0
+              ],
+              "redundancy": [
+                0,
+                2,
+                0,
+                1,
+                2,
+                0,
+                0,
+                1
+              ],
+              "normalized_deficit": 1.6666666666666667,
+              "group_details": [
+                {
+                  "nodes": [
+                    "S001",
+                    "S002",
+                    "S003",
+                    "S004",
+                    "S006",
+                    "S007",
+                    "S011",
+                    "S015"
+                  ],
+                  "needs": [
+                    1,
+                    2,
+                    2,
+                    2,
+                    3,
+                    4,
+                    1,
+                    2
+                  ],
+                  "work_s": 28796.996279565086,
+                  "transport_work_s": 23138.44919689066,
+                  "boxes": 54,
+                  "mass_kg": 529
+                },
+                {
+                  "nodes": [
+                    "S005",
+                    "S008",
+                    "S009",
+                    "S010",
+                    "S012",
+                    "S013",
+                    "S014"
+                  ],
+                  "needs": [
+                    3,
+                    2,
+                    0,
+                    5,
+                    3,
+                    0,
+                    1,
+                    2
+                  ],
+                  "work_s": 29764.942450900686,
+                  "transport_work_s": 23054.357202152536,
+                  "boxes": 26,
+                  "mass_kg": 229
+                }
+              ]
+            }
+          },
+          {
+            "K": 3,
+            "partitions": 25,
+            "eligible_count": 2,
+            "minimum_deviation": 0.11142316832507182,
+            "selected": {
+              "K": 3,
+              "groups": [
+                [
+                  "S001",
+                  "S003",
+                  "S006",
+                  "S007",
+                  "S011",
+                  "S015"
+                ],
+                [
+                  "S002",
+                  "S004",
+                  "S010",
+                  "S012",
+                  "S013",
+                  "S014"
+                ],
+                [
+                  "S005",
+                  "S008",
+                  "S009"
+                ]
+              ],
+              "work_s": [
+                20531.934775044,
+                21444.923785429815,
+                16585.080169991958
+              ],
+              "boxes": [
+                40,
+                26,
+                14
+              ],
+              "mass_kg": [
+                389,
+                240,
+                129
+              ],
+              "max_relative_work_deviation": 0.1503826275462492,
+              "CV": 0.1080372444157984,
+              "needs": [
+                7,
+                4,
+                4,
+                10,
+                7,
+                4,
+                4,
+                4
+              ],
+              "gap": [
+                3,
+                2,
+                2,
+                4,
+                3,
+                0,
+                2,
+                0
+              ],
+              "redundancy": [
+                3,
+                2,
+                2,
+                4,
+                3,
+                0,
+                2,
+                1
+              ],
+              "normalized_deficit": 5.166666666666666,
+              "group_details": [
+                {
+                  "nodes": [
+                    "S001",
+                    "S003",
+                    "S006",
+                    "S007",
+                    "S011",
+                    "S015"
+                  ],
+                  "needs": [
+                    1,
+                    1,
+                    2,
+                    2,
+                    2,
+                    2,
+                    1,
+                    1
+                  ],
+                  "work_s": 20531.934775044,
+                  "transport_work_s": 16972.88217773688,
+                  "boxes": 40,
+                  "mass_kg": 389
+                },
+                {
+                  "nodes": [
+                    "S002",
+                    "S004",
+                    "S010",
+                    "S012",
+                    "S013",
+                    "S014"
+                  ],
+                  "needs": [
+                    3,
+                    1,
+                    2,
+                    4,
+                    2,
+                    2,
+                    2,
+                    2
+                  ],
+                  "work_s": 21444.923785429815,
+                  "transport_work_s": 16176.096620907307,
+                  "boxes": 26,
+                  "mass_kg": 240
+                },
+                {
+                  "nodes": [
+                    "S005",
+                    "S008",
+                    "S009"
+                  ],
+                  "needs": [
+                    3,
+                    2,
+                    0,
+                    4,
+                    3,
+                    0,
+                    1,
+                    1
+                  ],
+                  "work_s": 16585.080169991958,
+                  "transport_work_s": 13043.827600399007,
+                  "boxes": 14,
+                  "mass_kg": 129
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "global_lower_bound_s": 5357.289171058795,
+      "global_gap_relative_to_upper": 0.2496794791122302
+    }
+  },
+  "safe_payload": [
+    [
+      25.0,
+      30.0,
+      80.0
+    ],
+    [
+      25.0,
+      30.0,
+      68.86037775413683
+    ],
+    [
+      25.0,
+      30.0,
+      68.20455041133383
+    ],
+    [
+      25.0,
+      30.0,
+      63.69649250314165
+    ],
+    [
+      25.0,
+      30.0,
+      80.0
+    ],
+    [
+      25.0,
+      30.0,
+      80.0
+    ],
+    [
+      25.0,
+      30.0,
+      80.0
+    ],
+    [
+      25.0,
+      28.800781652904007,
+      58.90310867739053
+    ],
+    [
+      25.0,
+      30.0,
+      80.0
+    ],
+    [
+      25.0,
+      30.0,
+      80.0
+    ],
+    [
+      25.0,
+      30.0,
+      80.0
+    ],
+    [
+      25.0,
+      30.0,
+      68.11775809489428
+    ],
+    [
+      25.0,
+      30.0,
+      80.0
+    ],
+    [
+      25.0,
+      30.0,
+      80.0
+    ],
+    [
+      25.0,
+      30.0,
+      80.0
+    ]
+  ],
+  "nodes": [
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007",
+    "S008",
+    "S009",
+    "S010",
+    "S011",
+    "S012",
+    "S013",
+    "S014",
+    "S015"
+  ],
+  "reserve_sensitivity": [
+    {
+      "reserve_pct": "10",
+      "sorties": "18",
+      "energy_kwh": "59.13166924155936",
+      "sum_operation_s": "32776.09267694372",
+      "C": "9",
+      "B": "9"
+    },
+    {
+      "reserve_pct": "15",
+      "sorties": "18",
+      "energy_kwh": "59.13166924155936",
+      "sum_operation_s": "32776.09267694372",
+      "C": "9",
+      "B": "9"
+    },
+    {
+      "reserve_pct": "20",
+      "sorties": "18",
+      "energy_kwh": "59.13166924155936",
+      "sum_operation_s": "32776.09267694372",
+      "C": "9",
+      "B": "9"
+    },
+    {
+      "reserve_pct": "25",
+      "sorties": "19",
+      "energy_kwh": "61.07376839331537",
+      "sum_operation_s": "34565.740688117025",
+      "C": "9",
+      "B": "10"
+    },
+    {
+      "reserve_pct": "30",
+      "sorties": "20",
+      "energy_kwh": "67.22803113791093",
+      "sum_operation_s": "36586.26912606206",
+      "C": "11",
+      "B": "9"
+    }
+  ],
+  "q1_batches": [
+    {
+      "sortie": "Q1-20-001",
+      "node": "S001",
+      "type": "C",
+      "boxes": "S001-MED-01;S001-MED-02;S001-WAT-01;S001-WAT-02;S001-WAT-03;S001-FOD-01;S001-FOD-02;S001-HYG-01;S001-HYG-02",
+      "mass_kg": "76",
+      "volume_m3": "0.231",
+      "flight_s": "618.1703918789086",
+      "operation_s": "1692.1703918789085",
+      "energy_kwh": "2.9175913912014897",
+      "return_soc_pct": "63.53010760998138"
+    },
+    {
+      "sortie": "Q1-20-002",
+      "node": "S001",
+      "type": "C",
+      "boxes": "S001-WAT-04;S001-WAT-05;S001-WAT-06;S001-WAT-07;S001-WAT-08;S001-FOD-03",
+      "mass_kg": "78",
+      "volume_m3": "0.163",
+      "flight_s": "618.1703918789086",
+      "operation_s": "1494.1703918789085",
+      "energy_kwh": "2.995778595200528",
+      "return_soc_pct": "62.55276755999339"
+    },
+    {
+      "sortie": "Q1-20-003",
+      "node": "S002",
+      "type": "B",
+      "boxes": "S002-MED-01;S002-WAT-01;S002-FOD-01",
+      "mass_kg": "25",
+      "volume_m3": "0.067",
+      "flight_s": "1186.6939339219116",
+      "operation_s": "1816.6939339219116",
+      "energy_kwh": "2.7134213129890172",
+      "return_soc_pct": "32.16446717527457"
+    },
+    {
+      "sortie": "Q1-20-004",
+      "node": "S002",
+      "type": "C",
+      "boxes": "S002-WAT-02;S002-WAT-03;S002-WAT-04;S002-FOD-02;S002-HYG-01",
+      "mass_kg": "56",
+      "volume_m3": "0.14400000000000002",
+      "flight_s": "1231.8120186387082",
+      "operation_s": "2041.8120186387082",
+      "energy_kwh": "5.721222591582658",
+      "return_soc_pct": "28.48471760521678"
+    },
+    {
+      "sortie": "Q1-20-005",
+      "node": "S003",
+      "type": "B",
+      "boxes": "S003-MED-01;S003-WAT-01;S003-FOD-01",
+      "mass_kg": "25",
+      "volume_m3": "0.067",
+      "flight_s": "1450.5430982758826",
+      "operation_s": "2080.5430982758826",
+      "energy_kwh": "2.7799701446244454",
+      "return_soc_pct": "30.500746384388865"
+    },
+    {
+      "sortie": "Q1-20-006",
+      "node": "S003",
+      "type": "C",
+      "boxes": "S003-WAT-02;S003-WAT-03;S003-WAT-04;S003-FOD-02;S003-HYG-01",
+      "mass_kg": "56",
+      "volume_m3": "0.14400000000000002",
+      "flight_s": "1560.1111443370803",
+      "operation_s": "2370.11114433708",
+      "energy_kwh": "5.765077516422236",
+      "return_soc_pct": "27.936531044722045"
+    },
+    {
+      "sortie": "Q1-20-007",
+      "node": "S004",
+      "type": "C",
+      "boxes": "S004-MED-01;S004-WAT-01;S004-WAT-02;S004-WAT-03;S004-FOD-01;S004-HYG-01",
+      "mass_kg": "59",
+      "volume_m3": "0.156",
+      "flight_s": "1425.0610665932259",
+      "operation_s": "2301.061066593226",
+      "energy_kwh": "6.152957431097441",
+      "return_soc_pct": "23.088032111281986"
+    },
+    {
+      "sortie": "Q1-20-008",
+      "node": "S005",
+      "type": "C",
+      "boxes": "S005-MED-01;S005-WAT-01;S005-WAT-02;S005-WAT-03;S005-FOD-01;S005-HYG-01",
+      "mass_kg": "59",
+      "volume_m3": "0.156",
+      "flight_s": "1001.1951581955425",
+      "operation_s": "1877.1951581955425",
+      "energy_kwh": "4.222219779656905",
+      "return_soc_pct": "47.22225275428868"
+    },
+    {
+      "sortie": "Q1-20-009",
+      "node": "S006",
+      "type": "C",
+      "boxes": "S006-MED-01;S006-WAT-01;S006-WAT-02;S006-WAT-03;S006-FOD-01;S006-HYG-01",
+      "mass_kg": "59",
+      "volume_m3": "0.156",
+      "flight_s": "685.5595259403467",
+      "operation_s": "1561.5595259403467",
+      "energy_kwh": "2.5980207359716143",
+      "return_soc_pct": "67.52474080035482"
+    },
+    {
+      "sortie": "Q1-20-010",
+      "node": "S007",
+      "type": "C",
+      "boxes": "S007-MED-01;S007-WAT-01;S007-WAT-02;S007-FOD-01;S007-HYG-01",
+      "mass_kg": "45",
+      "volume_m3": "0.129",
+      "flight_s": "1097.5754478361764",
+      "operation_s": "1907.5754478361764",
+      "energy_kwh": "3.41094197300521",
+      "return_soc_pct": "57.363225337434876"
+    },
+    {
+      "sortie": "Q1-20-011",
+      "node": "S008",
+      "type": "C",
+      "boxes": "S008-MED-01;S008-WAT-01;S008-WAT-02;S008-FOD-01;S008-HYG-01",
+      "mass_kg": "45",
+      "volume_m3": "0.129",
+      "flight_s": "1389.7120845921743",
+      "operation_s": "2199.7120845921745",
+      "energy_kwh": "5.836069261929085",
+      "return_soc_pct": "27.04913422588644"
+    },
+    {
+      "sortie": "Q1-20-012",
+      "node": "S009",
+      "type": "B",
+      "boxes": "S009-MED-01;S009-WAT-01;S009-FOD-01",
+      "mass_kg": "25",
+      "volume_m3": "0.067",
+      "flight_s": "928.4422473944054",
+      "operation_s": "1558.4422473944055",
+      "energy_kwh": "2.096235103068041",
+      "return_soc_pct": "47.59412242329898"
+    },
+    {
+      "sortie": "Q1-20-013",
+      "node": "S010",
+      "type": "B",
+      "boxes": "S010-MED-01;S010-WAT-01;S010-FOD-01",
+      "mass_kg": "25",
+      "volume_m3": "0.067",
+      "flight_s": "925.376902446339",
+      "operation_s": "1555.376902446339",
+      "energy_kwh": "1.8231886104366912",
+      "return_soc_pct": "54.42028473908272"
+    },
+    {
+      "sortie": "Q1-20-014",
+      "node": "S011",
+      "type": "B",
+      "boxes": "S011-MED-01;S011-WAT-01;S011-FOD-01",
+      "mass_kg": "25",
+      "volume_m3": "0.067",
+      "flight_s": "558.4236501116584",
+      "operation_s": "1188.4236501116584",
+      "energy_kwh": "1.0739602222254718",
+      "return_soc_pct": "73.1509944443632"
+    },
+    {
+      "sortie": "Q1-20-015",
+      "node": "S012",
+      "type": "B",
+      "boxes": "S012-MED-01;S012-WAT-01;S012-FOD-01",
+      "mass_kg": "25",
+      "volume_m3": "0.067",
+      "flight_s": "1292.7345559700407",
+      "operation_s": "1922.7345559700407",
+      "energy_kwh": "2.7523988780677637",
+      "return_soc_pct": "31.190028048305905"
+    },
+    {
+      "sortie": "Q1-20-016",
+      "node": "S013",
+      "type": "B",
+      "boxes": "S013-MED-01;S013-WAT-01;S013-FOD-01",
+      "mass_kg": "25",
+      "volume_m3": "0.067",
+      "flight_s": "880.4702802929444",
+      "operation_s": "1510.4702802929444",
+      "energy_kwh": "1.8247538307943802",
+      "return_soc_pct": "54.381154230140496"
+    },
+    {
+      "sortie": "Q1-20-017",
+      "node": "S014",
+      "type": "B",
+      "boxes": "S014-MED-01;S014-WAT-01;S014-FOD-01",
+      "mass_kg": "25",
+      "volume_m3": "0.067",
+      "flight_s": "1239.7521946190163",
+      "operation_s": "1869.7521946190163",
+      "energy_kwh": "2.1403772473853553",
+      "return_soc_pct": "46.49056881536612"
+    },
+    {
+      "sortie": "Q1-20-018",
+      "node": "S015",
+      "type": "B",
+      "boxes": "S015-MED-01;S015-WAT-01;S015-FOD-01",
+      "mass_kg": "25",
+      "volume_m3": "0.067",
+      "flight_s": "1198.2885840204503",
+      "operation_s": "1828.2885840204503",
+      "energy_kwh": "2.307484615901031",
+      "return_soc_pct": "42.31288460247422"
+    }
+  ],
+  "q1": {
+    "scope": "Data audit plus exact per-node Q1 count-state DP under documented assumptions. Scope: single-site capability and batching.",
+    "coordinate_crs": "EPSG:32649",
+    "polyline_step_m": 2.0,
+    "terrain": {
+      "height": 1309,
+      "width": 1486,
+      "crs": "EPSG:4326",
+      "tag_nodata": null,
+      "invalid_pixels": 0,
+      "min_m": 41.68907928466797,
+      "max_m": 1132.8560791015625
+    },
+    "boxes": 80,
+    "mass_kg": 758,
+    "volume_m3": 2.0109999999999992,
+    "first_batch_boxes": 30,
+    "hard_boxes": 31,
+    "hard_deadlines_histogram": {
+      "3600": 17,
+      "7200": 7,
+      "10800": 7
+    },
+    "q1_scenarios": [
+      {
+        "reserve_pct": 10,
+        "sorties": 18,
+        "energy_kwh": 59.13166924155936,
+        "sum_operation_s": 32776.09267694372,
+        "C": 9,
+        "B": 9
+      },
+      {
+        "reserve_pct": 15,
+        "sorties": 18,
+        "energy_kwh": 59.13166924155936,
+        "sum_operation_s": 32776.09267694372,
+        "C": 9,
+        "B": 9
+      },
+      {
+        "reserve_pct": 20,
+        "sorties": 18,
+        "energy_kwh": 59.13166924155936,
+        "sum_operation_s": 32776.09267694372,
+        "C": 9,
+        "B": 9
+      },
+      {
+        "reserve_pct": 25,
+        "sorties": 19,
+        "energy_kwh": 61.07376839331537,
+        "sum_operation_s": 34565.740688117025,
+        "C": 9,
+        "B": 10
+      },
+      {
+        "reserve_pct": 30,
+        "sorties": 20,
+        "energy_kwh": 67.22803113791093,
+        "sum_operation_s": 36586.26912606206,
+        "C": 11,
+        "B": 9
+      }
+    ],
+    "validated_q1_exact_box_coverage": true,
+    "charge_examples": {
+      "20pct_to100_A_s": 1540.0,
+      "90pct_to100_A_s": 629.9999999999998
+    }
+  },
+  "normalized_portfolio": {
+    "robust": [
+      0.0,
+      0.9897971573640001,
+      1.0
+    ],
+    "balanced": [
+      1.0,
+      0.0,
+      0.08823529411764706
+    ],
+    "partition_friendly": [
+      1.0,
+      0.009048319250317849,
+      0.0
+    ],
+    "fast_partition_friendly": [
+      0.08183582722220256,
+      1.0,
+      0.0
+    ]
+  },
+  "bound_s": 5357.289171058795,
+  "delivery_plan": {
+    "joint_objective": [
+      0.0,
+      0.0,
+      6104.093554854697,
+      69.14247161396887,
+      23,
+      0
+    ],
+    "weighted_mean_delivery_s": 2606.2640220757653,
+    "last_delivery_s": 5325.2069568842
+  }
+}

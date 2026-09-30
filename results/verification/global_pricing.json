@@ -1,0 +1,364 @@
+{
+  "bound_s": 5357.289171058795,
+  "classes": [
+    {
+      "node": "S001",
+      "category": "医疗物资",
+      "count": 2
+    },
+    {
+      "node": "S001",
+      "category": "应急食品",
+      "count": 3
+    },
+    {
+      "node": "S001",
+      "category": "生活卫生用品",
+      "count": 2
+    },
+    {
+      "node": "S001",
+      "category": "饮用水",
+      "count": 8
+    },
+    {
+      "node": "S002",
+      "category": "医疗物资",
+      "count": 1
+    },
+    {
+      "node": "S002",
+      "category": "应急食品",
+      "count": 2
+    },
+    {
+      "node": "S002",
+      "category": "生活卫生用品",
+      "count": 1
+    },
+    {
+      "node": "S002",
+      "category": "饮用水",
+      "count": 4
+    },
+    {
+      "node": "S003",
+      "category": "医疗物资",
+      "count": 1
+    },
+    {
+      "node": "S003",
+      "category": "应急食品",
+      "count": 2
+    },
+    {
+      "node": "S003",
+      "category": "生活卫生用品",
+      "count": 1
+    },
+    {
+      "node": "S003",
+      "category": "饮用水",
+      "count": 4
+    },
+    {
+      "node": "S004",
+      "category": "医疗物资",
+      "count": 1
+    },
+    {
+      "node": "S004",
+      "category": "应急食品",
+      "count": 1
+    },
+    {
+      "node": "S004",
+      "category": "生活卫生用品",
+      "count": 1
+    },
+    {
+      "node": "S004",
+      "category": "饮用水",
+      "count": 3
+    },
+    {
+      "node": "S005",
+      "category": "医疗物资",
+      "count": 1
+    },
+    {
+      "node": "S005",
+      "category": "应急食品",
+      "count": 1
+    },
+    {
+      "node": "S005",
+      "category": "生活卫生用品",
+      "count": 1
+    },
+    {
+      "node": "S005",
+      "category": "饮用水",
+      "count": 3
+    },
+    {
+      "node": "S006",
+      "category": "医疗物资",
+      "count": 1
+    },
+    {
+      "node": "S006",
+      "category": "应急食品",
+      "count": 1
+    },
+    {
+      "node": "S006",
+      "category": "生活卫生用品",
+      "count": 1
+    },
+    {
+      "node": "S006",
+      "category": "饮用水",
+      "count": 3
+    },
+    {
+      "node": "S007",
+      "category": "医疗物资",
+      "count": 1
+    },
+    {
+      "node": "S007",
+      "category": "应急食品",
+      "count": 1
+    },
+    {
+      "node": "S007",
+      "category": "生活卫生用品",
+      "count": 1
+    },
+    {
+      "node": "S007",
+      "category": "饮用水",
+      "count": 2
+    },
+    {
+      "node": "S008",
+      "category": "医疗物资",
+      "count": 1
+    },
+    {
+      "node": "S008",
+      "category": "应急食品",
+      "count": 1
+    },
+    {
+      "node": "S008",
+      "category": "生活卫生用品",
+      "count": 1
+    },
+    {
+      "node": "S008",
+      "category": "饮用水",
+      "count": 2
+    },
+    {
+      "node": "S009",
+      "category": "医疗物资",
+      "count": 1
+    },
+    {
+      "node": "S009",
+      "category": "应急食品",
+      "count": 1
+    },
+    {
+      "node": "S009",
+      "category": "饮用水",
+      "count": 1
+    },
+    {
+      "node": "S010",
+      "category": "医疗物资",
+      "count": 1
+    },
+    {
+      "node": "S010",
+      "category": "应急食品",
+      "count": 1
+    },
+    {
+      "node": "S010",
+      "category": "饮用水",
+      "count": 1
+    },
+    {
+      "node": "S011",
+      "category": "医疗物资",
+      "count": 1
+    },
+    {
+      "node": "S011",
+      "category": "应急食品",
+      "count": 1
+    },
+    {
+      "node": "S011",
+      "category": "饮用水",
+      "count": 1
+    },
+    {
+      "node": "S012",
+      "category": "医疗物资",
+      "count": 1
+    },
+    {
+      "node": "S012",
+      "category": "应急食品",
+      "count": 1
+    },
+    {
+      "node": "S012",
+      "category": "饮用水",
+      "count": 1
+    },
+    {
+      "node": "S013",
+      "category": "医疗物资",
+      "count": 1
+    },
+    {
+      "node": "S013",
+      "category": "应急食品",
+      "count": 1
+    },
+    {
+      "node": "S013",
+      "category": "饮用水",
+      "count": 1
+    },
+    {
+      "node": "S014",
+      "category": "医疗物资",
+      "count": 1
+    },
+    {
+      "node": "S014",
+      "category": "应急食品",
+      "count": 1
+    },
+    {
+      "node": "S014",
+      "category": "饮用水",
+      "count": 1
+    },
+    {
+      "node": "S015",
+      "category": "医疗物资",
+      "count": 1
+    },
+    {
+      "node": "S015",
+      "category": "应急食品",
+      "count": 1
+    },
+    {
+      "node": "S015",
+      "category": "饮用水",
+      "count": 1
+    }
+  ],
+  "pi": [
+    22.38422262438831,
+    38.913942735812775,
+    35.19649389294963,
+    59.16111169010039,
+    15.804165744620914,
+    57.93588151668165,
+    57.935881516681505,
+    100.92243809470148,
+    43.05243603988217,
+    71.85038052820055,
+    57.38199997734265,
+    107.53509859839967,
+    38.250462211884525,
+    62.307441997848386,
+    89.35239312249266,
+    110.4304543650428,
+    29.646978866831425,
+    47.02969811662059,
+    87.12931709181973,
+    87.12931709181973,
+    34.756406652022115,
+    34.75640665202188,
+    69.37802201660578,
+    69.37802201660578,
+    41.533438737778695,
+    50.63404300886072,
+    74.17380603855601,
+    86.31876107905889,
+    53.34992103035511,
+    62.838352439460124,
+    109.29228916532544,
+    109.29228916532522,
+    45.24155384856806,
+    73.68305907968518,
+    60.19194169651291,
+    47.565333064012655,
+    60.434029192406356,
+    70.76488285751743,
+    33.675931308635285,
+    33.675931308635285,
+    63.207587878300174,
+    67.51643833493662,
+    76.73467516311497,
+    76.73467516311499,
+    45.79319850883406,
+    57.04490772196183,
+    70.76488285751738,
+    57.095096305858895,
+    78.90063340855755,
+    78.90063340855829,
+    55.28777651720875,
+    86.318761079058,
+    68.52428539512174
+  ],
+  "lambda_": [
+    0.0792810024724695,
+    0.11493307174150034,
+    0.22650492331306066
+  ],
+  "uniform_per_box_shift": -1.0000007389644453e-05,
+  "pricing": [
+    {
+      "type": "A",
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "lower_reduced_cost": -1.4637180356658064e-12,
+      "primal_reduced_cost": -1.4637180356658064e-12,
+      "elapsed_s": 14.012672901153564,
+      "nodes": 93
+    },
+    {
+      "type": "B",
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "lower_reduced_cost": -9.947598300641403e-13,
+      "primal_reduced_cost": -9.947598300641403e-13,
+      "elapsed_s": 11.25523829460144,
+      "nodes": 31
+    },
+    {
+      "type": "C",
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "lower_reduced_cost": -7.389644451905042e-12,
+      "primal_reduced_cost": -7.332801033044234e-12,
+      "elapsed_s": 7.615343809127808,
+      "nodes": 53
+    }
+  ],
+  "iteration": 0,
+  "numerical_allowance_s": 1e-05,
+  "energy_outer_relaxation": true,
+  "scope": "Global for all nonempty transport routes under the declared flight model; relaxes deadlines, charging and every communication/relay restriction. Optional energy outer approximation uses empty-energy shortest paths plus tangent lower bounds for payload increments. Solver-certified pricing lower bounds, not an exact-arithmetic proof. No total energy or sortie count budget."
+}

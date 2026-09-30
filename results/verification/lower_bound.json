@@ -1,0 +1,80 @@
+{
+  "status": "PASS_NUMERICAL_GLOBAL_PRICING_REPLAY",
+  "verified_bound_s": 5357.289171054574,
+  "original_bound_s": 5357.289171058795,
+  "pricing": [
+    {
+      "type": "A",
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "lower_reduced_cost": -6.015454800945008e-11,
+      "primal_reduced_cost": -6.015454800945008e-11,
+      "elapsed_s": 20.655417680740356,
+      "nodes": 172
+    },
+    {
+      "type": "B",
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "lower_reduced_cost": -1.878674993349705e-11,
+      "primal_reduced_cost": -1.878674993349705e-11,
+      "elapsed_s": 6.875089168548584,
+      "nodes": 13
+    },
+    {
+      "type": "C",
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "lower_reduced_cost": -2.0264678823878057e-11,
+      "primal_reduced_cost": -2.0264678823878057e-11,
+      "elapsed_s": 11.269457578659058,
+      "nodes": 44
+    }
+  ],
+  "all_pricing_optimal": true,
+  "mapping": [
+    {
+      "source": "results/optimization/transport_time.json",
+      "minimum_column_dual_slack": 2.0000120059648907e-05,
+      "weighted_resource_work_s": 5716.189471780107,
+      "feasible_makespan_s": 5993.581956042137,
+      "max_energy_lower_minus_actual": -0.0013387608402557483
+    },
+    {
+      "source": "results/optimization/joint_nominal.json",
+      "minimum_column_dual_slack": 2.0000120088070616e-05,
+      "weighted_resource_work_s": 6039.831136653598,
+      "feasible_makespan_s": 7111.56336682088,
+      "max_energy_lower_minus_actual": -0.002219730100091022
+    },
+    {
+      "source": "results/optimization/joint_fast.json",
+      "minimum_column_dual_slack": 2.0000120088070616e-05,
+      "weighted_resource_work_s": 6039.831136653598,
+      "feasible_makespan_s": 7134.653078363448,
+      "max_energy_lower_minus_actual": -0.002219730100091022
+    },
+    {
+      "source": "results/optimization/joint_energy.json",
+      "minimum_column_dual_slack": 2.0000120059648907e-05,
+      "weighted_resource_work_s": 5879.353339501651,
+      "feasible_makespan_s": 7200.000868855509,
+      "max_energy_lower_minus_actual": -0.002219730100091022
+    },
+    {
+      "source": "results/optimization/joint_two_groups.json",
+      "minimum_column_dual_slack": 2.0000120059648907e-05,
+      "weighted_resource_work_s": 5879.353339501651,
+      "feasible_makespan_s": 7200.000868855509,
+      "max_energy_lower_minus_actual": -0.002219730100091022
+    },
+    {
+      "source": "results/optimization/joint_comprehensive.json",
+      "minimum_column_dual_slack": 2.0000120088070616e-05,
+      "weighted_resource_work_s": 6039.831136653598,
+      "feasible_makespan_s": 7140.000868855509,
+      "max_energy_lower_minus_actual": -0.002219730100091022
+    }
+  ],
+  "scope": "All cargo counts and metric-closure visiting orders covered by numerical global MILP pricing. Energy tangents optional outer relaxation. Does not certify whole-problem optimality or provide formal real-arithmetic branch certificates."
+}

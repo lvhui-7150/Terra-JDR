@@ -1,0 +1,71 @@
+{
+  "scope": "Data audit plus exact per-node Q1 count-state DP under documented assumptions. Scope: single-site capability and batching.",
+  "coordinate_crs": "EPSG:32649",
+  "polyline_step_m": 2.0,
+  "terrain": {
+    "height": 1309,
+    "width": 1486,
+    "crs": "EPSG:4326",
+    "tag_nodata": null,
+    "invalid_pixels": 0,
+    "min_m": 41.68907928466797,
+    "max_m": 1132.8560791015625
+  },
+  "boxes": 80,
+  "mass_kg": 758,
+  "volume_m3": 2.0109999999999992,
+  "first_batch_boxes": 30,
+  "hard_boxes": 31,
+  "hard_deadlines_histogram": {
+    "3600": 17,
+    "7200": 7,
+    "10800": 7
+  },
+  "q1_scenarios": [
+    {
+      "reserve_pct": 10,
+      "sorties": 18,
+      "energy_kwh": 59.13166924155936,
+      "sum_operation_s": 32776.09267694372,
+      "C": 9,
+      "B": 9
+    },
+    {
+      "reserve_pct": 15,
+      "sorties": 18,
+      "energy_kwh": 59.13166924155936,
+      "sum_operation_s": 32776.09267694372,
+      "C": 9,
+      "B": 9
+    },
+    {
+      "reserve_pct": 20,
+      "sorties": 18,
+      "energy_kwh": 59.13166924155936,
+      "sum_operation_s": 32776.09267694372,
+      "C": 9,
+      "B": 9
+    },
+    {
+      "reserve_pct": 25,
+      "sorties": 19,
+      "energy_kwh": 61.07376839331537,
+      "sum_operation_s": 34565.740688117025,
+      "C": 9,
+      "B": 10
+    },
+    {
+      "reserve_pct": 30,
+      "sorties": 20,
+      "energy_kwh": 67.22803113791093,
+      "sum_operation_s": 36586.26912606206,
+      "C": 11,
+      "B": 9
+    }
+  ],
+  "validated_q1_exact_box_coverage": true,
+  "charge_examples": {
+    "20pct_to100_A_s": 1540.0,
+    "90pct_to100_A_s": 629.9999999999998
+  }
+}

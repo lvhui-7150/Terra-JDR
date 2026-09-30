@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "global_optimum_proven": false,
+  "checks": {
+    "transport_time": {
+      "feasible": "PASS",
+      "partition": "not_applicable"
+    },
+    "joint_nominal": {
+      "feasible": "PASS",
+      "partition": "PASS"
+    },
+    "joint_fast": {
+      "feasible": "PASS",
+      "partition": "PASS"
+    },
+    "joint_energy": {
+      "feasible": "PASS",
+      "partition": "PASS"
+    },
+    "joint_two_groups": {
+      "feasible": "PASS",
+      "partition": "PASS"
+    },
+    "joint_comprehensive": {
+      "feasible": "PASS",
+      "partition": "PASS"
+    },
+    "transport_delivery": {
+      "feasible": "PASS"
+    },
+    "single_site": {
+      "coverage": "PASS",
+      "arithmetic": "PASS",
+      "sorties": 18,
+      "energy_kwh": 59.13166924155883
+    },
+    "lower_bound": {
+      "status": "PASS",
+      "bound_s": 5357.289171054574
+    }
+  }
+}

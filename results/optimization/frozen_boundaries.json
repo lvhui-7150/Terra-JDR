@@ -1,0 +1,86 @@
+[
+  {
+    "plan": "q2",
+    "energy_reserve_limit": 0.001723491640212238,
+    "energy_critical_sortie": "T024",
+    "fixed_battery_chain_limit": -9.992007221626409e-16,
+    "battery_critical": [
+      "BA01",
+      "T005",
+      "T001"
+    ],
+    "combined_energy_limit": -9.992007221626409e-16,
+    "common_shift_limit_s": 422.52544634451124,
+    "certified_extra_loss_db": null
+  },
+  {
+    "plan": "nominal",
+    "energy_reserve_limit": 0.040150215838381964,
+    "energy_critical_sortie": "T004",
+    "fixed_battery_chain_limit": 0.0,
+    "battery_critical": [
+      "BA02",
+      "T005",
+      "T023"
+    ],
+    "combined_energy_limit": 0.0,
+    "common_shift_limit_s": 420.51359880173686,
+    "certified_extra_loss_db": 0.00802481084750184
+  },
+  {
+    "plan": "robust",
+    "energy_reserve_limit": 0.040150215838381964,
+    "energy_critical_sortie": "T004",
+    "fixed_battery_chain_limit": 0.029999999999999805,
+    "battery_critical": [
+      "BA02",
+      "T005",
+      "T023"
+    ],
+    "combined_energy_limit": 0.029999999999999805,
+    "common_shift_limit_s": 410.87988216251824,
+    "certified_extra_loss_db": 0.3470774947157196
+  },
+  {
+    "plan": "balanced",
+    "energy_reserve_limit": 0.040150215838381964,
+    "energy_critical_sortie": "T004",
+    "fixed_battery_chain_limit": 0.029999999999999805,
+    "battery_critical": [
+      "BA01",
+      "T005",
+      "T019"
+    ],
+    "combined_energy_limit": 0.029999999999999805,
+    "common_shift_limit_s": 413.66431450761,
+    "certified_extra_loss_db": 0.3201916052403817
+  },
+  {
+    "plan": "partition_friendly",
+    "energy_reserve_limit": 0.040150215838381964,
+    "energy_critical_sortie": "T004",
+    "fixed_battery_chain_limit": 0.029999999999999805,
+    "battery_critical": [
+      "BA02",
+      "T005",
+      "T019"
+    ],
+    "combined_energy_limit": 0.029999999999999805,
+    "common_shift_limit_s": 374.8261070956164,
+    "certified_extra_loss_db": 0.3355696245188824
+  },
+  {
+    "plan": "fast_partition_friendly",
+    "energy_reserve_limit": 0.040150215838381964,
+    "energy_critical_sortie": "T004",
+    "fixed_battery_chain_limit": 0.029999999999999805,
+    "battery_critical": [
+      "BA02",
+      "T005",
+      "T023"
+    ],
+    "combined_energy_limit": 0.029999999999999805,
+    "common_shift_limit_s": 374.8261070956164,
+    "certified_extra_loss_db": 0.3355696245188824
+  }
+]

@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the associated manuscript."
+title: "Joint Scheduling of Heterogeneous UAV Delivery and Relay Communication for Mountain Flood Rescue"
+type: software
+authors:
+  - family-names: "Lyu"
+    given-names: "Hui"
+  - family-names: "Li"
+    given-names: "Wei"
+  - family-names: "Tang"
+    given-names: "Zhenghui"
+  - family-names: "Huang"
+    given-names: "Yuqi"
+version: "0.1.0"
+date-released: "2026-09-30"
+repository-code: "https://github.com/lvhui-7150/Terra-JDR"
+license: "NOASSERTION"

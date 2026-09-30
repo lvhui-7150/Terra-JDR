@@ -1,0 +1,1738 @@
+{
+  "records": [
+    {
+      "type": "A",
+      "boxes": [
+        "S006-HYG-01"
+      ],
+      "nodes": [
+        "S006"
+      ],
+      "mass_kg": 6,
+      "volume_m3": 0.035,
+      "energy_kwh": 1.2430243502049692,
+      "return_soc": 0.723772366621118,
+      "duration_s": 1253.485266596983,
+      "takeoff_offset_s": 330,
+      "charge_s": 859.0959233925466,
+      "deliveries": {
+        "S006-HYG-01": 875.5059666318248
+      },
+      "stops": [
+        {
+          "node": "S006",
+          "arrival_offset_s": 695.5059666318248,
+          "delivery_offset_s": 875.5059666318248,
+          "boxes": [
+            "S006-HYG-01"
+          ]
+        }
+      ],
+      "legs": [
+        {
+          "origin": "O01",
+          "destination": "S006",
+          "start_offset_s": 330,
+          "end_offset_s": 695.5059666318248,
+          "payload_kg": 6,
+          "energy_kwh": 0.6559088747400463
+        },
+        {
+          "origin": "S006",
+          "destination": "O01",
+          "start_offset_s": 875.5059666318248,
+          "end_offset_s": 1253.485266596983,
+          "payload_kg": 0,
+          "energy_kwh": 0.5871154754649228
+        }
+      ],
+      "needs": {},
+      "relative_certificates": [],
+      "sortie": "T001",
+      "start_s": 2192.3868913392234,
+      "takeoff_s": 2522.3868913392234,
+      "return_s": 3445.8721579362063,
+      "battery_ready_s": 4304.968081328753,
+      "guarded_battery_ready_s": 4304.968081328753,
+      "uav": "U03",
+      "battery": "BA01",
+      "relay_mission_ids": {},
+      "relay_mission_id": null
+    },
+    {
+      "type": "C",
+      "boxes": [
+        "S006-WAT-01"
+      ],
+      "nodes": [
+        "S006"
+      ],
+      "mass_kg": 14,
+      "volume_m3": 0.027,
+      "energy_kwh": 2.0902732530073256,
+      "return_soc": 0.7387158433740844,
+      "duration_s": 1231.5595259403467,
+      "takeoff_offset_s": 330,
+      "charge_s": 1399.4490060228172,
+      "deliveries": {
+        "S006-WAT-01": 879.4247629701733
+      },
+      "stops": [
+        {
+          "node": "S006",
+          "arrival_offset_s": 663.4247629701733,
+          "delivery_offset_s": 879.4247629701733,
+          "boxes": [
+            "S006-WAT-01"
+          ]
+        }
+      ],
+      "legs": [
+        {
+          "origin": "O01",
+          "destination": "S006",
+          "start_offset_s": 330,
+          "end_offset_s": 663.4247629701733,
+          "payload_kg": 14,
+          "energy_kwh": 1.096317498657254
+        },
+        {
+          "origin": "S006",
+          "destination": "O01",
+          "start_offset_s": 879.4247629701733,
+          "end_offset_s": 1231.5595259403467,
+          "payload_kg": 0,
+          "energy_kwh": 0.9939557543500717
+        }
+      ],
+      "needs": {},
+      "relative_certificates": [],
+      "sortie": "T002",
+      "start_s": 1692.170391878909,
+      "takeoff_s": 2022.170391878909,
+      "return_s": 2923.7299178192557,
+      "battery_ready_s": 4323.178923842073,
+      "guarded_battery_ready_s": 4323.178923842073,
+      "uav": "U07",
+      "battery": "BC04",
+      "relay_mission_ids": {},
+      "relay_mission_id": null
+    },
+    {
+      "type": "A",
+      "boxes": [
+        "S015-FOD-01",
+        "S015-WAT-01"
+      ],
+      "nodes": [
+        "S015"
+      ],
+      "mass_kg": 22,
+      "volume_m3": 0.055,
+      "energy_kwh": 2.5577299186613542,
+      "return_soc": 0.43161557363081016,
+      "duration_s": 1968.6043363894953,
+      "takeoff_offset_s": 360,
+      "charge_s": 1238.8997542799468,
+      "deliveries": {
+        "S015-FOD-01": 1257.7421681947476,
+        "S015-WAT-01": 1257.7421681947476
+      },
+      "stops": [
+        {
+          "node": "S015",
+          "arrival_offset_s": 1047.7421681947476,
+          "delivery_offset_s": 1257.7421681947476,
+          "boxes": [
+            "S015-FOD-01",
+            "S015-WAT-01"
+          ]
+        }
+      ],
+      "legs": [
+        {
+          "origin": "O01",
+          "destination": "S015",
+          "start_offset_s": 360,
+          "end_offset_s": 1047.7421681947476,
+          "payload_kg": 22,
+          "energy_kwh": 1.4502473100879063
+        },
+        {
+          "origin": "S015",
+          "destination": "O01",
+          "start_offset_s": 1257.7421681947476,
+          "end_offset_s": 1968.6043363894953,
+          "payload_kg": 0,
+          "energy_kwh": 1.1074826085734482
+        }
+      ],
+      "needs": {},
+      "relative_certificates": [],
+      "sortie": "T003",
+      "start_s": 2310.0108553451055,
+      "takeoff_s": 2670.0108553451055,
+      "return_s": 4278.615191734601,
+      "battery_ready_s": 5517.514946014548,
+      "guarded_battery_ready_s": 5517.514946014548,
+      "uav": "U04",
+      "battery": "BA02",
+      "relay_mission_ids": {},
+      "relay_mission_id": null
+    },
+    {
+      "type": "B",
+      "boxes": [
+        "S010-FOD-01",
+        "S010-MED-01",
+        "S010-WAT-01"
+      ],
+      "nodes": [
+        "S010"
+      ],
+      "mass_kg": 25,
+      "volume_m3": 0.067,
+      "energy_kwh": 1.8231886104366912,
+      "return_soc": 0.5442028473908271,
+      "duration_s": 1555.376902446339,
+      "takeoff_offset_s": 390,
+      "charge_s": 1456.7150645225663,
+      "deliveries": {
+        "S010-FOD-01": 1085.2251178898362,
+        "S010-MED-01": 1085.2251178898362,
+        "S010-WAT-01": 1085.2251178898362
+      },
+      "stops": [
+        {
+          "node": "S010",
+          "arrival_offset_s": 845.2251178898362,
+          "delivery_offset_s": 1085.2251178898362,
+          "boxes": [
+            "S010-FOD-01",
+            "S010-MED-01",
+            "S010-WAT-01"
+          ]
+        }
+      ],
+      "legs": [
+        {
+          "origin": "O01",
+          "destination": "S010",
+          "start_offset_s": 390,
+          "end_offset_s": 845.2251178898362,
+          "payload_kg": 25,
+          "energy_kwh": 1.1190186281871264
+        },
+        {
+          "origin": "S010",
+          "destination": "O01",
+          "start_offset_s": 1085.2251178898362,
+          "end_offset_s": 1555.376902446339,
+          "payload_kg": 0,
+          "energy_kwh": 0.7041699822495648
+        }
+      ],
+      "needs": {},
+      "relative_certificates": [],
+      "sortie": "T004",
+      "start_s": 1510.4702802929446,
+      "takeoff_s": 1900.4702802929446,
+      "return_s": 3065.8471827392837,
+      "battery_ready_s": 4522.56224726185,
+      "guarded_battery_ready_s": 4522.562247261851,
+      "uav": "U05",
+      "battery": "BB03",
+      "relay_mission_ids": {},
+      "relay_mission_id": null
+    },
+    {
+      "type": "A",
+      "boxes": [
+        "S006-MED-01",
+        "S006-WAT-02"
+      ],
+      "nodes": [
+        "S006"
+      ],
+      "mass_kg": 17,
+      "volume_m3": 0.039,
+      "energy_kwh": 1.3115825471846803,
+      "return_soc": 0.7085372117367377,
+      "duration_s": 1313.485266596983,
+      "takeoff_offset_s": 360,
+      "charge_s": 878.901624742241,
+      "deliveries": {
+        "S006-MED-01": 935.5059666318248,
+        "S006-WAT-02": 935.5059666318248
+      },
+      "stops": [
+        {
+          "node": "S006",
+          "arrival_offset_s": 725.5059666318248,
+          "delivery_offset_s": 935.5059666318248,
+          "boxes": [
+            "S006-MED-01",
+            "S006-WAT-02"
+          ]
+        }
+      ],
+      "legs": [
+        {
+          "origin": "O01",
+          "destination": "S006",
+          "start_offset_s": 360,
+          "end_offset_s": 725.5059666318248,
+          "payload_kg": 17,
+          "energy_kwh": 0.7244670717197573
+        },
+        {
+          "origin": "S006",
+          "destination": "O01",
+          "start_offset_s": 935.5059666318248,
+          "end_offset_s": 1313.485266596983,
+          "payload_kg": 0,
+          "energy_kwh": 0.5871154754649228
+        }
+      ],
+      "needs": {},
+      "relative_certificates": [],
+      "sortie": "T005",
+      "start_s": 0,
+      "takeoff_s": 360,
+      "return_s": 1313.485266596983,
+      "battery_ready_s": 2192.386891339224,
+      "guarded_battery_ready_s": 2192.386891339224,
+      "uav": "U01",
+      "battery": "BA01",
+      "relay_mission_ids": {},
+      "relay_mission_id": null
+    },
+    {
+      "type": "B",
+      "boxes": [
+        "S013-FOD-01",
+        "S013-MED-01",
+        "S013-WAT-01"
+      ],
+      "nodes": [
+        "S013"
+      ],
+      "mass_kg": 25,
+      "volume_m3": 0.067,
+      "energy_kwh": 1.8247538307943802,
+      "return_soc": 0.5438115423014049,
+      "duration_s": 1510.4702802929446,
+      "takeoff_offset_s": 390,
+      "charge_s": 1457.3933266775648,
+      "deliveries": {
+        "S013-FOD-01": 1062.7684734798056,
+        "S013-MED-01": 1062.7684734798056,
+        "S013-WAT-01": 1062.7684734798056
+      },
+      "stops": [
+        {
+          "node": "S013",
+          "arrival_offset_s": 822.7684734798056,
+          "delivery_offset_s": 1062.7684734798056,
+          "boxes": [
+            "S013-FOD-01",
+            "S013-MED-01",
+            "S013-WAT-01"
+          ]
+        }
+      ],
+      "legs": [
+        {
+          "origin": "O01",
+          "destination": "S013",
+          "start_offset_s": 390,
+          "end_offset_s": 822.7684734798056,
+          "payload_kg": 25,
+          "energy_kwh": 1.1203262522558084
+        },
+        {
+          "origin": "S013",
+          "destination": "O01",
+          "start_offset_s": 1062.7684734798056,
+          "end_offset_s": 1510.4702802929446,
+          "payload_kg": 0,
+          "energy_kwh": 0.704427578538572
+        }
+      ],
+      "needs": {},
+      "relative_certificates": [],
+      "sortie": "T006",
+      "start_s": 0,
+      "takeoff_s": 390,
+      "return_s": 1510.4702802929446,
+      "battery_ready_s": 2967.8636069705094,
+      "guarded_battery_ready_s": 2967.8636069705094,
+      "uav": "U05",
+      "battery": "BB01",
+      "relay_mission_ids": {},
+      "relay_mission_id": null
+    },
+    {
+      "type": "B",
+      "boxes": [
+        "S014-FOD-01",
+        "S014-MED-01",
+        "S014-WAT-01"
+      ],
+      "nodes": [
+        "S014"
+      ],
+      "mass_kg": 25,
+      "volume_m3": 0.067,
+      "energy_kwh": 2.1403772473853553,
+      "return_soc": 0.4649056881536612,
+      "duration_s": 1869.7521946190163,
+      "takeoff_offset_s": 390,
+      "charge_s": 1594.1634738669875,
+      "deliveries": {
+        "S014-FOD-01": 1242.4327639761748,
+        "S014-MED-01": 1242.4327639761748,
+        "S014-WAT-01": 1242.4327639761748
+      },
+      "stops": [
+        {
+          "node": "S014",
+          "arrival_offset_s": 1002.4327639761748,
+          "delivery_offset_s": 1242.4327639761748,
+          "boxes": [
+            "S014-FOD-01",
+            "S014-MED-01",
+            "S014-WAT-01"
+          ]
+        }
+      ],
+      "legs": [
+        {
+          "origin": "O01",
+          "destination": "S014",
+          "start_offset_s": 390,
+          "end_offset_s": 1002.4327639761748,
+          "payload_kg": 25,
+          "energy_kwh": 1.306878203195963
+        },
+        {
+          "origin": "S014",
+          "destination": "O01",
+          "start_offset_s": 1242.4327639761748,
+          "end_offset_s": 1869.7521946190163,
+          "payload_kg": 0,
+          "energy_kwh": 0.8334990441893925
+        }
+      ],
+      "needs": {},
+      "relative_certificates": [],
+      "sortie": "T007",
+      "start_s": 0,
+      "takeoff_s": 390,
+      "return_s": 1869.7521946190163,
+      "battery_ready_s": 3463.9156684860036,
+      "guarded_battery_ready_s": 3463.9156684860036,
+      "uav": "U06",
+      "battery": "BB02",
+      "relay_mission_ids": {},
+      "relay_mission_id": null
+    },
+    {
+      "type": "B",
+      "boxes": [
+        "S008-HYG-01",
+        "S008-WAT-01"
+      ],
+      "nodes": [
+        "S008"
+      ],
+      "mass_kg": 20,
+      "volume_m3": 0.062,
+      "energy_kwh": 2.763468095444492,
+      "return_soc": 0.309132976138877,
+      "duration_s": 1901.842307167044,
+      "takeoff_offset_s": 360,
+      "charge_s": 1864.1695080259467,
+      "deliveries": {
+        "S008-HYG-01": 1231.1478202501887,
+        "S008-WAT-01": 1231.1478202501887
+      },
+      "stops": [
+        {
+          "node": "S008",
+          "arrival_offset_s": 1021.1478202501887,
+          "delivery_offset_s": 1231.1478202501887,
+          "boxes": [
+            "S008-HYG-01",
+            "S008-WAT-01"
+          ]
+        }
+      ],
+      "legs": [
+        {
+          "origin": "O01",
+          "destination": "S008",
+          "start_offset_s": 360,
+          "end_offset_s": 1021.1478202501887,
+          "payload_kg": 20,
+          "energy_kwh": 1.5842138557746717
+        },
+        {
+          "origin": "S008",
+          "destination": "O01",
+          "start_offset_s": 1231.1478202501887,
+          "end_offset_s": 1901.842307167044,
+          "payload_kg": 0,
+          "energy_kwh": 1.1792542396698205
+        }
+      ],
+      "needs": {},
+      "relative_certificates": [],
+      "sortie": "T008",
+      "start_s": 3831.5945017860604,
+      "takeoff_s": 4191.59450178606,
+      "return_s": 5733.436808953104,
+      "battery_ready_s": 7597.606316979051,
+      "guarded_battery_ready_s": 7597.606316979051,
+      "uav": "U06",
+      "battery": "BB02",
+      "relay_mission_ids": {},
+      "relay_mission_id": null
+    },
+    {
+      "type": "A",
+      "boxes": [
+        "S007-FOD-01",
+        "S007-WAT-01"
+      ],
+      "nodes": [
+        "S007"
+      ],
+      "mass_kg": 22,
+      "volume_m3": 0.055,
+      "energy_kwh": 1.9709490693659246,
+      "return_soc": 0.5620113179186834,
+      "duration_s": 1727.4353226736384,
+      "takeoff_offset_s": 360,
+      "charge_s": 1069.3852867057115,
+      "deliveries": {
+        "S007-FOD-01": 1141.357661336819,
+        "S007-WAT-01": 1141.357661336819
+      },
+      "stops": [
+        {
+          "node": "S007",
+          "arrival_offset_s": 931.3576613368192,
+          "delivery_offset_s": 1141.357661336819,
+          "boxes": [
+            "S007-FOD-01",
+            "S007-WAT-01"
+          ]
+        }
+      ],
+      "legs": [
+        {
+          "origin": "O01",
+          "destination": "S007",
+          "start_offset_s": 360,
+          "end_offset_s": 931.3576613368192,
+          "payload_kg": 22,
+          "energy_kwh": 1.1114249910716223
+        },
+        {
+          "origin": "S007",
+          "destination": "O01",
+          "start_offset_s": 1141.357661336819,
+          "end_offset_s": 1727.4353226736384,
+          "payload_kg": 0,
+          "energy_kwh": 0.8595240782943024
+        }
+      ],
+      "needs": {},
+      "relative_certificates": [],
+      "sortie": "T009",
+      "start_s": 1313.485266596983,
+      "takeoff_s": 1673.485266596983,
+      "return_s": 3040.9205892706213,
+      "battery_ready_s": 4110.305875976333,
+      "guarded_battery_ready_s": 4110.305875976333,
+      "uav": "U02",
+      "battery": "BA05",
+      "relay_mission_ids": {},
+      "relay_mission_id": null
+    },
+    {
+      "type": "C",
+      "boxes": [
+        "S002-FOD-01",
+        "S002-FOD-02",
+        "S002-HYG-01",
+        "S002-WAT-02",
+        "S002-WAT-03",
+        "S002-WAT-04"
+      ],
+      "nodes": [
+        "S002"
+      ],
+      "mass_kg": 64,
+      "volume_m3": 0.172,
+      "energy_kwh": 6.105653653738609,
+      "return_soc": 0.23679329328267384,
+      "duration_s": 2107.812018638708,
+      "takeoff_offset_s": 480,
+      "charge_s": 2486.9478645542067,
+      "deliveries": {
+        "S002-FOD-01": 1487.3160093193542,
+        "S002-FOD-02": 1487.3160093193542,
+        "S002-HYG-01": 1487.3160093193542,
+        "S002-WAT-02": 1487.3160093193542,
+        "S002-WAT-03": 1487.3160093193542,
+        "S002-WAT-04": 1487.3160093193542
+      },
+      "stops": [
+        {
+          "node": "S002",
+          "arrival_offset_s": 1091.3160093193542,
+          "delivery_offset_s": 1487.3160093193542,
+          "boxes": [
+            "S002-FOD-01",
+            "S002-FOD-02",
+            "S002-HYG-01",
+            "S002-WAT-02",
+            "S002-WAT-03",
+            "S002-WAT-04"
+          ]
+        }
+      ],
+      "legs": [
+        {
+          "origin": "O01",
+          "destination": "S002",
+          "start_offset_s": 480,
+          "end_offset_s": 1091.3160093193542,
+          "payload_kg": 64,
+          "energy_kwh": 3.801585972513928
+        },
+        {
+          "origin": "S002",
+          "destination": "O01",
+          "start_offset_s": 1487.3160093193542,
+          "end_offset_s": 2107.812018638708,
+          "payload_kg": 0,
+          "energy_kwh": 2.3040676812246814
+        }
+      ],
+      "needs": {},
+      "relative_certificates": [],
+      "sortie": "T010",
+      "start_s": 1494.170391878909,
+      "takeoff_s": 1974.170391878909,
+      "return_s": 3601.982410517617,
+      "battery_ready_s": 6088.930275071823,
+      "guarded_battery_ready_s": 6088.930275071824,
+      "uav": "U08",
+      "battery": "BC03",
+      "relay_mission_ids": {},
+      "relay_mission_id": null
+    },
+    {
+      "type": "A",
+      "boxes": [
+        "S005-FOD-01",
+        "S005-WAT-02"
+      ],
+      "nodes": [
+        "S005"
+      ],
+      "mass_kg": 22,
+      "volume_m3": 0.055,
+      "energy_kwh": 2.193002149867235,
+      "return_soc": 0.5126661889183922,
+      "duration_s": 1692.1962516181256,
+      "takeoff_offset_s": 360,
+      "charge_s": 1133.53395440609,
+      "deliveries": {
+        "S005-FOD-01": 1128.8547924757295,
+        "S005-WAT-02": 1128.8547924757295
+      },
+      "stops": [
+        {
+          "node": "S005",
+          "arrival_offset_s": 918.8547924757296,
+          "delivery_offset_s": 1128.8547924757295,
+          "boxes": [
+            "S005-FOD-01",
+            "S005-WAT-02"
+          ]
+        }
+      ],
+      "legs": [
+        {
+          "origin": "O01",
+          "destination": "S005",
+          "start_offset_s": 360,
+          "end_offset_s": 918.8547924757296,
+          "payload_kg": 22,
+          "energy_kwh": 1.2076718860340199
+        },
+        {
+          "origin": "S005",
+          "destination": "O01",
+          "start_offset_s": 1128.8547924757295,
+          "end_offset_s": 1692.1962516181256,
+          "payload_kg": 0,
+          "energy_kwh": 0.985330263833215
+        }
+      ],
+      "needs": {},
+      "relative_certificates": [],
+      "sortie": "T011",
+      "start_s": 4110.305875976333,
+      "takeoff_s": 4470.305875976333,
+      "return_s": 5802.502127594458,
+      "battery_ready_s": 6936.036082000548,
+      "guarded_battery_ready_s": 6936.036082000548,
+      "uav": "U01",
+      "battery": "BA05",
+      "relay_mission_ids": {},
+      "relay_mission_id": null
+    },
+    {
+      "type": "A",
+      "boxes": [
+        "S009-FOD-01",
+        "S009-WAT-01"
+      ],
+      "nodes": [
+        "S009"
+      ],
+      "mass_kg": 22,
+      "volume_m3": 0.055,
+      "energy_kwh": 2.331317933180175,
+      "return_soc": 0.48192934818218325,
+      "duration_s": 1688.6138747133841,
+      "takeoff_offset_s": 360,
+      "charge_s": 1173.4918473631617,
+      "deliveries": {
+        "S009-FOD-01": 1125.896937356692,
+        "S009-WAT-01": 1125.896937356692
+      },
+      "stops": [
+        {
+          "node": "S009",
+          "arrival_offset_s": 915.8969373566921,
+          "delivery_offset_s": 1125.896937356692,
+          "boxes": [
+            "S009-FOD-01",
+            "S009-WAT-01"
+          ]
+        }
+      ],
+      "legs": [
+        {
+          "origin": "O01",
+          "destination": "S009",
+          "start_offset_s": 360,
+          "end_offset_s": 915.8969373566921,
+          "payload_kg": 22,
+          "energy_kwh": 1.287639874780699
+        },
+        {
+          "origin": "S009",
+          "destination": "O01",
+          "start_offset_s": 1125.896937356692,
+          "end_offset_s": 1688.6138747133841,
+          "payload_kg": 0,
+          "energy_kwh": 1.0436780583994765
+        }
+      ],
+      "needs": {},
+      "relative_certificates": [],
+      "sortie": "T012",
+      "start_s": 4304.968081328753,
+      "takeoff_s": 4664.968081328753,
+      "return_s": 5993.581956042137,
+      "battery_ready_s": 7167.073803405298,
+      "guarded_battery_ready_s": 7167.073803405299,
+      "uav": "U04",
+      "battery": "BA01",
+      "relay_mission_ids": {},
+      "relay_mission_id": null
+    },
+    {
+      "type": "C",
+      "boxes": [
+        "S004-FOD-01",
+        "S004-HYG-01",
+        "S004-MED-01",
+        "S004-WAT-01",
+        "S004-WAT-02",
+        "S004-WAT-03"
+      ],
+      "nodes": [
+        "S004"
+      ],
+      "mass_kg": 59,
+      "volume_m3": 0.156,
+      "energy_kwh": 6.152957431097077,
+      "return_soc": 0.23088032111286538,
+      "duration_s": 2301.061066593163,
+      "takeoff_offset_s": 480,
+      "charge_s": 2499.759304255458,
+      "deliveries": {
+        "S004-FOD-01": 1583.5005332965816,
+        "S004-HYG-01": 1583.5005332965816,
+        "S004-MED-01": 1583.5005332965816,
+        "S004-WAT-01": 1583.5005332965816,
+        "S004-WAT-02": 1583.5005332965816,
+        "S004-WAT-03": 1583.5005332965816
+      },
+      "stops": [
+        {
+          "node": "S004",
+          "arrival_offset_s": 1187.5005332965816,
+          "delivery_offset_s": 1583.5005332965816,
+          "boxes": [
+            "S004-FOD-01",
+            "S004-HYG-01",
+            "S004-MED-01",
+            "S004-WAT-01",
+            "S004-WAT-02",
+            "S004-WAT-03"
+          ]
+        }
+      ],
+      "legs": [
+        {
+          "origin": "O01",
+          "destination": "S004",
+          "start_offset_s": 480,
+          "end_offset_s": 1187.5005332965816,
+          "payload_kg": 59,
+          "energy_kwh": 3.7342368229486995
+        },
+        {
+          "origin": "S004",
+          "destination": "O01",
+          "start_offset_s": 1583.5005332965816,
+          "end_offset_s": 2301.061066593163,
+          "payload_kg": 0,
+          "energy_kwh": 2.418720608148378
+        }
+      ],
+      "needs": {},
+      "relative_certificates": [],
+      "sortie": "T013",
+      "start_s": 3601.982410517617,
+      "takeoff_s": 4081.982410517617,
+      "return_s": 5903.04347711078,
+      "battery_ready_s": 8402.802781366237,
+      "guarded_battery_ready_s": 8402.80278136624,
+      "uav": "U08",
+      "battery": "BC01",
+      "relay_mission_ids": {},
+      "relay_mission_id": null
+    },
+    {
+      "type": "C",
+      "boxes": [
+        "S001-FOD-02",
+        "S001-FOD-03",
+        "S001-HYG-01",
+        "S001-HYG-02",
+        "S001-MED-01",
+        "S001-MED-02",
+        "S001-WAT-06",
+        "S001-WAT-07",
+        "S001-WAT-08"
+      ],
+      "nodes": [
+        "S001"
+      ],
+      "mass_kg": 76,
+      "volume_m3": 0.231,
+      "energy_kwh": 2.9175913912014897,
+      "return_soc": 0.6353010760998138,
+      "duration_s": 1692.1703918789087,
+      "takeoff_offset_s": 570,
+      "charge_s": 1623.51433511707,
+      "deliveries": {
+        "S001-FOD-02": 1380.2701959394544,
+        "S001-FOD-03": 1380.2701959394544,
+        "S001-HYG-01": 1380.2701959394544,
+        "S001-HYG-02": 1380.2701959394544,
+        "S001-MED-01": 1380.2701959394544,
+        "S001-MED-02": 1380.2701959394544,
+        "S001-WAT-06": 1380.2701959394544,
+        "S001-WAT-07": 1380.2701959394544,
+        "S001-WAT-08": 1380.2701959394544
+      },
+      "stops": [
+        {
+          "node": "S001",
+          "arrival_offset_s": 876.2701959394543,
+          "delivery_offset_s": 1380.2701959394544,
+          "boxes": [
+            "S001-FOD-02",
+            "S001-FOD-03",
+            "S001-HYG-01",
+            "S001-HYG-02",
+            "S001-MED-01",
+            "S001-MED-02",
+            "S001-WAT-06",
+            "S001-WAT-07",
+            "S001-WAT-08"
+          ]
+        }
+      ],
+      "legs": [
+        {
+          "origin": "O01",
+          "destination": "S001",
+          "start_offset_s": 570,
+          "end_offset_s": 876.2701959394543,
+          "payload_kg": 76,
+          "energy_kwh": 1.9543424478809301
+        },
+        {
+          "origin": "S001",
+          "destination": "O01",
+          "start_offset_s": 1380.2701959394544,
+          "end_offset_s": 1692.1703918789087,
+          "payload_kg": 0,
+          "energy_kwh": 0.9632489433205597
+        }
+      ],
+      "needs": {},
+      "relative_certificates": [],
+      "sortie": "T014",
+      "start_s": 0,
+      "takeoff_s": 570,
+      "return_s": 1692.1703918789087,
+      "battery_ready_s": 3315.684726995979,
+      "guarded_battery_ready_s": 3315.684726995979,
+      "uav": "U07",
+      "battery": "BC01",
+      "relay_mission_ids": {},
+      "relay_mission_id": null
+    },
+    {
+      "type": "C",
+      "boxes": [
+        "S001-FOD-01",
+        "S001-WAT-01",
+        "S001-WAT-02",
+        "S001-WAT-03",
+        "S001-WAT-04",
+        "S001-WAT-05"
+      ],
+      "nodes": [
+        "S001"
+      ],
+      "mass_kg": 78,
+      "volume_m3": 0.163,
+      "energy_kwh": 2.995778595200528,
+      "return_soc": 0.6255276755999339,
+      "duration_s": 1494.1703918789087,
+      "takeoff_offset_s": 480,
+      "charge_s": 1644.6900362001431,
+      "deliveries": {
+        "S001-FOD-01": 1182.2701959394544,
+        "S001-WAT-01": 1182.2701959394544,
+        "S001-WAT-02": 1182.2701959394544,
+        "S001-WAT-03": 1182.2701959394544,
+        "S001-WAT-04": 1182.2701959394544,
+        "S001-WAT-05": 1182.2701959394544
+      },
+      "stops": [
+        {
+          "node": "S001",
+          "arrival_offset_s": 786.2701959394543,
+          "delivery_offset_s": 1182.2701959394544,
+          "boxes": [
+            "S001-FOD-01",
+            "S001-WAT-01",
+            "S001-WAT-02",
+            "S001-WAT-03",
+            "S001-WAT-04",
+            "S001-WAT-05"
+          ]
+        }
+      ],
+      "legs": [
+        {
+          "origin": "O01",
+          "destination": "S001",
+          "start_offset_s": 480,
+          "end_offset_s": 786.2701959394543,
+          "payload_kg": 78,
+          "energy_kwh": 2.0325296518799685
+        },
+        {
+          "origin": "S001",
+          "destination": "O01",
+          "start_offset_s": 1182.2701959394544,
+          "end_offset_s": 1494.1703918789087,
+          "payload_kg": 0,
+          "energy_kwh": 0.9632489433205597
+        }
+      ],
+      "needs": {},
+      "relative_certificates": [],
+      "sortie": "T015",
+      "start_s": 0,
+      "takeoff_s": 480,
+      "return_s": 1494.1703918789087,
+      "battery_ready_s": 3138.860428079052,
+      "guarded_battery_ready_s": 3138.860428079052,
+      "uav": "U08",
+      "battery": "BC02",
+      "relay_mission_ids": {},
+      "relay_mission_id": null
+    },
+    {
+      "type": "B",
+      "boxes": [
+        "S005-HYG-01",
+        "S005-WAT-01"
+      ],
+      "nodes": [
+        "S005"
+      ],
+      "mass_kg": 20,
+      "volume_m3": 0.062,
+      "energy_kwh": 1.8345390794002991,
+      "return_soc": 0.5413652301499252,
+      "duration_s": 1516.174861971584,
+      "takeoff_offset_s": 360,
+      "charge_s": 1461.6336010734628,
+      "deliveries": {
+        "S005-HYG-01": 1040.8440976524587,
+        "S005-WAT-01": 1040.8440976524587
+      },
+      "stops": [
+        {
+          "node": "S005",
+          "arrival_offset_s": 830.8440976524587,
+          "delivery_offset_s": 1040.8440976524587,
+          "boxes": [
+            "S005-HYG-01",
+            "S005-WAT-01"
+          ]
+        }
+      ],
+      "legs": [
+        {
+          "origin": "O01",
+          "destination": "S005",
+          "start_offset_s": 360,
+          "end_offset_s": 830.8440976524587,
+          "payload_kg": 20,
+          "energy_kwh": 1.047833704011937
+        },
+        {
+          "origin": "S005",
+          "destination": "O01",
+          "start_offset_s": 1040.8440976524587,
+          "end_offset_s": 1516.174861971584,
+          "payload_kg": 0,
+          "energy_kwh": 0.786705375388362
+        }
+      ],
+      "needs": {},
+      "relative_certificates": [],
+      "sortie": "T016",
+      "start_s": 3065.8471827392837,
+      "takeoff_s": 3425.8471827392837,
+      "return_s": 4582.022044710868,
+      "battery_ready_s": 6043.655645784331,
+      "guarded_battery_ready_s": 6043.655645784331,
+      "uav": "U05",
+      "battery": "BB01",
+      "relay_mission_ids": {},
+      "relay_mission_id": null
+    },
+    {
+      "type": "B",
+      "boxes": [
+        "S008-FOD-01",
+        "S008-MED-01",
+        "S008-WAT-02"
+      ],
+      "nodes": [
+        "S008"
+      ],
+      "mass_kg": 25,
+      "volume_m3": 0.067,
+      "energy_kwh": 2.975245457023399,
+      "return_soc": 0.2561886357441503,
+      "duration_s": 1961.842307167044,
+      "takeoff_offset_s": 390,
+      "charge_s": 1955.939698043473,
+      "deliveries": {
+        "S008-FOD-01": 1291.1478202501887,
+        "S008-MED-01": 1291.1478202501887,
+        "S008-WAT-02": 1291.1478202501887
+      },
+      "stops": [
+        {
+          "node": "S008",
+          "arrival_offset_s": 1051.1478202501887,
+          "delivery_offset_s": 1291.1478202501887,
+          "boxes": [
+            "S008-FOD-01",
+            "S008-MED-01",
+            "S008-WAT-02"
+          ]
+        }
+      ],
+      "legs": [
+        {
+          "origin": "O01",
+          "destination": "S008",
+          "start_offset_s": 390,
+          "end_offset_s": 1051.1478202501887,
+          "payload_kg": 25,
+          "energy_kwh": 1.7959912173535781
+        },
+        {
+          "origin": "S008",
+          "destination": "O01",
+          "start_offset_s": 1291.1478202501887,
+          "end_offset_s": 1961.842307167044,
+          "payload_kg": 0,
+          "energy_kwh": 1.1792542396698205
+        }
+      ],
+      "needs": {},
+      "relative_certificates": [],
+      "sortie": "T017",
+      "start_s": 1869.7521946190163,
+      "takeoff_s": 2259.7521946190163,
+      "return_s": 3831.5945017860604,
+      "battery_ready_s": 5787.5341998295335,
+      "guarded_battery_ready_s": 5787.5341998295335,
+      "uav": "U06",
+      "battery": "BB04",
+      "relay_mission_ids": {},
+      "relay_mission_id": null
+    },
+    {
+      "type": "A",
+      "boxes": [
+        "S005-MED-01",
+        "S005-WAT-03",
+        "S009-MED-01"
+      ],
+      "nodes": [
+        "S005",
+        "S009"
+      ],
+      "mass_kg": 20,
+      "volume_m3": 0.051000000000000004,
+      "energy_kwh": 2.7481806705619523,
+      "return_soc": 0.38929318431956617,
+      "duration_s": 2232.0118689706637,
+      "takeoff_offset_s": 390,
+      "charge_s": 1293.918860384564,
+      "deliveries": {
+        "S005-MED-01": 1158.8547924757295,
+        "S005-WAT-03": 1158.8547924757295,
+        "S009-MED-01": 1669.2949316139718
+      },
+      "stops": [
+        {
+          "node": "S005",
+          "arrival_offset_s": 948.8547924757296,
+          "delivery_offset_s": 1158.8547924757295,
+          "boxes": [
+            "S005-MED-01",
+            "S005-WAT-03"
+          ]
+        },
+        {
+          "node": "S009",
+          "arrival_offset_s": 1489.2949316139718,
+          "delivery_offset_s": 1669.2949316139718,
+          "boxes": [
+            "S009-MED-01"
+          ]
+        }
+      ],
+      "legs": [
+        {
+          "origin": "O01",
+          "destination": "S005",
+          "start_offset_s": 390,
+          "end_offset_s": 948.8547924757296,
+          "payload_kg": 20,
+          "energy_kwh": 1.1769457482828447
+        },
+        {
+          "origin": "S005",
+          "destination": "S009",
+          "start_offset_s": 1158.8547924757295,
+          "end_offset_s": 1489.2949316139718,
+          "payload_kg": 3,
+          "energy_kwh": 0.5275568638796312
+        },
+        {
+          "origin": "S009",
+          "destination": "O01",
+          "start_offset_s": 1669.2949316139718,
+          "end_offset_s": 2232.0118689706637,
+          "payload_kg": 0,
+          "energy_kwh": 1.0436780583994765
+        }
+      ],
+      "needs": {},
+      "relative_certificates": [],
+      "sortie": "T018",
+      "start_s": 3492.632226070178,
+      "takeoff_s": 3882.632226070178,
+      "return_s": 5724.644095040841,
+      "battery_ready_s": 7018.562955425406,
+      "guarded_battery_ready_s": 7018.562955425406,
+      "uav": "U02",
+      "battery": "BA03",
+      "relay_mission_ids": {},
+      "relay_mission_id": null
+    },
+    {
+      "type": "A",
+      "boxes": [
+        "S003-FOD-01",
+        "S003-WAT-01"
+      ],
+      "nodes": [
+        "S003"
+      ],
+      "mass_kg": 22,
+      "volume_m3": 0.055,
+      "energy_kwh": 3.0836514988184573,
+      "return_soc": 0.3147441113736762,
+      "duration_s": 2262.6540221775354,
+      "takeoff_offset_s": 360,
+      "charge_s": 1390.832655214221,
+      "deliveries": {
+        "S003-FOD-01": 1409.300344422101,
+        "S003-WAT-01": 1409.300344422101
+      },
+      "stops": [
+        {
+          "node": "S003",
+          "arrival_offset_s": 1199.300344422101,
+          "delivery_offset_s": 1409.300344422101,
+          "boxes": [
+            "S003-FOD-01",
+            "S003-WAT-01"
+          ]
+        }
+      ],
+      "legs": [
+        {
+          "origin": "O01",
+          "destination": "S003",
+          "start_offset_s": 360,
+          "end_offset_s": 1199.300344422101,
+          "payload_kg": 22,
+          "energy_kwh": 1.7170924203626978
+        },
+        {
+          "origin": "S003",
+          "destination": "O01",
+          "start_offset_s": 1409.300344422101,
+          "end_offset_s": 2262.6540221775354,
+          "payload_kg": 0,
+          "energy_kwh": 1.3665590784557597
+        }
+      ],
+      "needs": {},
+      "relative_certificates": [],
+      "sortie": "T019",
+      "start_s": 3571.641115073833,
+      "takeoff_s": 3931.641115073833,
+      "return_s": 5834.295137251369,
+      "battery_ready_s": 7225.12779246559,
+      "guarded_battery_ready_s": 7225.12779246559,
+      "uav": "U03",
+      "battery": "BA04",
+      "relay_mission_ids": {},
+      "relay_mission_id": null
+    },
+    {
+      "type": "C",
+      "boxes": [
+        "S003-FOD-02",
+        "S003-HYG-01",
+        "S003-MED-01",
+        "S003-WAT-02",
+        "S003-WAT-03",
+        "S003-WAT-04",
+        "S007-HYG-01"
+      ],
+      "nodes": [
+        "S007",
+        "S003"
+      ],
+      "mass_kg": 65,
+      "volume_m3": 0.191,
+      "energy_kwh": 6.100968460453736,
+      "return_soc": 0.23737894244328295,
+      "duration_s": 2693.612146725356,
+      "takeoff_offset_s": 510,
+      "charge_s": 2485.6789580395534,
+      "deliveries": {
+        "S007-HYG-01": 1263.7477239180882,
+        "S003-FOD-02": 1903.0165745568158,
+        "S003-HYG-01": 1903.0165745568158,
+        "S003-MED-01": 1903.0165745568158,
+        "S003-WAT-02": 1903.0165745568158,
+        "S003-WAT-03": 1903.0165745568158,
+        "S003-WAT-04": 1903.0165745568158
+      },
+      "stops": [
+        {
+          "node": "S007",
+          "arrival_offset_s": 1047.7477239180882,
+          "delivery_offset_s": 1263.7477239180882,
+          "boxes": [
+            "S007-HYG-01"
+          ]
+        },
+        {
+          "node": "S003",
+          "arrival_offset_s": 1507.0165745568158,
+          "delivery_offset_s": 1903.0165745568158,
+          "boxes": [
+            "S003-FOD-02",
+            "S003-HYG-01",
+            "S003-MED-01",
+            "S003-WAT-02",
+            "S003-WAT-03",
+            "S003-WAT-04"
+          ]
+        }
+      ],
+      "legs": [
+        {
+          "origin": "O01",
+          "destination": "S007",
+          "start_offset_s": 510,
+          "end_offset_s": 1047.7477239180882,
+          "payload_kg": 65,
+          "energy_kwh": 2.4999271573409456
+        },
+        {
+          "origin": "S007",
+          "destination": "S003",
+          "start_offset_s": 1263.7477239180882,
+          "end_offset_s": 1507.0165745568158,
+          "payload_kg": 59,
+          "energy_kwh": 1.3070956613548779
+        },
+        {
+          "origin": "S003",
+          "destination": "O01",
+          "start_offset_s": 1903.0165745568158,
+          "end_offset_s": 2693.612146725356,
+          "payload_kg": 0,
+          "energy_kwh": 2.293945641757913
+        }
+      ],
+      "needs": {},
+      "relative_certificates": [],
+      "sortie": "T020",
+      "start_s": 3138.860428079052,
+      "takeoff_s": 3648.860428079052,
+      "return_s": 5832.4725748044075,
+      "battery_ready_s": 8318.15153284396,
+      "guarded_battery_ready_s": 8318.151532843962,
+      "uav": "U07",
+      "battery": "BC02",
+      "relay_mission_ids": {},
+      "relay_mission_id": null
+    },
+    {
+      "type": "B",
+      "boxes": [
+        "S011-FOD-01",
+        "S011-MED-01",
+        "S011-WAT-01"
+      ],
+      "nodes": [
+        "S011"
+      ],
+      "mass_kg": 25,
+      "volume_m3": 0.067,
+      "energy_kwh": 1.0739602222253186,
+      "return_soc": 0.7315099444436703,
+      "duration_s": 1188.4236501116006,
+      "takeoff_offset_s": 390,
+      "charge_s": 1132.0494296309714,
+      "deliveries": {
+        "S011-FOD-01": 906.398491722467,
+        "S011-MED-01": 906.398491722467,
+        "S011-WAT-01": 906.398491722467
+      },
+      "stops": [
+        {
+          "node": "S011",
+          "arrival_offset_s": 666.398491722467,
+          "delivery_offset_s": 906.398491722467,
+          "boxes": [
+            "S011-FOD-01",
+            "S011-MED-01",
+            "S011-WAT-01"
+          ]
+        }
+      ],
+      "legs": [
+        {
+          "origin": "O01",
+          "destination": "S011",
+          "start_offset_s": 390,
+          "end_offset_s": 666.398491722467,
+          "payload_kg": 25,
+          "energy_kwh": 0.6523203855181129
+        },
+        {
+          "origin": "S011",
+          "destination": "O01",
+          "start_offset_s": 906.398491722467,
+          "end_offset_s": 1188.4236501116006,
+          "payload_kg": 0,
+          "energy_kwh": 0.42163983670720573
+        }
+      ],
+      "needs": {},
+      "relative_certificates": [],
+      "sortie": "T021",
+      "start_s": 4582.022044710868,
+      "takeoff_s": 4972.022044710868,
+      "return_s": 5770.445694822469,
+      "battery_ready_s": 6902.49512445344,
+      "guarded_battery_ready_s": 6902.4951244534395,
+      "uav": "U05",
+      "battery": "BB03",
+      "relay_mission_ids": {},
+      "relay_mission_id": null
+    },
+    {
+      "type": "A",
+      "boxes": [
+        "S006-FOD-01",
+        "S006-WAT-03"
+      ],
+      "nodes": [
+        "S006"
+      ],
+      "mass_kg": 22,
+      "volume_m3": 0.055,
+      "energy_kwh": 1.3570651342478617,
+      "return_soc": 0.6984299701671419,
+      "duration_s": 1313.485266596983,
+      "takeoff_offset_s": 360,
+      "charge_s": 892.0410387827154,
+      "deliveries": {
+        "S006-FOD-01": 935.5059666318248,
+        "S006-WAT-03": 935.5059666318248
+      },
+      "stops": [
+        {
+          "node": "S006",
+          "arrival_offset_s": 725.5059666318248,
+          "delivery_offset_s": 935.5059666318248,
+          "boxes": [
+            "S006-FOD-01",
+            "S006-WAT-03"
+          ]
+        }
+      ],
+      "legs": [
+        {
+          "origin": "O01",
+          "destination": "S006",
+          "start_offset_s": 360,
+          "end_offset_s": 725.5059666318248,
+          "payload_kg": 22,
+          "energy_kwh": 0.7699496587829389
+        },
+        {
+          "origin": "S006",
+          "destination": "O01",
+          "start_offset_s": 935.5059666318248,
+          "end_offset_s": 1313.485266596983,
+          "payload_kg": 0,
+          "energy_kwh": 0.5871154754649228
+        }
+      ],
+      "needs": {},
+      "relative_certificates": [],
+      "sortie": "T022",
+      "start_s": 0,
+      "takeoff_s": 360,
+      "return_s": 1313.485266596983,
+      "battery_ready_s": 2205.5263053796984,
+      "guarded_battery_ready_s": 2205.5263053796984,
+      "uav": "U02",
+      "battery": "BA02",
+      "relay_mission_ids": {},
+      "relay_mission_id": null
+    },
+    {
+      "type": "A",
+      "boxes": [
+        "S012-FOD-01",
+        "S012-WAT-01"
+      ],
+      "nodes": [
+        "S012"
+      ],
+      "mass_kg": 22,
+      "volume_m3": 0.055,
+      "energy_kwh": 3.0584402165575764,
+      "return_soc": 0.3203466185427608,
+      "duration_s": 2109.082830175767,
+      "takeoff_offset_s": 360,
+      "charge_s": 1383.549395894411,
+      "deliveries": {
+        "S012-FOD-01": 1334.4714150878835,
+        "S012-WAT-01": 1334.4714150878835
+      },
+      "stops": [
+        {
+          "node": "S012",
+          "arrival_offset_s": 1124.4714150878835,
+          "delivery_offset_s": 1334.4714150878835,
+          "boxes": [
+            "S012-FOD-01",
+            "S012-WAT-01"
+          ]
+        }
+      ],
+      "legs": [
+        {
+          "origin": "O01",
+          "destination": "S012",
+          "start_offset_s": 360,
+          "end_offset_s": 1124.4714150878835,
+          "payload_kg": 22,
+          "energy_kwh": 1.6927910431077184
+        },
+        {
+          "origin": "S012",
+          "destination": "O01",
+          "start_offset_s": 1334.4714150878835,
+          "end_offset_s": 2109.082830175767,
+          "payload_kg": 0,
+          "energy_kwh": 1.3656491734498577
+        }
+      ],
+      "needs": {},
+      "relative_certificates": [],
+      "sortie": "T023",
+      "start_s": 0,
+      "takeoff_s": 360,
+      "return_s": 2109.082830175767,
+      "battery_ready_s": 3492.632226070178,
+      "guarded_battery_ready_s": 3492.632226070178,
+      "uav": "U03",
+      "battery": "BA03",
+      "relay_mission_ids": {},
+      "relay_mission_id": null
+    },
+    {
+      "type": "A",
+      "boxes": [
+        "S002-MED-01",
+        "S002-WAT-01",
+        "S012-MED-01"
+      ],
+      "nodes": [
+        "S002",
+        "S012"
+      ],
+      "mass_kg": 20,
+      "volume_m3": 0.051000000000000004,
+      "energy_kwh": 3.593806105221108,
+      "return_soc": 0.20137642106197595,
+      "duration_s": 2638.6007021463893,
+      "takeoff_offset_s": 390,
+      "charge_s": 1538.2106526194314,
+      "deliveries": {
+        "S002-MED-01": 1313.8087621069565,
+        "S002-WAT-01": 1313.8087621069565,
+        "S012-MED-01": 1863.9892870585059
+      },
+      "stops": [
+        {
+          "node": "S002",
+          "arrival_offset_s": 1103.8087621069565,
+          "delivery_offset_s": 1313.8087621069565,
+          "boxes": [
+            "S002-MED-01",
+            "S002-WAT-01"
+          ]
+        },
+        {
+          "node": "S012",
+          "arrival_offset_s": 1683.9892870585059,
+          "delivery_offset_s": 1863.9892870585059,
+          "boxes": [
+            "S012-MED-01"
+          ]
+        }
+      ],
+      "legs": [
+        {
+          "origin": "O01",
+          "destination": "S002",
+          "start_offset_s": 390,
+          "end_offset_s": 1103.8087621069565,
+          "payload_kg": 20,
+          "energy_kwh": 1.6185706183892112
+        },
+        {
+          "origin": "S002",
+          "destination": "S012",
+          "start_offset_s": 1313.8087621069565,
+          "end_offset_s": 1683.9892870585059,
+          "payload_kg": 3,
+          "energy_kwh": 0.6095863133820394
+        },
+        {
+          "origin": "S012",
+          "destination": "O01",
+          "start_offset_s": 1863.9892870585059,
+          "end_offset_s": 2638.6007021463893,
+          "payload_kg": 0,
+          "energy_kwh": 1.3656491734498577
+        }
+      ],
+      "needs": {},
+      "relative_certificates": [],
+      "sortie": "T024",
+      "start_s": 1313.485266596983,
+      "takeoff_s": 1703.485266596983,
+      "return_s": 3952.085968743372,
+      "battery_ready_s": 5490.296621362803,
+      "guarded_battery_ready_s": 5490.296621362803,
+      "uav": "U01",
+      "battery": "BA06",
+      "relay_mission_ids": {},
+      "relay_mission_id": null
+    },
+    {
+      "type": "A",
+      "boxes": [
+        "S007-MED-01",
+        "S007-WAT-02",
+        "S015-MED-01"
+      ],
+      "nodes": [
+        "S007",
+        "S015"
+      ],
+      "mass_kg": 20,
+      "volume_m3": 0.051000000000000004,
+      "energy_kwh": 2.636412437522518,
+      "return_soc": 0.4141305694394404,
+      "duration_s": 2310.0108553451055,
+      "takeoff_offset_s": 390,
+      "charge_s": 1261.6302597287274,
+      "deliveries": {
+        "S007-MED-01": 1171.357661336819,
+        "S007-WAT-02": 1171.357661336819,
+        "S015-MED-01": 1599.1486871503575
+      },
+      "stops": [
+        {
+          "node": "S007",
+          "arrival_offset_s": 961.3576613368192,
+          "delivery_offset_s": 1171.357661336819,
+          "boxes": [
+            "S007-MED-01",
+            "S007-WAT-02"
+          ]
+        },
+        {
+          "node": "S015",
+          "arrival_offset_s": 1419.1486871503575,
+          "delivery_offset_s": 1599.1486871503575,
+          "boxes": [
+            "S015-MED-01"
+          ]
+        }
+      ],
+      "legs": [
+        {
+          "origin": "O01",
+          "destination": "S007",
+          "start_offset_s": 390,
+          "end_offset_s": 961.3576613368192,
+          "payload_kg": 20,
+          "energy_kwh": 1.083423092694051
+        },
+        {
+          "origin": "S007",
+          "destination": "S015",
+          "start_offset_s": 1171.357661336819,
+          "end_offset_s": 1419.1486871503575,
+          "payload_kg": 3,
+          "energy_kwh": 0.44550673625501913
+        },
+        {
+          "origin": "S015",
+          "destination": "O01",
+          "start_offset_s": 1599.1486871503575,
+          "end_offset_s": 2310.0108553451055,
+          "payload_kg": 0,
+          "energy_kwh": 1.1074826085734482
+        }
+      ],
+      "needs": {},
+      "relative_certificates": [],
+      "sortie": "T025",
+      "start_s": 0,
+      "takeoff_s": 390,
+      "return_s": 2310.0108553451055,
+      "battery_ready_s": 3571.641115073833,
+      "guarded_battery_ready_s": 3571.641115073833,
+      "uav": "U04",
+      "battery": "BA04",
+      "relay_mission_ids": {},
+      "relay_mission_id": null
+    }
+  ],
+  "relay_records": [],
+  "joint_objective": [
+    0.0,
+    0.0,
+    5993.581956042137,
+    68.88391735880252,
+    25,
+    0
+  ],
+  "objective": [
+    0.0,
+    0.0,
+    5993.581956042137,
+    68.88391735880252,
+    25
+  ],
+  "weighted_delivery_s": 2678665.2324928427,
+  "weighted_mean_delivery_s": 2801.951080013434,
+  "last_delivery_s": 5488.420536433335,
+  "model": {
+    "coordinate_crs": "EPSG:32649",
+    "relay_cruise_rule": "exact DEM path maximum plus 50m, hover at or below cruise",
+    "energy_closure": "declared declared horizontal range + climb potential",
+    "energy_increase_guard": 0,
+    "hard_buffer_s": 0,
+    "common_delay_guard_s": 0,
+    "extra_link_margin_db": 0.3,
+    "endpoint_buffer_s": 1.0,
+    "question": 2
+  }
+}

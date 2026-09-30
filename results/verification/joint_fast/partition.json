@@ -1,0 +1,1281 @@
+{
+  "atoms": [
+    [
+      "S001"
+    ],
+    [
+      "S002",
+      "S004"
+    ],
+    [
+      "S003",
+      "S007"
+    ],
+    [
+      "S005",
+      "S006",
+      "S008",
+      "S009",
+      "S011",
+      "S015"
+    ],
+    [
+      "S010",
+      "S012",
+      "S013",
+      "S014"
+    ]
+  ],
+  "stock": [
+    4,
+    2,
+    2,
+    6,
+    4,
+    4,
+    2,
+    6
+  ],
+  "resource_order": [
+    "A_air",
+    "B_air",
+    "C_air",
+    "A_battery",
+    "B_battery",
+    "C_battery",
+    "relay_air",
+    "relay_component"
+  ],
+  "unpartitioned_guarded_need": [
+    4,
+    2,
+    2,
+    6,
+    4,
+    4,
+    2,
+    3
+  ],
+  "energy_guard": 0.03,
+  "balance_beta": 0.2,
+  "definition": "Prep-to-return operation including relays; guarded resource intervals include charging and relay turnaround; frozen certified responsibilities with no mission copying.",
+  "chosen": [
+    {
+      "K": 2,
+      "partitions": 15,
+      "eligible_count": 4,
+      "minimum_deviation": 0.0391251184798973,
+      "selected": {
+        "K": 2,
+        "groups": [
+          [
+            "S001",
+            "S005",
+            "S006",
+            "S008",
+            "S009",
+            "S011",
+            "S015"
+          ],
+          [
+            "S002",
+            "S003",
+            "S004",
+            "S007",
+            "S010",
+            "S012",
+            "S013",
+            "S014"
+          ]
+        ],
+        "work_s": [
+          25296.78186617043,
+          33151.652008850106
+        ],
+        "boxes": [
+          41,
+          39
+        ],
+        "mass_kg": [
+          392,
+          366
+        ],
+        "max_relative_work_deviation": 0.1343897453176528,
+        "CV": 0.13438974531765274,
+        "needs": [
+          7,
+          4,
+          4,
+          9,
+          6,
+          5,
+          3,
+          4
+        ],
+        "gap": [
+          3,
+          2,
+          2,
+          3,
+          2,
+          1,
+          1,
+          0
+        ],
+        "redundancy": [
+          3,
+          2,
+          2,
+          3,
+          2,
+          1,
+          1,
+          1
+        ],
+        "normalized_deficit": 4.5,
+        "group_details": [
+          {
+            "nodes": [
+              "S001",
+              "S005",
+              "S006",
+              "S008",
+              "S009",
+              "S011",
+              "S015"
+            ],
+            "needs": [
+              3,
+              2,
+              2,
+              4,
+              3,
+              2,
+              1,
+              1
+            ],
+            "work_s": 25296.78186617043,
+            "transport_work_s": 21756.723897072792,
+            "boxes": 41,
+            "mass_kg": 392,
+            "assignments": [
+              {
+                "group": 1,
+                "resource_type": "A_air",
+                "resource": "G1_A_air_01",
+                "sortie": "T014",
+                "start_s": 1667.4353226736384,
+                "end_s": 2980.9205892706213
+              },
+              {
+                "group": 1,
+                "resource_type": "A_air",
+                "resource": "G1_A_air_01",
+                "sortie": "T018",
+                "start_s": 3520.977267299869,
+                "end_s": 5752.989136270533
+              },
+              {
+                "group": 1,
+                "resource_type": "A_air",
+                "resource": "G1_A_air_02",
+                "sortie": "T015",
+                "start_s": 3550.977267299869,
+                "end_s": 5243.173518917994
+              },
+              {
+                "group": 1,
+                "resource_type": "A_air",
+                "resource": "G1_A_air_03",
+                "sortie": "T023",
+                "start_s": 3748.7862474058875,
+                "end_s": 5859.93237619705
+              },
+              {
+                "group": 1,
+                "resource_type": "A_air",
+                "resource": "G1_A_air_02",
+                "sortie": "T016",
+                "start_s": 5243.173518917994,
+                "end_s": 6931.787393631379
+              },
+              {
+                "group": 1,
+                "resource_type": "B_air",
+                "resource": "G1_B_air_01",
+                "sortie": "T012",
+                "start_s": 1636.2843894865673,
+                "end_s": 2843.5613023084243
+              },
+              {
+                "group": 1,
+                "resource_type": "B_air",
+                "resource": "G1_B_air_01",
+                "sortie": "T021",
+                "start_s": 3614.079274909006,
+                "end_s": 5130.2541368805905
+              },
+              {
+                "group": 1,
+                "resource_type": "B_air",
+                "resource": "G1_B_air_02",
+                "sortie": "T024",
+                "start_s": 3626.446128540928,
+                "end_s": 5588.288435707972
+              },
+              {
+                "group": 1,
+                "resource_type": "B_air",
+                "resource": "G1_B_air_01",
+                "sortie": "T022",
+                "start_s": 5130.25413688059,
+                "end_s": 6972.096444047634
+              },
+              {
+                "group": 1,
+                "resource_type": "C_air",
+                "resource": "G1_C_air_01",
+                "sortie": "T011",
+                "start_s": 0,
+                "end_s": 1494.1703918789087
+              },
+              {
+                "group": 1,
+                "resource_type": "C_air",
+                "resource": "G1_C_air_02",
+                "sortie": "T007",
+                "start_s": 0,
+                "end_s": 1692.1703918789087
+              },
+              {
+                "group": 1,
+                "resource_type": "C_air",
+                "resource": "G1_C_air_01",
+                "sortie": "T017",
+                "start_s": 3809.616127156836,
+                "end_s": 6815.40946065396
+              },
+              {
+                "group": 1,
+                "resource_type": "A_battery",
+                "resource": "G1_A_battery_01",
+                "sortie": "T014",
+                "start_s": 1667.4353226736384,
+                "end_s": 3871.1892627551297
+              },
+              {
+                "group": 1,
+                "resource_type": "A_battery",
+                "resource": "G1_A_battery_02",
+                "sortie": "T018",
+                "start_s": 3520.977267299869,
+                "end_s": 7070.725562466634
+              },
+              {
+                "group": 1,
+                "resource_type": "A_battery",
+                "resource": "G1_A_battery_03",
+                "sortie": "T015",
+                "start_s": 3550.977267299869,
+                "end_s": 6395.713491956267
+              },
+              {
+                "group": 1,
+                "resource_type": "A_battery",
+                "resource": "G1_A_battery_04",
+                "sortie": "T023",
+                "start_s": 3748.7862474058875,
+                "end_s": 7296.1901240232255
+              },
+              {
+                "group": 1,
+                "resource_type": "A_battery",
+                "resource": "G1_A_battery_01",
+                "sortie": "T016",
+                "start_s": 5243.173518917994,
+                "end_s": 8125.483996415436
+              },
+              {
+                "group": 1,
+                "resource_type": "B_battery",
+                "resource": "G1_B_battery_01",
+                "sortie": "T012",
+                "start_s": 1636.2843894865673,
+                "end_s": 4087.5915276196783
+              },
+              {
+                "group": 1,
+                "resource_type": "B_battery",
+                "resource": "G1_B_battery_02",
+                "sortie": "T021",
+                "start_s": 3614.079274909006,
+                "end_s": 6615.736745986257
+              },
+              {
+                "group": 1,
+                "resource_type": "B_battery",
+                "resource": "G1_B_battery_03",
+                "sortie": "T024",
+                "start_s": 3626.446128540928,
+                "end_s": 7582.906324692749
+              },
+              {
+                "group": 1,
+                "resource_type": "B_battery",
+                "resource": "G1_B_battery_01",
+                "sortie": "T022",
+                "start_s": 5130.25413688059,
+                "end_s": 8730.186649708818
+              },
+              {
+                "group": 1,
+                "resource_type": "C_battery",
+                "resource": "G1_C_battery_01",
+                "sortie": "T011",
+                "start_s": 0,
+                "end_s": 3163.201129165056
+              },
+              {
+                "group": 1,
+                "resource_type": "C_battery",
+                "resource": "G1_C_battery_02",
+                "sortie": "T007",
+                "start_s": 0,
+                "end_s": 3339.390157049491
+              },
+              {
+                "group": 1,
+                "resource_type": "C_battery",
+                "resource": "G1_C_battery_01",
+                "sortie": "T017",
+                "start_s": 3809.616127156836,
+                "end_s": 9183.13379328715
+              },
+              {
+                "group": 1,
+                "resource_type": "relay_air",
+                "resource": "G1_relay_air_01",
+                "sortie": "RE02",
+                "start_s": 3594.595109265808,
+                "end_s": 7434.653078363448
+              },
+              {
+                "group": 1,
+                "resource_type": "relay_component",
+                "resource": "G1_relay_component_01",
+                "sortie": "RE02",
+                "start_s": 3594.595109265808,
+                "end_s": 8051.3172952258765
+              }
+            ]
+          },
+          {
+            "nodes": [
+              "S002",
+              "S003",
+              "S004",
+              "S007",
+              "S010",
+              "S012",
+              "S013",
+              "S014"
+            ],
+            "needs": [
+              4,
+              2,
+              2,
+              5,
+              3,
+              3,
+              2,
+              3
+            ],
+            "work_s": 33151.652008850106,
+            "transport_work_s": 24436.082501970406,
+            "boxes": 39,
+            "mass_kg": 366,
+            "assignments": [
+              {
+                "group": 2,
+                "resource_type": "A_air",
+                "resource": "G2_A_air_01",
+                "sortie": "T008",
+                "start_s": 0,
+                "end_s": 1612.1111816650089
+              },
+              {
+                "group": 2,
+                "resource_type": "A_air",
+                "resource": "G2_A_air_02",
+                "sortie": "T006",
+                "start_s": 0,
+                "end_s": 1667.4353226736384
+              },
+              {
+                "group": 2,
+                "resource_type": "A_air",
+                "resource": "G2_A_air_03",
+                "sortie": "T005",
+                "start_s": 0,
+                "end_s": 2337.0977419575265
+              },
+              {
+                "group": 2,
+                "resource_type": "A_air",
+                "resource": "G2_A_air_04",
+                "sortie": "T002",
+                "start_s": 0,
+                "end_s": 2536.7090851903777
+              },
+              {
+                "group": 2,
+                "resource_type": "A_air",
+                "resource": "G2_A_air_01",
+                "sortie": "T013",
+                "start_s": 1612.111181665009,
+                "end_s": 3266.9705799866047
+              },
+              {
+                "group": 2,
+                "resource_type": "A_air",
+                "resource": "G2_A_air_01",
+                "sortie": "T019",
+                "start_s": 3917.23513413112,
+                "end_s": 6179.889156308655
+              },
+              {
+                "group": 2,
+                "resource_type": "B_air",
+                "resource": "G2_B_air_01",
+                "sortie": "T010",
+                "start_s": 0,
+                "end_s": 1636.284389486567
+              },
+              {
+                "group": 2,
+                "resource_type": "B_air",
+                "resource": "G2_B_air_02",
+                "sortie": "T009",
+                "start_s": 0,
+                "end_s": 1869.7521946190163
+              },
+              {
+                "group": 2,
+                "resource_type": "B_air",
+                "resource": "G2_B_air_01",
+                "sortie": "T001",
+                "start_s": 1869.7521946190163,
+                "end_s": 3626.446128540928
+              },
+              {
+                "group": 2,
+                "resource_type": "C_air",
+                "resource": "G2_C_air_01",
+                "sortie": "T004",
+                "start_s": 1579.655127704359,
+                "end_s": 3880.716194297522
+              },
+              {
+                "group": 2,
+                "resource_type": "C_air",
+                "resource": "G2_C_air_02",
+                "sortie": "T003",
+                "start_s": 1701.8041085181276,
+                "end_s": 3809.616127156836
+              },
+              {
+                "group": 2,
+                "resource_type": "C_air",
+                "resource": "G2_C_air_01",
+                "sortie": "T020",
+                "start_s": 3880.7161942975226,
+                "end_s": 6574.328341022879
+              },
+              {
+                "group": 2,
+                "resource_type": "A_battery",
+                "resource": "G2_A_battery_01",
+                "sortie": "T008",
+                "start_s": 0,
+                "end_s": 2676.168485891504
+              },
+              {
+                "group": 2,
+                "resource_type": "A_battery",
+                "resource": "G2_A_battery_02",
+                "sortie": "T006",
+                "start_s": 0,
+                "end_s": 2724.630008920277
+              },
+              {
+                "group": 2,
+                "resource_type": "A_battery",
+                "resource": "G2_A_battery_03",
+                "sortie": "T005",
+                "start_s": 0,
+                "end_s": 3748.7862474058875
+              },
+              {
+                "group": 2,
+                "resource_type": "A_battery",
+                "resource": "G2_A_battery_04",
+                "sortie": "T002",
+                "start_s": 0,
+                "end_s": 4019.762284283296
+              },
+              {
+                "group": 2,
+                "resource_type": "A_battery",
+                "resource": "G2_A_battery_05",
+                "sortie": "T013",
+                "start_s": 1612.111181665009,
+                "end_s": 4368.687933081458
+              },
+              {
+                "group": 2,
+                "resource_type": "A_battery",
+                "resource": "G2_A_battery_01",
+                "sortie": "T019",
+                "start_s": 3917.23513413112,
+                "end_s": 7597.446791179304
+              },
+              {
+                "group": 2,
+                "resource_type": "B_battery",
+                "resource": "G2_B_battery_01",
+                "sortie": "T010",
+                "start_s": 0,
+                "end_s": 3097.4452596505935
+              },
+              {
+                "group": 2,
+                "resource_type": "B_battery",
+                "resource": "G2_B_battery_02",
+                "sortie": "T009",
+                "start_s": 0,
+                "end_s": 3491.740572702013
+              },
+              {
+                "group": 2,
+                "resource_type": "B_battery",
+                "resource": "G2_B_battery_03",
+                "sortie": "T001",
+                "start_s": 1869.7521946190163,
+                "end_s": 5378.878722864054
+              },
+              {
+                "group": 2,
+                "resource_type": "C_battery",
+                "resource": "G2_C_battery_01",
+                "sortie": "T004",
+                "start_s": 1579.655127704359,
+                "end_s": 6430.468277680644
+              },
+              {
+                "group": 2,
+                "resource_type": "C_battery",
+                "resource": "G2_C_battery_02",
+                "sortie": "T003",
+                "start_s": 1701.8041085181276,
+                "end_s": 6346.172427647669
+              },
+              {
+                "group": 2,
+                "resource_type": "C_battery",
+                "resource": "G2_C_battery_03",
+                "sortie": "T020",
+                "start_s": 3880.7161942975226,
+                "end_s": 9109.57766780362
+              },
+              {
+                "group": 2,
+                "resource_type": "relay_air",
+                "resource": "G2_relay_air_01",
+                "sortie": "RE05",
+                "start_s": 128.96697367214801,
+                "end_s": 3594.5951092658074
+              },
+              {
+                "group": 2,
+                "resource_type": "relay_air",
+                "resource": "G2_relay_air_02",
+                "sortie": "RE03",
+                "start_s": 271.26543235150893,
+                "end_s": 1846.0997617818673
+              },
+              {
+                "group": 2,
+                "resource_type": "relay_air",
+                "resource": "G2_relay_air_02",
+                "sortie": "RE01",
+                "start_s": 1846.0997617818675,
+                "end_s": 4237.709547888051
+              },
+              {
+                "group": 2,
+                "resource_type": "relay_air",
+                "resource": "G2_relay_air_01",
+                "sortie": "RE04",
+                "start_s": 4237.714858999183,
+                "end_s": 6721.212114748685
+              },
+              {
+                "group": 2,
+                "resource_type": "relay_component",
+                "resource": "G2_relay_component_01",
+                "sortie": "RE05",
+                "start_s": 128.96697367214801,
+                "end_s": 4162.78175503356
+              },
+              {
+                "group": 2,
+                "resource_type": "relay_component",
+                "resource": "G2_relay_component_02",
+                "sortie": "RE03",
+                "start_s": 271.26543235150893,
+                "end_s": 2176.5290178416963
+              },
+              {
+                "group": 2,
+                "resource_type": "relay_component",
+                "resource": "G2_relay_component_03",
+                "sortie": "RE01",
+                "start_s": 1846.0997617818675,
+                "end_s": 4677.427622829729
+              },
+              {
+                "group": 2,
+                "resource_type": "relay_component",
+                "resource": "G2_relay_component_01",
+                "sortie": "RE04",
+                "start_s": 4237.714858999183,
+                "end_s": 7167.819289573746
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "K": 3,
+      "partitions": 25,
+      "eligible_count": 1,
+      "minimum_deviation": 0.16015721365129987,
+      "selected": {
+        "K": 3,
+        "groups": [
+          [
+            "S001",
+            "S010",
+            "S012",
+            "S013",
+            "S014"
+          ],
+          [
+            "S002",
+            "S003",
+            "S004",
+            "S007"
+          ],
+          [
+            "S005",
+            "S006",
+            "S008",
+            "S009",
+            "S011",
+            "S015"
+          ]
+        ],
+        "work_s": [
+          16362.498521105003,
+          19975.494271502925,
+          22110.441082412613
+        ],
+        "boxes": [
+          27,
+          27,
+          26
+        ],
+        "mass_kg": [
+          254,
+          266,
+          238
+        ],
+        "max_relative_work_deviation": 0.16015721365129987,
+        "CV": 0.12176411934883716,
+        "needs": [
+          7,
+          4,
+          5,
+          9,
+          6,
+          6,
+          3,
+          4
+        ],
+        "gap": [
+          3,
+          2,
+          3,
+          3,
+          2,
+          2,
+          1,
+          0
+        ],
+        "redundancy": [
+          3,
+          2,
+          3,
+          3,
+          2,
+          2,
+          1,
+          1
+        ],
+        "normalized_deficit": 5.25,
+        "group_details": [
+          {
+            "nodes": [
+              "S001",
+              "S010",
+              "S012",
+              "S013",
+              "S014"
+            ],
+            "needs": [
+              3,
+              1,
+              2,
+              4,
+              1,
+              2,
+              1,
+              1
+            ],
+            "work_s": 16362.498521105003,
+            "transport_work_s": 13196.870385511342,
+            "boxes": 27,
+            "mass_kg": 254,
+            "assignments": [
+              {
+                "group": 1,
+                "resource_type": "A_air",
+                "resource": "G1_A_air_01",
+                "sortie": "T008",
+                "start_s": 0,
+                "end_s": 1612.1111816650089
+              },
+              {
+                "group": 1,
+                "resource_type": "A_air",
+                "resource": "G1_A_air_02",
+                "sortie": "T005",
+                "start_s": 0,
+                "end_s": 2337.0977419575265
+              },
+              {
+                "group": 1,
+                "resource_type": "A_air",
+                "resource": "G1_A_air_03",
+                "sortie": "T002",
+                "start_s": 0,
+                "end_s": 2536.7090851903777
+              },
+              {
+                "group": 1,
+                "resource_type": "A_air",
+                "resource": "G1_A_air_01",
+                "sortie": "T013",
+                "start_s": 1612.111181665009,
+                "end_s": 3266.9705799866047
+              },
+              {
+                "group": 1,
+                "resource_type": "B_air",
+                "resource": "G1_B_air_01",
+                "sortie": "T009",
+                "start_s": 0,
+                "end_s": 1869.7521946190163
+              },
+              {
+                "group": 1,
+                "resource_type": "C_air",
+                "resource": "G1_C_air_01",
+                "sortie": "T011",
+                "start_s": 0,
+                "end_s": 1494.1703918789087
+              },
+              {
+                "group": 1,
+                "resource_type": "C_air",
+                "resource": "G1_C_air_02",
+                "sortie": "T007",
+                "start_s": 0,
+                "end_s": 1692.1703918789087
+              },
+              {
+                "group": 1,
+                "resource_type": "A_battery",
+                "resource": "G1_A_battery_01",
+                "sortie": "T008",
+                "start_s": 0,
+                "end_s": 2676.168485891504
+              },
+              {
+                "group": 1,
+                "resource_type": "A_battery",
+                "resource": "G1_A_battery_02",
+                "sortie": "T005",
+                "start_s": 0,
+                "end_s": 3748.7862474058875
+              },
+              {
+                "group": 1,
+                "resource_type": "A_battery",
+                "resource": "G1_A_battery_03",
+                "sortie": "T002",
+                "start_s": 0,
+                "end_s": 4019.762284283296
+              },
+              {
+                "group": 1,
+                "resource_type": "A_battery",
+                "resource": "G1_A_battery_04",
+                "sortie": "T013",
+                "start_s": 1612.111181665009,
+                "end_s": 4368.687933081458
+              },
+              {
+                "group": 1,
+                "resource_type": "B_battery",
+                "resource": "G1_B_battery_01",
+                "sortie": "T009",
+                "start_s": 0,
+                "end_s": 3491.740572702013
+              },
+              {
+                "group": 1,
+                "resource_type": "C_battery",
+                "resource": "G1_C_battery_01",
+                "sortie": "T011",
+                "start_s": 0,
+                "end_s": 3163.201129165056
+              },
+              {
+                "group": 1,
+                "resource_type": "C_battery",
+                "resource": "G1_C_battery_02",
+                "sortie": "T007",
+                "start_s": 0,
+                "end_s": 3339.390157049491
+              },
+              {
+                "group": 1,
+                "resource_type": "relay_air",
+                "resource": "G1_relay_air_01",
+                "sortie": "RE05",
+                "start_s": 128.96697367214801,
+                "end_s": 3594.5951092658074
+              },
+              {
+                "group": 1,
+                "resource_type": "relay_component",
+                "resource": "G1_relay_component_01",
+                "sortie": "RE05",
+                "start_s": 128.96697367214801,
+                "end_s": 4162.78175503356
+              }
+            ]
+          },
+          {
+            "nodes": [
+              "S002",
+              "S003",
+              "S004",
+              "S007"
+            ],
+            "needs": [
+              1,
+              1,
+              2,
+              1,
+              2,
+              3,
+              1,
+              2
+            ],
+            "work_s": 19975.494271502925,
+            "transport_work_s": 14425.55290021688,
+            "boxes": 27,
+            "mass_kg": 266,
+            "assignments": [
+              {
+                "group": 2,
+                "resource_type": "A_air",
+                "resource": "G2_A_air_01",
+                "sortie": "T006",
+                "start_s": 0,
+                "end_s": 1667.4353226736384
+              },
+              {
+                "group": 2,
+                "resource_type": "A_air",
+                "resource": "G2_A_air_01",
+                "sortie": "T019",
+                "start_s": 3917.23513413112,
+                "end_s": 6179.889156308655
+              },
+              {
+                "group": 2,
+                "resource_type": "B_air",
+                "resource": "G2_B_air_01",
+                "sortie": "T010",
+                "start_s": 0,
+                "end_s": 1636.284389486567
+              },
+              {
+                "group": 2,
+                "resource_type": "B_air",
+                "resource": "G2_B_air_01",
+                "sortie": "T001",
+                "start_s": 1869.7521946190163,
+                "end_s": 3626.446128540928
+              },
+              {
+                "group": 2,
+                "resource_type": "C_air",
+                "resource": "G2_C_air_01",
+                "sortie": "T004",
+                "start_s": 1579.655127704359,
+                "end_s": 3880.716194297522
+              },
+              {
+                "group": 2,
+                "resource_type": "C_air",
+                "resource": "G2_C_air_02",
+                "sortie": "T003",
+                "start_s": 1701.8041085181276,
+                "end_s": 3809.616127156836
+              },
+              {
+                "group": 2,
+                "resource_type": "C_air",
+                "resource": "G2_C_air_01",
+                "sortie": "T020",
+                "start_s": 3880.7161942975226,
+                "end_s": 6574.328341022879
+              },
+              {
+                "group": 2,
+                "resource_type": "A_battery",
+                "resource": "G2_A_battery_01",
+                "sortie": "T006",
+                "start_s": 0,
+                "end_s": 2724.630008920277
+              },
+              {
+                "group": 2,
+                "resource_type": "A_battery",
+                "resource": "G2_A_battery_01",
+                "sortie": "T019",
+                "start_s": 3917.23513413112,
+                "end_s": 7597.446791179304
+              },
+              {
+                "group": 2,
+                "resource_type": "B_battery",
+                "resource": "G2_B_battery_01",
+                "sortie": "T010",
+                "start_s": 0,
+                "end_s": 3097.4452596505935
+              },
+              {
+                "group": 2,
+                "resource_type": "B_battery",
+                "resource": "G2_B_battery_02",
+                "sortie": "T001",
+                "start_s": 1869.7521946190163,
+                "end_s": 5378.878722864054
+              },
+              {
+                "group": 2,
+                "resource_type": "C_battery",
+                "resource": "G2_C_battery_01",
+                "sortie": "T004",
+                "start_s": 1579.655127704359,
+                "end_s": 6430.468277680644
+              },
+              {
+                "group": 2,
+                "resource_type": "C_battery",
+                "resource": "G2_C_battery_02",
+                "sortie": "T003",
+                "start_s": 1701.8041085181276,
+                "end_s": 6346.172427647669
+              },
+              {
+                "group": 2,
+                "resource_type": "C_battery",
+                "resource": "G2_C_battery_03",
+                "sortie": "T020",
+                "start_s": 3880.7161942975226,
+                "end_s": 9109.57766780362
+              },
+              {
+                "group": 2,
+                "resource_type": "relay_air",
+                "resource": "G2_relay_air_01",
+                "sortie": "RE03",
+                "start_s": 271.26543235150893,
+                "end_s": 1846.0997617818673
+              },
+              {
+                "group": 2,
+                "resource_type": "relay_air",
+                "resource": "G2_relay_air_01",
+                "sortie": "RE01",
+                "start_s": 1846.0997617818675,
+                "end_s": 4237.709547888051
+              },
+              {
+                "group": 2,
+                "resource_type": "relay_air",
+                "resource": "G2_relay_air_01",
+                "sortie": "RE04",
+                "start_s": 4237.714858999183,
+                "end_s": 6721.212114748685
+              },
+              {
+                "group": 2,
+                "resource_type": "relay_component",
+                "resource": "G2_relay_component_01",
+                "sortie": "RE03",
+                "start_s": 271.26543235150893,
+                "end_s": 2176.5290178416963
+              },
+              {
+                "group": 2,
+                "resource_type": "relay_component",
+                "resource": "G2_relay_component_02",
+                "sortie": "RE01",
+                "start_s": 1846.0997617818675,
+                "end_s": 4677.427622829729
+              },
+              {
+                "group": 2,
+                "resource_type": "relay_component",
+                "resource": "G2_relay_component_01",
+                "sortie": "RE04",
+                "start_s": 4237.714858999183,
+                "end_s": 7167.819289573746
+              }
+            ]
+          },
+          {
+            "nodes": [
+              "S005",
+              "S006",
+              "S008",
+              "S009",
+              "S011",
+              "S015"
+            ],
+            "needs": [
+              3,
+              2,
+              1,
+              4,
+              3,
+              1,
+              1,
+              1
+            ],
+            "work_s": 22110.441082412613,
+            "transport_work_s": 18570.383113314972,
+            "boxes": 26,
+            "mass_kg": 238,
+            "assignments": [
+              {
+                "group": 3,
+                "resource_type": "A_air",
+                "resource": "G3_A_air_01",
+                "sortie": "T014",
+                "start_s": 1667.4353226736384,
+                "end_s": 2980.9205892706213
+              },
+              {
+                "group": 3,
+                "resource_type": "A_air",
+                "resource": "G3_A_air_01",
+                "sortie": "T018",
+                "start_s": 3520.977267299869,
+                "end_s": 5752.989136270533
+              },
+              {
+                "group": 3,
+                "resource_type": "A_air",
+                "resource": "G3_A_air_02",
+                "sortie": "T015",
+                "start_s": 3550.977267299869,
+                "end_s": 5243.173518917994
+              },
+              {
+                "group": 3,
+                "resource_type": "A_air",
+                "resource": "G3_A_air_03",
+                "sortie": "T023",
+                "start_s": 3748.7862474058875,
+                "end_s": 5859.93237619705
+              },
+              {
+                "group": 3,
+                "resource_type": "A_air",
+                "resource": "G3_A_air_02",
+                "sortie": "T016",
+                "start_s": 5243.173518917994,
+                "end_s": 6931.787393631379
+              },
+              {
+                "group": 3,
+                "resource_type": "B_air",
+                "resource": "G3_B_air_01",
+                "sortie": "T012",
+                "start_s": 1636.2843894865673,
+                "end_s": 2843.5613023084243
+              },
+              {
+                "group": 3,
+                "resource_type": "B_air",
+                "resource": "G3_B_air_01",
+                "sortie": "T021",
+                "start_s": 3614.079274909006,
+                "end_s": 5130.2541368805905
+              },
+              {
+                "group": 3,
+                "resource_type": "B_air",
+                "resource": "G3_B_air_02",
+                "sortie": "T024",
+                "start_s": 3626.446128540928,
+                "end_s": 5588.288435707972
+              },
+              {
+                "group": 3,
+                "resource_type": "B_air",
+                "resource": "G3_B_air_01",
+                "sortie": "T022",
+                "start_s": 5130.25413688059,
+                "end_s": 6972.096444047634
+              },
+              {
+                "group": 3,
+                "resource_type": "C_air",
+                "resource": "G3_C_air_01",
+                "sortie": "T017",
+                "start_s": 3809.616127156836,
+                "end_s": 6815.40946065396
+              },
+              {
+                "group": 3,
+                "resource_type": "A_battery",
+                "resource": "G3_A_battery_01",
+                "sortie": "T014",
+                "start_s": 1667.4353226736384,
+                "end_s": 3871.1892627551297
+              },
+              {
+                "group": 3,
+                "resource_type": "A_battery",
+                "resource": "G3_A_battery_02",
+                "sortie": "T018",
+                "start_s": 3520.977267299869,
+                "end_s": 7070.725562466634
+              },
+              {
+                "group": 3,
+                "resource_type": "A_battery",
+                "resource": "G3_A_battery_03",
+                "sortie": "T015",
+                "start_s": 3550.977267299869,
+                "end_s": 6395.713491956267
+              },
+              {
+                "group": 3,
+                "resource_type": "A_battery",
+                "resource": "G3_A_battery_04",
+                "sortie": "T023",
+                "start_s": 3748.7862474058875,
+                "end_s": 7296.1901240232255
+              },
+              {
+                "group": 3,
+                "resource_type": "A_battery",
+                "resource": "G3_A_battery_01",
+                "sortie": "T016",
+                "start_s": 5243.173518917994,
+                "end_s": 8125.483996415436
+              },
+              {
+                "group": 3,
+                "resource_type": "B_battery",
+                "resource": "G3_B_battery_01",
+                "sortie": "T012",
+                "start_s": 1636.2843894865673,
+                "end_s": 4087.5915276196783
+              },
+              {
+                "group": 3,
+                "resource_type": "B_battery",
+                "resource": "G3_B_battery_02",
+                "sortie": "T021",
+                "start_s": 3614.079274909006,
+                "end_s": 6615.736745986257
+              },
+              {
+                "group": 3,
+                "resource_type": "B_battery",
+                "resource": "G3_B_battery_03",
+                "sortie": "T024",
+                "start_s": 3626.446128540928,
+                "end_s": 7582.906324692749
+              },
+              {
+                "group": 3,
+                "resource_type": "B_battery",
+                "resource": "G3_B_battery_01",
+                "sortie": "T022",
+                "start_s": 5130.25413688059,
+                "end_s": 8730.186649708818
+              },
+              {
+                "group": 3,
+                "resource_type": "C_battery",
+                "resource": "G3_C_battery_01",
+                "sortie": "T017",
+                "start_s": 3809.616127156836,
+                "end_s": 9183.13379328715
+              },
+              {
+                "group": 3,
+                "resource_type": "relay_air",
+                "resource": "G3_relay_air_01",
+                "sortie": "RE02",
+                "start_s": 3594.595109265808,
+                "end_s": 7434.653078363448
+              },
+              {
+                "group": 3,
+                "resource_type": "relay_component",
+                "resource": "G3_relay_component_01",
+                "sortie": "RE02",
+                "start_s": 3594.595109265808,
+                "end_s": 8051.3172952258765
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
